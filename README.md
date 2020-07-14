@@ -2,16 +2,41 @@
 
 ## 概述
 
-网易七鱼 iOS SDK 是客服系统访客端的解决方案，既包含了客服聊天逻辑管理，也提供了聊天界面，开发者可方便的将客服功能集成到自己的 App 中。iOS SDK 支持 iOS8 以上版本，同时支持 iPhone、iPad，同时支持竖屏和横屏。
+网易七鱼 iOS SDK 是客服系统访客端的解决方案，既包含了客服聊天逻辑管理，也提供了聊天界面，开发者可方便的将客服功能集成到自己的 App 中。iOS SDK 支持 iOS9 以上版本，同时支持 iPhone、iPad，同时支持竖屏和横屏。
 
 ## 接入说明
 
 ### 导入SDK
 
+QYSDK 提供两种集成方式：既可以通过 CocoaPods 自动集成，也可以手动[下载 SDK](https://qiyukf.com/download) 并集成至您的项目中。
+
 #### 手动集成
 
-* 下载 QY SDK，得到3个 **.a** 文件、 **QYResouce** 资源文件和 **ExportHeaders** 文件夹，将他们导入工程。
-* 添加 QY SDK 依赖库：
+##### 动态库集成
+
+QYSDK 在 V5.10.0 版本后已修改为**动态库**，集成方式相对之前静态库有所改变，若要集成动态库，只需要做以下工作：
+
+1. 下载 zip 文件并解压，内含两个文件夹：**NIMSDK** 及 **QYSDK**，说明如下：
+
+- NIMSDK 为底层 IM SDK，主要包含：
+  - **NIMSDK.framework** 动态库：IM 即时通讯、信令、聊天室的功能集；
+  - **NIMSDK.podspec**：CocoaPods 配置文件，可用于本地 CocoaPods 集成。
+
+- QYSDK为七鱼客服 SDK，主要包含：
+  - **QYSDK.framework** 动态库：七鱼客服功能全集，依赖 NIMSDK.framework ；
+  - **Resources** 文件夹：内含两个资源集合 bundle 文件，QYCustomResource.bundle 用于替换 QYResource.bundle 内的同名素材；
+  - **QYSDK.podspec**：CocoaPods 配置文件，可用于本地 CocoaPods 集成。
+
+2. 集成 **NIMSDK.framework** ：将 NIMSDK.framework 文件夹拖入工程，确保文件 **copy** 至工程而非引用，并确保 General —> Frameworks, Libraries, and Embedded Content ( Xcode11 ) 选项中包含导入的库，同时 Embed 选择 **Embed & Sign** 即可。
+3. 集成 **QYSDK.framework** ：将 QYSDK.framework 文件夹拖入工程，确保文件 **copy** 至工程而非引用，并确保 General —> Frameworks, Libraries, and Embedded Content ( Xcode11 ) 选项中包含导入的库，同时 Embed 选择 **Embed & Sign** 即可。
+4. 将 **Resources** 文件夹中两个 **bundle** 资源文件拖入主工程，确保 **mainBundle** 可以访问到。
+
+##### 静态库集成
+
+若需要集成 V5.10.0 之前版本静态库 SDK，步骤如下：
+
+1. 下载 zip 文件并解压，得到3个 **.a** 文件、 **QYResouce** 资源文件和 **ExportHeaders** 文件夹，将他们导入工程。
+2. 添加 QY SDK 依赖库：
 
   * UIKit.framework
   * AVFoundation.framework
@@ -24,65 +49,106 @@
   * Photos.framework
   * AssetsLibrary.framework
   * CoreMotion.framework
+  * WebKit.framework
   * libz.tbd
   * libc++.tbd
   * libsqlite3.0.tbd
   * libxml2.tbd
-
-* 在 Build Settings -> Other Linker Flags 中添加 **-ObjC** 。
+  * libresolv.tbd
+3. 在 Build Settings —> Other Linker Flags 中添加 **-ObjC** 。
 
 #### 自动集成
 
-使用 **CocoaPods** 集成，在 Podfile 文件中加入：
+##### 动态库集成
 
-```objectivec
-pod    'QIYU_iOS_SDK',    '~> x.x.x'
-```
-"x.x.x" 代表版本号，比如想要使用 5.0.0 版本，可加入如下代码：
+QYSDK 动态库已在 **V5.11.0** 版本正式上线：[CocoaPods地址](http://cocoapods.org/pods/qy_ios_sdk)，[Github地址](https://github.com/qiyukf/QY_iOS_SDK) 。集成步骤如下：
 
-```objectivec
-pod    'QIYU_iOS_SDK',    '~> 5.0.0'
-```
+1. 在 **Podfile** 文件中加入：
 
-如果无法安装 SDK 最新版本，运行以下命令更新本地的 CocoaPods 仓库列表：
+   ```shell
+   pod 'QY_iOS_SDK', '~> x.x.x'
+   ```
 
-```objectivec
-pod repo update
-```
+   "x.x.x" 代表版本号，目前仅有 5.11.0 版本，可加入如下代码：
+
+   ```shell
+   pod 'QY_iOS_SDK', '~> 5.11.0'
+   ```
+
+2. Terminal 执行 `pod install` 即可完整集成动态库版本。
+
+注意这里的动态库名称为：**QY_iOS_SDK**，静态库版本名称为：**QIYU_iOS_SDK**，二者有区别。
+
+由于 V5.10.0 版本未上线至 CocoaPods，对于使用 CocoaPods 管理第三方库的项目，若需要使用 V5.10.0 版本的动态库 SDK，可使用**本地 pod** 导入 NIMSDK.framework 及 QYSDK.framework 进行依赖管理，步骤如下：
+
+1. 项目根目录下新建文件夹 **frameworks**，将前面下载得到的**文件夹 NIMSDK** 及**文件夹 QYSDK** 拷贝至 frameworks 目录下，确保文件夹中包含有 **podspec** 文件。
+
+2. **Podfile** 文件中加入：
+
+   ```shell
+   pod 'NIMSDK', :path => './frameworks/NIMSDK'
+   pod 'QYSDK', :path => './frameworks/QYSDK'
+   ```
+
+3. Terminal 执行 `pod install` 即可完整集成 QYSDK 及其依赖的 NIMSDK。
+
+##### 静态库集成
+
+若需要 CocoaPods 集成 V5.10.0 之前版本静态库 SDK，可使用如下集成步骤：
+
+1. 在 **Podfile** 文件中加入：
+
+   ```shell
+   pod 'QIYU_iOS_SDK', '~> x.x.x'
+   ```
+
+   "x.x.x" 代表版本号，比如想要使用 5.0.0 版本，可加入如下代码：
+
+   ```shell
+   pod 'QIYU_iOS_SDK', '~> 5.0.0'
+   ```
+
+2. Terminal 执行 `pod install` 即可完整集成静态库版本。
+
+
+##### 自动集成常见问题
 
 使用 CocoaPods 过程中可能遇见的问题：
 
-1. 无法用 CocoaPods 下载到最新的 SDK
+- 无法用 CocoaPods 下载到最新的 SDK
 
-   - 检查网络环境，若使用默认源及淘宝源均无法下载，可尝试使用 **Ruby China** 源：[https://gems.ruby-china.com](https://gems.ruby-china.com)。
+  - 运行 `pod repo update` 更新本地 CocoaPods 仓库；
+  - 检查网络环境，确保可以访问并下载 GitHub 相关内容。
 
-2. 使用 CocoaPods 更新 SDK 后编译报错
+- 使用 CocoaPods 下载静态库版本 SDK 后编译报错
 
-   - 需检查下载的 SDK 中三个 .a 静态库文件大小，若明显偏小，则需安装 **Git LFS**（Large File Storage）服务来下载原始 SDK。
+  - 需检查下载的静态库版本 SDK 中三个 .a 文件大小，若明显偏小，则需安装 **Git LFS**（Large File Storage）服务来下载原始 SDK。
 
-   - 可使用 Homebrew 安装 Git LFS：
+  - 可使用 Homebrew 安装 Git LFS：
 
-     ```shell
-     brew install git-lfs
-     ```
+    ```shell
+    brew install git-lfs
+    ```
 
-   - 启动 Git LFS：
+  - 启动 Git LFS 服务：
 
-     ```shell
-     git lfs install
-     ```
+    ```shell
+    git lfs install
+    ```
 
-   - 安装后请重新 pod update，若仍报错，尝试清理缓存：pod cache clean --all 。
+  - 安装后请重新 `pod update`，若仍报错，尝试清理缓存：`pod cache clean --all` 。
 
 #### 解决符号冲突
 
-从 V3.1.0 版本开始，不再提供 QIYU_iOS_SDK_Exclude_Libcrypto、QIYU_iOS_SDK_Exclude_NIM 版本，统一使用 **QIYU_iOS_SDK**，此 SDK 中独立第三方库，提供3个静态库文件：libQYSDK.a、libcrypto.a、libevent.a。请注意：
+针对静态库可能出现的符号冲突问题（Xcode 报错 duplicate symbol xxx in xxx.o xxx.o），建议首先升级至动态库版本尝试解决问题，如仍需使用静态库，请注意：
 
-1. 如果您同时使用了网易云信 iOS SDK，请只导入 libQYSDK.a，不要导入其他两个 .a 文件。
-2. 如果您同时使用了 **OpenSSL** 库，或者您集成的其它静态库使用了 OpenSSL 库（比如支付宝 SDK ），请只导入 libQYSDK.a、libevent.a，不要导入 libcrypto.a。
+1. 从 V3.1.0 版本开始，不再提供 QIYU_iOS_SDK_Exclude_Libcrypto、QIYU_iOS_SDK_Exclude_NIM 版本，统一使用 **QIYU_iOS_SDK**，此 SDK 中独立第三方库，提供3个静态库文件：libQYSDK.a、libcrypto.a、libevent.a。
+2. 如果您同时使用了网易云信 iOS SDK 静态库版本，请只导入 libQYSDK.a，不要导入其他两个 .a 文件。
+3. 如果您同时使用了 **OpenSSL** 库，或者您集成的其它静态库使用了 OpenSSL 库（比如支付宝 SDK ），请只导入 libQYSDK.a、libevent.a，不要导入 libcrypto.a：
    - 请注意，SDK 依赖的 OpenSSL 库版本为 **1.0.2d**，与 1.1.0 及以上版本存在兼容问题。
    - 如遇版本兼容问题，我们提供升级版本 SDK ：<a :href="$withBase('/res/QIYU_iOS_SDK_SSL_v5.7.0.zip')">**QIYU_iOS_SDK_SSL**</a> ，依赖的 OpenSSL 库版本为 **1.1.0c**  ，请下载后不要导入 libcrypto.a。此 SDK 跟随每次版本发布更新。
-3. 如果是其他情况的冲突，请根据实际情况有选择的导入 libevent.a、libcrypto.a。
+
+4. 如果是其他情况的冲突，请根据实际情况有选择的导入 libevent.a、libcrypto.a。
 
 #### 权限设置
 
@@ -120,36 +186,37 @@ V3.1.3 版本开始，SDK 已全面支持 https，但是聊天消息中可能存
 #### 类库说明
 
 SDK 主要提供以下类/协议/方法：
-
-|         类/协议         |      描述      |                      说明                      |
-| :---------------------: | :------------: | :--------------------------------------------: |
-|        QYHeaders        |   头文件集合   |         集合了非平台企业客服功能头文件         |
-|          QYSDK          |   SDK 主入口   | 提供初始化/注册/注销/界面及配置对象获取等方法  |
-| QYSessionViewController | 聊天界面控制器 | 聊天主界面，同时提供各类参数设置及部分功能接口 |
-|    QYCustomUIConfig     |   UI 配置类    |                  样式相关设置                  |
-|  QYCustomActionConfig   |   事件配置类   |                  事件相关设置                  |
-|  QYConversationManager  |   会话管理类   |     负责获取会话列表及消息未读数并监听变化     |
-|        QYSource         |   窗口来源类   |    会话窗口来源，包含标题、URL 及自定义信息    |
-|       QYUserInfo        |   用户信息类   |           用户信息，包含ID及详细信息           |
-|       QYStaffInfo       |   客服信息类   |      人工客服信息，可替换人工客服部分信息      |
-|      QYMessageInfo      |     消息类     |          包含消息类型、时间及文本信息          |
-|      QYSessionInfo      |   会话详情类   | 会话列表中会话详情，包含会话状态、未读数等信息 |
-|     QYCommodityInfo     |   商品信息类   |            包含商品标题、描述等信息            |
-|      QYPushMessage      |   推送消息类   |            包含消息类型、头像等信息            |
-|        QYAction         |   通用事件类   |   定义部分通用事件回调，例如请求客服相关事件   |
-|      QYEvaluation       |   评价数据类   |       定义满意度评价数据、选项数据及结果       |
+|            类/协议            |        描述        |                             说明                             |
+| :---------------------------: | :----------------: | :----------------------------------------------------------: |
+|           QYHeaders           |     头文件集合     |                集合了非平台企业客服功能头文件                |
+|             QYSDK             |     SDK 主入口     |        提供初始化/注册/注销/界面及配置对象获取等方法         |
+|    QYSessionViewController    |   聊天界面控制器   |        聊天主界面，同时提供各类参数设置及部分功能接口        |
+|       QYCustomUIConfig        |     UI 配置类      |                         样式相关设置                         |
+|     QYCustomActionConfig      |     事件配置类     |                         事件相关设置                         |
+|     QYConversationManager     |     会话管理类     |            负责获取会话列表及消息未读数并监听变化            |
+|           QYSource            |     会话来源类     |           会话来源信息，包含标题、链接及自定义信息           |
+|          QYUserInfo           |     用户信息类     |                  用户信息，包含ID及详细信息                  |
+|          QYStaffInfo          |     客服信息类     |             人工客服信息，可替换人工客服部分信息             |
+|         QYMessageInfo         |       消息类       |                 包含消息类型、时间及文本信息                 |
+|         QYSessionInfo         |     会话详情类     |        会话列表中会话详情，包含会话状态、未读数等信息        |
+|        QYCommodityInfo        |     商品信息类     |                   包含商品标题、描述等信息                   |
+|         QYPushMessage         |     推送消息类     |                   包含消息类型、头像等信息                   |
+|           QYAction            |     通用事件类     |          定义部分通用事件回调，例如请求客服相关事件          |
+|         QYEvaluation          |     评价数据类     |              定义满意度评价数据、选项数据及结果              |
+| QYWorkOrderListViewController | 工单列表页面控制器 | 传入工单模板 ID 即可查询访客提交工单历史记录，并提供催单功能 |
 
 自定义消息相关：
 
-|            类/协议            |         描述         |             说明             |
-| :---------------------------: | :------------------: | :--------------------------: |
-|          QYCustomSDK          | 自定义消息头文件集合 |  集合了自定义消息功能头文件  |
-| QYCustomSessionViewController |  聊天界面控制器分类  | 提供自定义消息专用属性及接口 |
-|    QYCustomMessageProtocol    |    自定义消息协议    |    事件委托/视图点击协议     |
-|        QYCustomMessage        |    自定义消息基类    |  承载消息数据，可继承并扩展  |
-|         QYCustomModel         |      数据源基类      | 消息列表数据源，可继承并扩展 |
-|      QYCustomContentView      |     消息视图基类     |  消息对应视图，可继承并扩展  |
-|         QYCustomEvent         |      消息事件类      |        消息内点击事件        |
+|            类/协议            |         描述         |                说明                |
+| :---------------------------: | :------------------: | :--------------------------------: |
+|          QYCustomSDK          | 自定义消息头文件集合 |     集合了自定义消息功能头文件     |
+| QYCustomSessionViewController |  聊天界面控制器分类  |    提供自定义消息专用属性及接口    |
+|    QYCustomMessageProtocol    |    自定义消息协议    |       事件委托/视图点击协议        |
+|        QYCustomMessage        |    自定义消息基类    |     承载消息数据，可继承并扩展     |
+|         QYCustomModel         |      数据源基类      |    消息列表数据源，可继承并扩展    |
+|      QYCustomContentView      |     消息视图基类     |     消息对应视图，可继承并扩展     |
+|         QYCustomEvent         |      消息事件类      |           消息内点击事件           |
+|     QYCustomCommodityInfo     |   自定义商品信息类   | 自定义商品卡片消息，透传服务端数据 |
 
 平台企业相关：
 
@@ -163,20 +230,113 @@ SDK 主要提供以下类/协议/方法：
 
 #### 其它说明
 
-* 为保证系统兼容性，请使用 V3.11.0 以上版本。
-* 为保证 SDK 在 iOS13 上效果，请尽量使用 V5.3.0 以上版本；SDK 已针对暗黑模式下的部分显示问题、推送 DeviceToken 解析方式、页面 modalPresentationStyle 做了更新和适配。
+* 为方便集成和后续更新，请使用 V5.10.0 以上动态库版本。
+
+* 为保证 SDK 在 iOS13 上效果，请使用 V5.3.0 以上版本；SDK 已针对暗黑模式下的部分显示问题、推送 DeviceToken 解析方式、页面 modalPresentationStyle 做了更新和适配。
+
 * SDK 支持 Bitcode。
-* 由于 SDK 是静态库，且为了方便开发者使用，我们将 armv7、arm64、i386、x86_64 平台的静态库合并成一个 Fat Library，导致整个 SDK 比较大。但实际编译后大约只会增加 App **4-5M** 大小。
-* 在需要使用 SDK 的地方 `import "QYSDK.h"`。
+
+* 为方便开发者可同时在真机和模拟器上调试和使用，我们将 armv7、arm64、i386、x86_64 平台的 SDK 合并为一个 fat file ，导致整个 SDK 比较大。但实际编译后大约只会增加 App **4-5M** 大小。
+
+* 对于动态库 SDK，在需要使用的地方：`#import <QYSDK/QYSDK.h>` ；对于静态库 SDK，在需要使用的地方： `import "QYSDK.h"`。
+
+* 由于库包含模拟器版本，会导致打包失败，故需要在打包前将模拟器版本剥去，具体方法如下：
+
+  * 创建 strip_archs.sh 脚本，并放在工程目录中，如 Resources 文件夹里；
+
+  * 在 Build Phases 设置项中点击左上角 + 号，选择 New Run Script Phase，工程在编译过程中会自动 run script；
+
+  * 在 script 中添加代码，执行 strip_archs.sh 脚本：
+
+    ```shell
+    /bin/sh "${SRCROOT}/QYSDKDemo/Resources/strip_archs.sh"
+    ```
+
+  - 将如下内容复制至脚本中：
+
+    ```shell
+    #!/bin/sh
+    
+    # Strip invalid architectures
+    strip_invalid_archs() {
+    	binary="$1"
+    	echo "current binary ${binary}"
+    	# Get architectures for current file
+    	archs="$(lipo -info "$binary" | rev | cut -d ':' -f1 | rev)"
+    	stripped=""
+    	for arch in $archs; do
+    		if ! [[ "${ARCHS}" == *"$arch"* ]]; then
+    			if [ -f "$binary" ]; then
+    			# Strip non-valid architectures in-place
+    			lipo -remove "$arch" -output "$binary" "$binary" || exit 1
+    			stripped="$stripped $arch"
+    			fi
+    		fi
+    	done
+    	if [[ "$stripped" ]]; then
+    		echo "Stripped $binary of architectures:$stripped"
+    	fi
+    }
+    
+    # Your app path
+    APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
+    
+    # Attention: If you change framework path (not in mainBundle), please reset FRAMEWORKS_PATH with correct path
+    FRAMEWORKS_PATH="${APP_PATH}/Frameworks"
+    
+    # This script loops through the frameworks embedded in the application and
+    # removes unused architectures.
+    find "$APP_PATH" -name '*.framework' -type d | while read -r FRAMEWORK
+    do
+    	FRAMEWORK_EXECUTABLE_NAME=$(defaults read "$FRAMEWORK/Info.plist" CFBundleExecutable)
+    	FRAMEWORK_EXECUTABLE_PATH="$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME"
+    	echo "Executable is $FRAMEWORK_EXECUTABLE_PATH"
+    	strip_invalid_archs "$FRAMEWORK_EXECUTABLE_PATH"
+    done
+    ```
+    
+  - 注意脚本中 `FRAMEWORKS_PATH` 应设置正确目录。
 
 ### 初始化SDK
 
-在使用 SDK 任何方法前，都应先调用初始化方法。正常业务情况下，初始化方法有且只应调用一次。推荐在 App 启动时进行初始化操作：
+在使用 SDK 任何方法之前，都应该先调用初始化方法。正常业务情况下，初始化方法有且只应调用一次，请勿重复注册。
+
+##### 注册方法原型
+
+```objective-c
+@interface QYSDK : NSObject
+/**
+ *  注册SDK
+ *
+ *  @param option 注册选项
+ */
+- (void)registerWithOption:(QYSDKOption *)option;
+@end
+```
+
+##### 选项参数列表
+
+`QYSDKOption` 提供如下属性：
+
+| 属性      | 类型     | 必须 | 说明                                          |
+| :-------- | :------- | :--- | :-------------------------------------------- |
+| appKey    | NSString | 是   | 企业的 AppKey                                 |
+| appName   | NSString | 否   | App名称，即七鱼管理后台添加App时填写的App名称 |
+| pkCerName | NSString | 否   | PushKit推送证书名，暂不支持，无需填写         |
+| isFusion  | BOOL     | 否   | 是否为融合SDK，默认NO                         |
+
+##### 调用示例
+
+推荐在 App 启动时进行初始化操作：
 
 ```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ...
-    [[QYSDK sharedSDK] registerAppId:AppKey appName:App名称];
+    //推荐在程序启动的时候初始化 SDK    
+    NSString *appKey = @"your app key";
+    QYSDKOption *option = [QYSDKOption optionWithAppKey:appKey];
+    option.appName = @"your App name";
+    [[QYSDK sharedSDK] registerWithOption:option];
     ...
 }
 ```
@@ -247,28 +407,31 @@ sessionViewController.navigationItem.leftBarButtonItem = leftItem;
 
 #### 常见问题
 1. 进入访客聊天界面马上 crash
+   
    - 检查 App **工程配置-Build Phases-copy Bundle Resources** 里是否添加 QYResource.bundle；一般来讲，导入时会自动添加，如果没有，必须加上。
-
 2. 一直显示正在连接客服
    - 可能是 AppKey 填写错误，请确保完全正确，勿带空格。
    - 可能是 App 引入或 App 使用的第三方 SDK 引入 OpenSSL 版本不兼容，导致底层数据加解密抛异常；关于 OpenSSL 版本问题请具体情况具体分析。
 
 3. 导航栏可以自定义吗
+
    - 部分自定义。聊天界面会占用导航栏`navigationItem`的标题文字属性`title`、标题视图属性`titleView`、右侧按钮属性`rightBarButtonItems`；`navigationItem`的其它部分，比如`leftBarButtonItems`等，可以根据需要做自定义。
 
 4. 聊天界面可以自定义吗
+
    - 部分样式及事件自定义。 具体可参考`QYCustomUIConfig`等配置类，Demo 源码中也有相关样例代码。
 
 5. 键盘出现异常
 
    - 检查 App 中是否用到了会影响全局的键盘处理，如果是这种情况，需要对`QYSessionViewController`做屏蔽。典型的比如第三方键盘库`IQKeyboardManager`，如果用的是 V4.0.4 以前的版本（不包括 V4.0.4 ），请添加以下屏蔽代码：
 
-     ```objectivec
+     ```objective-c
      [[IQKeyboardManager sharedManager] disableDistanceHandlingInViewControllerClass:[QYSessionViewController class]];
      ```
-     如果用的是 V4.0.4 或之后的版本，请添加以下屏蔽代码：
 
-     ```objectivec
+   - 如果用的是 V4.0.4 或之后的版本，请添加以下屏蔽代码：
+
+     ```
      [[IQKeyboardManager sharedManager].disabledDistanceHandlingClasses addObject:[QYSessionViewController class]];
      ```
 
@@ -276,7 +439,7 @@ sessionViewController.navigationItem.leftBarButtonItem = leftItem;
 
    - 如果您的 App 是横屏的，但希望聊天界面竖屏，可以在`sessionViewController`所在的`UINavigationController`中实现以下方法，返回`UIInterfaceOrientationMaskPortrait`即可：
 
-     ```objectivec
+     ```objective-c
      - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
          return UIInterfaceOrientationMaskPortrait;
      }
@@ -286,7 +449,7 @@ sessionViewController.navigationItem.leftBarButtonItem = leftItem;
 
    - 请参考`UINavigationControllerDelegate`中提供的转场函数：
 
-     ```objectivec
+     ```objective-c
      - (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC;
      ```
 
@@ -519,10 +682,11 @@ iOS SDK 提供聊天界面部分样式自定义，通过`[QYSDK sharedSDK]`单�
 
 提供如下接口：
 
-| 接口                                       | 说明                                           |
-| ------------------------------------------ | ---------------------------------------------- |
-| restoreToDefault                           | 恢复默认设置                                   |
-| setMessagesLoadImages: duration: forState: | 消息下拉刷新loading图片设置，区分不同state状态 |
+| 接口                                                    | 说明                                                     |
+| ------------------------------------------------------- | -------------------------------------------------------- |
+| restoreToDefault                                        | 恢复默认设置                                             |
+| setMessagesLoadImages: duration: forState:              | 消息下拉刷新loading图片设置，区分不同state状态           |
+| registerCustomCommodityInfoModelClass:contentViewClass: | 注册自定义商品卡片消息的model及contentView，配置其UI显示 |
 
 ### 配置更多按钮
 
@@ -848,46 +1012,25 @@ sessionViewController.commodityInfo = commodityInfo;
 | isOpenCustomProduct | BOOL     | 是否为自定义商品卡片 |
 | productCustomField  | NSString | 自定义商品卡片数据   |
 
-当`isOpenCustomProduct`字段配置为`true`时，访客端收到此 iframe 数据后，会通过 block 回调透传`productCustomField`字段内容即自定义卡片数据，该 block 定义在`QYSessionViewController`中：
+当`isOpenCustomProduct`字段配置为`true`时，访客端收到此 iframe 数据后，会在本地自动插入一条`QYCustomCommodityInfo`类型消息，该类提供如下属性：
+
+| 属性     | 类型     | 说明                 |
+| -------- | -------- | -------------------- |
+| jsonData | NSString | 是否为自定义商品卡片 |
+
+若要实现自定义商品卡片 UI，需要构建`QYCustomCommodityInfo`对应的数据模型`QYCustomModel`子类、视图`QYCustomContentView`子类，并在消息渲染前注册类映射关系，注册接口位于`QYCustomUIConfig`中：
 
 ```objectivec
-/** 以下为自定义卡片消息相关接口 **/
-
 /**
- *  自定义卡片消息回调
- *
- *  @param jsonString 自定义卡片消息数据
+ *  注册自定义商品卡片消息的model及contentView，配置其UI显示
+ *  @discussion 若要使用自定义商品卡片功能，需调用此方法设置映射关系，注意应在卡片消息渲染前设置
+ *  @param modelClass       QYCustomCommodityInfo类型消息对应的数据模型类，QYCustomModel子类
+ *  @param contentViewClass QYCustomCommodityInfo类型消息对应的视图，QYCustomContentView子类
  */
-typedef void (^QYCustomMessageDataBlock)(NSString *jsonString);
-
-/**
- *  自定义卡片消息事件，回调时机为收到该类消息时刻
- */
-@property (nonatomic, copy) QYCustomMessageDataBlock customMessageDataBlock;
+- (void)registerCustomCommodityInfoModelClass:(Class)modelClass contentViewClass:(Class)contentViewClass;
 ```
 
-SDK 会忽略此条消息并完全将数据交由外部进行处理，开发者可在收到回调后，使用 **高级功能-自定义消息** 来插入一条本地自定义消息，将提前定义好的 JSON 数据构建为消息对象`QYCustomMessage`子类，并构建对应的数据模型`QYCustomModel`子类、视图`QYCustomContentView`子类。样例如下：
-
-```objectivec
-__weak typeof(self) weakSelf = self;
-sessionViewController.customMessageDataBlock = ^(NSString *jsonString) {
-    NSData *data = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
-    if (data) {
-        id object = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-        if ([object isKindOfClass:[NSDictionary class]]) {
-            QYCustomTicketMessage *message = [QYCustomTicketMessage objectByDict:object];
-            [weakSelf.sessionViewController addCustomMessage:message
-                                                needSaveData:YES
-                                              needReloadView:YES
-                                                  completion:^(NSError *error) {
-                if (error) {
-                    NSLog(@"addCustomMessage error !!!");
-                }
-            }];
-        }
-    }
-};
-```
+自定义视图`QYCustomContentView`子类中解析`jsonData`字段，并根据数据渲染对应视图即可。
 
 ### 会话消息
 
@@ -1049,7 +1192,7 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 
 #### 自定义评价界面
 
-V5.0.0 版本之后，七鱼 iOS SDK 对外提供自定义满意度评价界面，方便客户实现带有企业特色的评价界面。要完成自定义评价功能，首先需修改 **管理端-应用-在线系统-设置-会话流程-满意度评价-样式设置-评价样式** 选项为 **新页面**，此处填入的页面链接对移动端无效。
+V5.0.0 版本之后，七鱼 iOS SDK 对外提供自定义人工/机器人满意度评价界面，方便客户实现带有企业特色的评价界面。要完成自定义**人工**评价功能，首先需修改 **管理端-应用-在线系统-设置-会话流程-满意度评价-样式设置-评价样式** 选项为 **新页面**；自定义**机器人**评价则需修改 **管理端-应用-在线机器人-访客端-会话满意度评价-样式设置-评价样式** 选择为 **新页面**；注意此处填入的页面链接对移动端无效。
 
 修改完成后，SDK 会将满意度评价事件以 block 形式抛出，并提供相关满意度数据，随管理端配置更新：
 
@@ -1062,9 +1205,14 @@ V5.0.0 版本之后，七鱼 iOS SDK 对外提供自定义满意度评价界面�
 typedef void (^QYEvaluationBlock)(QYEvaluactionData *data);
 
 /**
- *  满意度评价事件
+ *  人工满意度评价事件
  */
 @property (nonatomic, copy) QYEvaluationBlock evaluationBlock;
+
+/**
+ *  机器人满意度评价事件
+ */
+@property (nonatomic, copy) QYEvaluationBlock robotEvaluationBlock;
 ```
 
 满意度评价数据`QYEvaluactionData`类提供了如下属性：
@@ -1127,9 +1275,14 @@ typedef NS_ENUM(NSInteger, QYEvaluationState) {
 typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
 
 /**
- *  发送满意度评价结果
+ *  发送人工满意度评价结果
  */
 - (void)sendEvaluationResult:(QYEvaluactionResult *)result completion:(QYEvaluationCompletion)completion;
+
+/**
+ *  发送机器人满意度评价结果
+ */
+- (void)sendRobotEvaluationResult:(QYEvaluactionResult *)result completion:(QYEvaluationCompletion)completion;
 ```
 
 接口提供评价成功/失败的结果回调，若评价成功，需收起评价界面，若评价失败，可提示用户失败原因。
@@ -1138,7 +1291,7 @@ typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
 
 #### 输入栏快捷入口
 
- 七鱼客服聊天界面提供输入栏上方快捷入口设置，区分机器人与人工两种模式。机器人模式下，快捷入口需在企业机器人相关配置页面进行按钮及事件的配置，不同节点可配置不同快捷入口，配置成功后快捷入口自动显示在输入栏上方，且根据配置自动更新，无需代码配置。
+七鱼客服聊天界面提供输入栏上方快捷入口设置，区分机器人与人工两种模式。机器人模式下，快捷入口需在企业机器人相关配置页面进行按钮及事件的配置，不同节点可配置不同快捷入口，配置成功后快捷入口自动显示在输入栏上方，且根据配置自动更新，无需代码配置。
 
 人工模式下，快捷入口按钮有两种配置方案，一种通过 **管理端-应用-在线系统-设置-访客端-样式设置-App端-输入框上方快捷入口** 配置按钮，并设置相应事件，注意此功能在 V5.2.0 版本后提供；在后台样式设置关闭情况下，可通过代码配置人工快捷入口。
 
@@ -1200,6 +1353,41 @@ V5.7.0 版本之后，新增人工模式下自助提工单能力，调用此接�
  *  @param templateID 工单模板ID
  */
 - (void)presentWorkOrderViewControllerWithTemplateID:(long long)templateID;
+```
+
+#### 自助查询工单能力
+
+V5.12.0 版本之后，新增访客自助查询工单功能，可通过后台样式设置配置入口事件为**查询工单**访问功能；同时SDK对外开放此能力接口，提供完整的查询工单页面`QYWorkOrderListViewController`：
+
+属性列表：
+
+| 属性        | 类型    | 必须 | 说明                   |
+| ----------- | ------- | ---- | ---------------------- |
+| verifyError | NSError | 否   | 快捷入口ID，未限制类型 |
+
+接口列表：
+
+| 接口                                       | 说明         |
+| ------------------------------------------ | ------------ |
+| initWithTemplateIDList:canReminder:shopId: | 恢复默认设置 |
+
+示例代码如下：
+
+```objectivec
+QYWorkOrderListViewController *listVC = [[QYWorkOrderListViewController alloc] initWithTemplateIDList:@[@(11010), @(11032)] canReminder:YES shopId:nil];
+//校验
+if (listVC.verifyError) {
+    if (listVC.verifyError.code == QYWorkOrderErrorCodeInvalidAccount) {
+        [self showToast:@"当前访客帐号有误"];
+    } else if (listVC.verifyError.code == QYWorkOrderErrorCodeInvalidParam) {
+        [self showToast:@"模板ID有误"];
+    } else {
+        [self showToast:@"未知错误"];
+    }
+} else {
+    //push进入页面
+    [self.navigationController pushViewController:listVC animated:YES];
+}
 ```
 
 ## 会话管理
@@ -1843,6 +2031,43 @@ sessionViewController.shopId = 123456;
 如果您看完此文档后，还有任何集成方面的疑问，可以参考 iOS SDK Demo 源码：[QIYU_iOS_SDK_Demo_Source](https://github.com/qiyukf/QIYU_iOS_SDK_Demo_Source.git)。源码充分展示了 iOS SDK 的能力，并且为集成 iOS SDK 提供了样例代码。
 
 ## 更新说明
+
+#### V5.12.0（2020-07-13）
+
+1. 支持访客自助查询工单及催单功能
+2. 机器人会话按钮禁点逻辑优化
+3. 文件下载及预览功能优化
+4. 修复部分已知 bug
+
+#### V5.11.0（2020-06-03）
+
+1. 机器人会话支持满意度评价
+2. 机器人消息内富文本支持附件下载及查看
+3. 修复留言表单/工单页面键盘适配问题
+4. 更新底层 IM 库 NIMSDK 至 V7.6.0 版本
+5. 修复部分已知 bug
+
+#### V5.10.0（2020-04-27）
+
+1. SDK 全面修改为动态库 framework
+
+2. 底层依赖 IM SDK 更新为 V7.2.5 版本云信 NIMSDK
+
+3. 新增 HTTPDNS 功能，支持网络请求失败情况下 IP 直连重试
+
+4. 网页加载全面优化为 WKWebView
+
+5. 排队提示语支持客服组模板展示
+
+6. 优化访客分流功能
+
+7. 支持客服邀填工单功能/优化工单结果展示
+
+8. 优化工单页面多行文本交互
+
+9. 优化部分 UI 细节
+
+10. 修复部分反馈问题
 
 #### V5.7.0（2020-01-16）
 
