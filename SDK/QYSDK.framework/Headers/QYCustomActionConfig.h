@@ -23,6 +23,13 @@ typedef NS_ENUM(NSInteger, QYQuitWaitingType) {
     QYQuitWaitingTypeCancel,   //取消操作
 };
 
+typedef NS_ENUM(NSInteger, QYAvatarType) {
+    QYAvatarTypeHumanStaff,     //人工客服
+    QYAvatarTypeRobotStaff,     //机器人客服
+    QYAvatarTypeCorp,           //企业
+    QYAvatarTypeCustomer,       //访客
+};
+
 /**
  *  action事件回调
  */
@@ -83,6 +90,14 @@ typedef void (^QYEventBlock)(NSString *eventName, NSString *eventData, NSString 
  */
 typedef void (^QYCustomButtonBlock)(NSDictionary *dict);
 
+/**
+ *  消息头像点击回调
+ *
+ *  @param type 头像类型：人工客服头像/机器人客服头像/企业头像/访客头像
+ *  @param accountID 帐号ID
+ */
+typedef void (^QYAvatarClickBlock)(QYAvatarType type, NSString *accountID);
+
 
 /**
  *  自定义行为配置类：QYCustomActionConfig，单例模式
@@ -142,9 +157,20 @@ typedef void (^QYCustomButtonBlock)(NSDictionary *dict);
 @property (nonatomic, copy) QYCustomButtonBlock customButtonClickBlock;
 
 /**
+ *  消息头像点击事件
+ *  @discussion 若点击机器人客服头像，accountID=QIYU_ROBOT；若点击某些企业消息头像，accountID=-1
+ */
+@property (nonatomic, copy) QYAvatarClickBlock avatarClickBlock;
+
+/**
  *  帐号登录后是否拉取漫游消息
  */
 @property (nonatomic, assign) BOOL pullRoamMessage;
+
+/**
+ *  拉取漫游消息条数，默认20条，最大100条
+ */
+@property (nonatomic, assign) NSUInteger roamMessageLimit;
 
 
 /**
