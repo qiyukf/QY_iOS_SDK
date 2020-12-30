@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
     s.libraries = 'c++', 'z','sqlite3.0','xml2'
     s.resource  = '**/Resources/QYResource.bundle'
     s.dependency 'NIMSDK_LITE', '8.1.2'
+    s.dependency 'libwebp', '~> 1.1.0'
 
     s.requires_arc = true
 
