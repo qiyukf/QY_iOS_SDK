@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.summary  = '网易七鱼客服访客端 iOS SDK'
     s.homepage = 'https://qiyukf.com'
     s.author   = { 'qiyukf' => 'yunshangfu@126.com' }
-    s.source   = { :git => 'https://github.com/qiyukf/QY_iOS_SDK.git', :tag => "6.1.0" }
+    s.source   = { :git => 'https://github.com/qiyukf/QY_iOS_SDK.git', :tag => "6.2.0" }
     s.platform = :ios, '9.0'
 
     s.vendored_frameworks = '**/QYSDK.framework'
