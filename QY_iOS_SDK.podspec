@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 
     s.name     = 'QY_iOS_SDK'
-    s.version  = '7.3.0'
+    s.version  = '7.4.0'
     s.license  = { :"type" => "Copyright",
                    :"text" => " Copyright 2021 Netease \n"}  
     s.summary  = '网易七鱼客服访客端 iOS SDK'
     s.homepage = 'https://qiyukf.com'
     s.author   = { 'qiyukf' => 'yunshangfu@126.com' }
-    s.source   = { :git => 'https://github.com/qiyukf/QY_iOS_SDK.git', :tag => "7.3.0" }
+    s.source   = { :git => 'https://github.com/qiyukf/QY_iOS_SDK.git', :tag => "7.4.0" }
     s.platform = :ios, '9.0'
     
     s.vendored_frameworks = '**/QYSDK.framework'
