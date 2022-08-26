@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>isForeign</key>
+	<true/>
+	<key>NIMLinkAddress</key>
+	<string>link-sg-qiyu.netease.im:7000</string>
+	<key>QYServerAddress</key>
+	<string>https://api.servehub.aiconn.com</string>
+	<key>QYServerHost</key>
+	<string>servehub.aiconn.com</string>
+</dict>
+</plist>
