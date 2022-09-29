@@ -34,11 +34,7 @@ typedef NS_ENUM(NSInteger, QYLinkClickActionPolicy) {
     QYLinkClickActionPolicyCancel,    //不使用七鱼默认WebView打开链接
     QYLinkClickActionPolicyOpen,      //使用七鱼默认WebView打开链接
 };
-typedef NS_ENUM(NSInteger, QYPermissionType) {
-    QYPermissionTypeCamera,      //相机权限
-    QYPermissionTypePhoto,       //相册权限
-    QYPermissionTypeMicro        //麦克风权限
-};
+
 /**
  *  action事件回调
  */
@@ -115,10 +111,8 @@ typedef void (^QYAvatarClickBlock)(QYAvatarType type, NSString *accountID);
 /**
  *  权限请求回调
  *
- *  @param type 类型：相机、相册、麦克风
- *
  */
-typedef void (^QYPermissionBlock)(QYPermissionType type);
+typedef void (^QYPermissionBlock)(void);
 
 /**
  *  自定义行为配置类：QYCustomActionConfig，单例模式
@@ -183,12 +177,27 @@ typedef void (^QYPermissionBlock)(QYPermissionType type);
  */
 @property (nonatomic, copy) QYAvatarClickBlock avatarClickBlock;
 
+
 /**
- *  权限请求回调
+ *  相册权限请求回调
  *  请求权限被拒绝后，再次请求权限时会回调，如果实现该回调，则UI和跳转效果完全由用户自己实现。
  *  默认使用七鱼的弹框效果，默认文案：请在iPhone的“设置-隐私-照片”选项中，允许访问你的相册。
  */
-@property (nonatomic, copy) QYPermissionBlock permissionBlock;
+@property (nonatomic, copy) QYPermissionBlock photoPermissionBlock;
+
+/**
+ *  相机权限请求回调
+ *  请求权限被拒绝后，再次请求权限时会回调，如果实现该回调，则UI和跳转效果完全由用户自己实现。
+ *  默认使用七鱼的弹框效果，默认文案：请在iPhone的“设置-隐私-相机”选项中，允许访问你的相册。
+ */
+@property (nonatomic, copy) QYPermissionBlock cameraPermissionBlock;
+
+/**
+ *  麦克风权限请求回调
+ *  请求权限被拒绝后，再次请求权限时会回调，如果实现该回调，则UI和跳转效果完全由用户自己实现。
+ *  默认使用七鱼的弹框效果，默认文案：请在iPhone的“设置-隐私-麦克风”选项中，允许访问你的相册。
+ */
+@property (nonatomic, copy) QYPermissionBlock microPermissionBlock;
 
 
 /**
