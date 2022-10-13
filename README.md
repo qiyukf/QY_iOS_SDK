@@ -138,6 +138,29 @@ QYSDK 动态库已在 **V5.11.0** 版本正式上线：[CocoaPods地址](http://
 
   - 安装后请重新 `pod update`，若仍报错，尝试清理缓存：`pod cache clean --all` 。
 
+### 视频客服集成
+
+视频客服模块是基于QYSDK和NIMSDK的。要使用视频客服，必须要先集成这两个SDK，具体方法此处不再赘述，请参考上文。
+
+#### 手动集成
+
+下载 zip 文件并解压，内含**QYVideoService.xcframework**，**Resources**文件夹中包含**QYVideoResource.bundle**资源包。
+
+1. 集成 **QYVideoService.xcframework** ：将 **QYVideoService.xcframework** 文件夹拖入工程，确保文件 **copy** 至工程而非引用，并确保 General —> Frameworks, Libraries, and Embedded Content ( >=Xcode11 ) 选项中包含导入的库，同时 Embed 选择 **Embed & Sign** 即可。
+2. 集成 **QYSDK.framework** ：将 **Resources** 文件夹中所需的 **QYVideoResource.bundle** 资源文件拖入主工程，确保 **mainBundle** 可以访问到。
+
+#### 自动集成
+
+1. 将 **Podfile** 文件中的pod 'QY_iOS_SDK', '~> x.x.x'修改为：
+
+   ```shell
+   pod 'QY_iOS_SDK/Video', '~> x.x.x'
+   ```
+
+   "x.x.x" 代表版本号
+
+2. Terminal 执行 `pod install` 即可完整集成动态库版本。
+
 #### 解决符号冲突
 
 针对静态库可能出现的符号冲突问题（Xcode 报错 duplicate symbol xxx in xxx.o xxx.o），建议首先升级至动态库版本尝试解决问题，如仍需使用静态库，请注意：
@@ -404,6 +427,14 @@ sessionViewController.navigationItem.leftBarButtonItem = leftItem;
 ```
 
 请根据情况选择合适的方式进入聊天界面。
+
+## 集成视频客服组件
+
+如果您的APP需要使用视频客服功能，请在视频客服的入口对**QYSessionViewController**控制器做如下配置：
+
+```objective_c
+sessionViewController.isVideoServer = YES;
+```
 
 #### 常见问题
 1. 进入访客聊天界面马上 crash
