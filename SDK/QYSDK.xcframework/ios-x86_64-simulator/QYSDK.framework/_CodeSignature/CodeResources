@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/QYCommodityInfo.h</key>
 		<data>
-		BPHGb+XWakVfRZuKfPMYhguwmtE=
+		/RbT8rInmNBbIwck5pPriMCd7Gs=
 		</data>
 		<key>Headers/QYConversationManager.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		42Nmi8DMkCVj14mIH3Z9Gl53Pfs=
+		+stmTNrKqjNu+u9JmFtnODShUYI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -166,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BPHGb+XWakVfRZuKfPMYhguwmtE=
+			/RbT8rInmNBbIwck5pPriMCd7Gs=
 			</data>
 			<key>hash2</key>
 			<data>
-			F07htX5HgcuQzxgD/MGEOmtEw+iDBDUP1SrjiyGBmBw=
+			+uFXIOt9BSs2HtfbT5iPbylpUvQrEgY+nQFH1SaBKbg=
 			</data>
 		</dict>
 		<key>Headers/QYConversationManager.h</key>

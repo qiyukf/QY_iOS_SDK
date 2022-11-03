@@ -91,36 +91,6 @@
  */
 @property (nonatomic, copy) NSString *ext;
 
-/**
- *  卡片类型
- * 商品卡片标识，填写后有助于机器人识别商品和后续业务。共三种类型：商品、订单、自定义卡片，分别传0 1 2
- */
-@property (nonatomic, assign) NSInteger cardType;
-
-/**
- *  商品类目ID
- *  最多100字符，商品所属类目ID，填写后有助于机器人识别商品和后续业务
- */
-@property (nonatomic, copy) NSString *goodsCId;
-
-/**
- *  商品类目名称
- *  最多10字，商品所属类目名称
- */
-@property (nonatomic, copy) NSString *goodsCName;
-
-/**
- *  商品ID
- *  最多100字符，商品唯一标识符，填写后有助于机器人识别商品和后续业务
- */
-@property (nonatomic, copy) NSString *goodsId;
-
-
-/**
- *  订单ID
- *  交易订单号（父订单的交易编号），当卡片类型为订单时，推荐必填
- */
-@property (nonatomic, copy) NSString *orderId;
 @end
 
 

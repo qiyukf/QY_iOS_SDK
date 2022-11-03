@@ -214,7 +214,6 @@
 "QYMessageStringQueryMsg" = "[Mensahe ng Pagtatanong]";
 "QYMessageStringVideoText" = "Nagpadala ng video";
 "QYStringOrderNumber" = "Num. ng Order: %@";
-"QYStringGoodsNumber" = "Produkto id：%@";
 "QYTitleStringWorkOrderDetail" = "Mga detalye ng order ng trabaho";
 "QYButtonStringReminded" = "Ipinaalala para sa iyo";
 "QYMessageStringUnknownFile" = "Hindi kilalang file";
@@ -328,6 +327,3 @@
 "QYButtonStringEvaluateImmediately" = "Gumawa ng agarang pagsusuri";
 "QYMessageStringMiniProgramCard" = "[Kard ng Aplikasyon]";
 "QYToastStringLoadingWait" = "Naglo-load, pakihintay...";
-"QYStringDatePicker" = "piliin ang petsa";
-"QYStringDateAndTimePicker" = "Piliin ang petsa at oras";
-"QYToastStringPhoneError" = "Mas mababa sa %1d bits ang numero ng telepono";
