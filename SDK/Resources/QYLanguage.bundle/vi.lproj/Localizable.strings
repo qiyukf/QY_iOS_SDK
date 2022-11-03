@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[Tra cứu thông tin]";
 "QYMessageStringVideoText" = "Đã gửi một đoạn video";
 "QYStringOrderNumber" = "Mã số đơn hàng: %@";
+"QYStringGoodsNumber" = "ID sản phẩm：%@";
 "QYTitleStringWorkOrderDetail" = "Chi tiết phiếu yêu cầu";
 "QYButtonStringReminded" = "Đã giục đơn hàng cho bạn";
 "QYMessageStringUnknownFile" = "Tệp không xác định";
@@ -327,3 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "Đánh giá ngay bây giờ";
 "QYMessageStringMiniProgramCard" = "[Thẻ chương trình nhỏ]";
 "QYToastStringLoadingWait" = "Đang tải, vui lòng đợi...";
+"QYStringDatePicker" = "chọn ngày";
+"QYStringDateAndTimePicker" = "thời gian lựa chọn";
+"QYToastStringPhoneError" = "Số điện thoại không đủ %1d số";

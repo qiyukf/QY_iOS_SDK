@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[Сообщение запроса]";
 "QYMessageStringVideoText" = "Пришло видео";
 "QYStringOrderNumber" = "Номер заказа:%@";
+"QYStringGoodsNumber" = "Код товара：%@";
 "QYTitleStringWorkOrderDetail" = "Подробности о тикете";
 "QYButtonStringReminded" = "Ускорили выполнение заказа для Вас";
 "QYMessageStringUnknownFile" = "Неизвестный файл";
@@ -327,4 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "Оценивать сейчас";
 "QYMessageStringMiniProgramCard" = "[Карточка мини-программы]";
 "QYToastStringLoadingWait" = "Загружается, подождите, пожалуйста,...";
-
+"QYStringDatePicker" = "Выберите дату";
+"QYStringDateAndTimePicker" = "Выберите время";
+"QYToastStringPhoneError" = "%1dразрядов номера мобильного телефона не хватит";

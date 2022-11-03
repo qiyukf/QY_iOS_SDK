@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[Message de consultation]";
 "QYMessageStringVideoText" = "On a envoyé une vidéo";
 "QYStringOrderNumber" = "Numéro de commande：%@";
+"QYStringGoodsNumber" = "Produit ID ：%@";
 "QYTitleStringWorkOrderDetail" = "Bon de travail en détails";
 "QYButtonStringReminded" = "Déjà relancé pour vous";
 "QYMessageStringUnknownFile" = "Fichier inconnu";
@@ -327,3 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "Évaluer maintenant";
 "QYMessageStringMiniProgramCard" = "[Carte APP]";
 "QYToastStringLoadingWait" = "Chargement en cours, veuillez patienter…";
+"QYStringDatePicker" = "Sélectionnez la date";
+"QYStringDateAndTimePicker" = "Sélectionnez une heure";
+"QYToastStringPhoneError" = "Numéro de téléphone portable inférieur à %1d chiffres";

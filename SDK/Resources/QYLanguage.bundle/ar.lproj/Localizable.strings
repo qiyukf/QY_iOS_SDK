@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[استعلام الرسالة]";
 "QYMessageStringVideoText" = "أرسل فيديو";
 "QYStringOrderNumber" = "رقم الطلب: %@";
+"QYStringGoodsNumber" = "رقم المنتج：%@";
 "QYTitleStringWorkOrderDetail" = "تفاصيل أمر العمل";
 "QYButtonStringReminded" = "تم استعجال الطلب";
 "QYMessageStringUnknownFile" = "ملف غير معروف";
@@ -327,4 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "قم بالتقييم الآن";
 "QYMessageStringMiniProgramCard" = "[بطاقة تطبيقات صغيرة]";
 "QYToastStringLoadingWait" = "جار التحميل، الرجاء الإنتظار…";
-
+"QYStringDatePicker" = "حدد تاريخ";
+"QYStringDateAndTimePicker" = "حدد التاريخ والوقت";
+"QYToastStringPhoneError" = "عدد أرقام الهاتف المحمول أقل من%1d";
