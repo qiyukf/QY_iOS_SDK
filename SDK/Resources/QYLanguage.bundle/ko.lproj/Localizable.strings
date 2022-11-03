@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[정보 조회]";
 "QYMessageStringVideoText" = "영상을 보냈습니다";
 "QYStringOrderNumber" = "오더번호: %@";
+"QYStringGoodsNumber" = "상품ID：%@";
 "QYTitleStringWorkOrderDetail" = "오더의 자세한 정보";
 "QYButtonStringReminded" = "독촉 알림을 해 드렸습니다";
 "QYMessageStringUnknownFile" = "미지 파일";
@@ -327,3 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "바로 평가하기";
 "QYMessageStringMiniProgramCard" = "[댓글 메시지]";
 "QYToastStringLoadingWait" = "로딩 중입니다. 잠시 후…";
+"QYStringDatePicker" = "날짜 선택";
+"QYStringDateAndTimePicker" = "날짜 및 시간 선택";
+"QYToastStringPhoneError" = "핸드폰 번호는 %1d자리 부족합니다";

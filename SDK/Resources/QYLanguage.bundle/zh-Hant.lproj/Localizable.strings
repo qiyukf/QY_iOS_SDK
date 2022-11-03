@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[查詢消息]";
 "QYMessageStringVideoText" = "發來了⼀段視頻";
 "QYStringOrderNumber" = "訂單編號：%@";
+"QYStringGoodsNumber" = "商品ID：%@";
 "QYTitleStringWorkOrderDetail" = "工單詳情";
 "QYButtonStringReminded" = "已為您催單";
 "QYMessageStringUnknownFile" = "未知⽂件";
@@ -327,3 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "⽴即評價";
 "QYMessageStringMiniProgramCard" = "[⼩程序卡⽚]";
 "QYToastStringLoadingWait" = "正在加載，請稍候…";
+"QYStringDatePicker" = "選擇日期";
+"QYStringDateAndTimePicker" = "選擇日期及時間";
+"QYToastStringPhoneError" = "手機號不足%1d位";

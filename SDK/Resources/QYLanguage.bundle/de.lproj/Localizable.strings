@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[Nachfragenachricht]";
 "QYMessageStringVideoText" = "Ein Video wurde eingegangen";
 "QYStringOrderNumber" = "Bestellnummer: %@";
+"QYStringGoodsNumber" = "Produkt ID：%@";
 "QYTitleStringWorkOrderDetail" = "Details zum Arbeitsauftrag";
 "QYButtonStringReminded" = "Ihre Anmerkung ist aufgegeben worden";
 "QYMessageStringUnknownFile" = "Unbekannte Datei";
@@ -327,3 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "Jetzt bewerten";
 "QYMessageStringMiniProgramCard" = "(Applet-Karte)";
 "QYToastStringLoadingWait" = "Beim Laden, bitte warten...";
+"QYStringDatePicker" = "Datum auswählen";
+"QYStringDateAndTimePicker" = "Wählen Sie eine Zeit";
+"QYToastStringPhoneError" = "Die Mobiltelefonnummer hat weniger als %1d Ziffern";

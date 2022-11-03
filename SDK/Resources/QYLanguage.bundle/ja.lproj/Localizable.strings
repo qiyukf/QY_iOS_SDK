@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[検索メッセージ]";
 "QYMessageStringVideoText" = "より動画が送信されました";
 "QYStringOrderNumber" = "注文番号：%@";
+"QYStringGoodsNumber" = "商品ID：%@";
 "QYTitleStringWorkOrderDetail" = "課題の詳細";
 "QYButtonStringReminded" = "催促をしました";
 "QYMessageStringUnknownFile" = "未知のファイル";
@@ -327,4 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "今すぐ評価";
 "QYMessageStringMiniProgramCard" = "[ミニプログラムカード]";
 "QYToastStringLoadingWait" = "ローディング中ですので、少々お待ちください…";
-
+"QYStringDatePicker" = "日付を選択";
+"QYStringDateAndTimePicker" = "時間を選択する";
+"QYToastStringPhoneError" = "携帯電話の番号の桁数が%1d桁以下です";

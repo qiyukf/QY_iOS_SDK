@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[Periksa informasi]";
 "QYMessageStringVideoText" = "Mengirimkan sebuah video";
 "QYStringOrderNumber" = "Nomor Pesanan: %@";
+"QYStringGoodsNumber" = "Produk  ID：%@";
 "QYTitleStringWorkOrderDetail" = "Detail perintah kerja";
 "QYButtonStringReminded" = "Telah membantu Anda mengejar pesanan";
 "QYMessageStringUnknownFile" = "File tidak diketahui";
@@ -327,3 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "Segera memberikan penilaian";
 "QYMessageStringMiniProgramCard" = "[Kartu Mini Program]";
 "QYToastStringLoadingWait" = "Sedang memuat, silakan tunggu coba beberapa saat lagi...";
+"QYStringDatePicker" = "pilih tanggal";
+"QYStringDateAndTimePicker" = "Pilih tanggal dan waktu";
+"QYToastStringPhoneError" = "Nomor handphone tidak memenuhi %1d angka";

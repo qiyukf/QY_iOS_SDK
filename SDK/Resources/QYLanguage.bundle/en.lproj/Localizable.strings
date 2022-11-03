@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[Search Message]";
 "QYMessageStringVideoText" = "Has sent a video";
 "QYStringOrderNumber" = "Order number: %@";
+"QYStringGoodsNumber" = "Item ID：%@";
 "QYTitleStringWorkOrderDetail" = "Work order details";
 "QYButtonStringReminded" = "Reminded";
 "QYMessageStringUnknownFile" = "Unknown file";
@@ -327,3 +328,8 @@
 "QYButtonStringEvaluateImmediately" = "Rate now";
 "QYMessageStringMiniProgramCard" = "[Mini Program Card]";
 "QYToastStringLoadingWait" = "Loading. Please wait...";
+"QYStringDatePicker" = "Select Date";
+"QYStringDateAndTimePicker" = "Select Time";
+"QYStringDatePicker" = "Select date";
+"QYStringDateAndTimePicker" = "Select time";
+"QYToastStringPhoneError" = "The phone number is less than %1d digits";

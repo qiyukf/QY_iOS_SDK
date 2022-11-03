@@ -214,6 +214,7 @@
 "QYMessageStringQueryMsg" = "[สอบถามข้อความ]";
 "QYMessageStringVideoText" = "ส่งวิดีโอ";
 "QYStringOrderNumber" = "เลขที่ใบสั่งซื้อ：%@";
+"QYStringGoodsNumber" = "รหัสสินค้า：%@";
 "QYTitleStringWorkOrderDetail" = "รายละเอียดคำสั่งงาน";
 "QYButtonStringReminded" = "เตือนความจำสำหรับคุณ";
 "QYMessageStringUnknownFile" = "ไฟล์ที่ไม่รู้จัก";
@@ -327,3 +328,6 @@
 "QYButtonStringEvaluateImmediately" = "การประเมินผลทันที";
 "QYMessageStringMiniProgramCard" = "[มินิโปรแกรมการ์ด]";
 "QYToastStringLoadingWait" = "กำลังโหลด โปรดรอ…";
+"QYStringDatePicker" = "เลือกวันที่";
+"QYStringDateAndTimePicker" = "เลือกวันที่และเวลา";
+"QYToastStringPhoneError" = "หมายเลขโทรศัพท์มือถือไม่เพียงพอ%1d";
