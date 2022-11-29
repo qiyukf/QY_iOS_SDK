@@ -36,6 +36,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isFusion;
 
 /**
+ * 后台模板id
+ * 优先级：
+ * 后台样式开关打开后，代码指定后台模板id > 后台设置app > 后台默认模板 > SDK代码设置 > 默认
+ * 后台样式开关关闭，仅  SDK代码设置 > 默认
+ */
+@property (nonatomic, assign) long templateId;
+
+/**
  *  注册选项初始化方法
  *  @param appKey  企业AppKey
  */

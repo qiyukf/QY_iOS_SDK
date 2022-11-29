@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
-		GDyFb6CCXcTLKUIprcu18IHEKQY=
+		R+uTt0QxixYKcRjJtg6CZYBc/jM=
 		</data>
 		<key>Headers/QYSDKSPI.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		42Nmi8DMkCVj14mIH3Z9Gl53Pfs=
+		UwBTAt8dUKUvkbIbmLsRiOXTK4A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -419,11 +419,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GDyFb6CCXcTLKUIprcu18IHEKQY=
+			R+uTt0QxixYKcRjJtg6CZYBc/jM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xt8fRxJKnJuIX/PywAE1kx4dHwvjwnBeHzikC7frhKI=
+			g8zcK9dYNyURFo0JOJR3Zir8fnvQI2+uFpke1dxMvpE=
 			</data>
 		</dict>
 		<key>Headers/QYSDKSPI.h</key>
