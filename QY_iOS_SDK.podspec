@@ -29,7 +29,9 @@ Pod::Spec.new do |s|
     		vs.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle' , '**/Resources/QYVideoResource.bundle']
         vs.vendored_frameworks = ['**/QYSDK.xcframework','**/QYVideoService.xcframework']
         vs.dependency 'QY_NIMSDK_LITE', '8.9.3'
-        vs.dependency 'NERtcSDK', '4.6.20'
+        vs.dependency 'NERtcSDK/RtcBasic', '4.6.29'
+        vs.dependency 'NERtcSDK/ScreenShare', '4.6.29'
+    
     end
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 x86_64 arm64' }
     s.requires_arc = true
