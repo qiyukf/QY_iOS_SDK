@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/QYVideoSDK.h</key>
+		<data>
+		+ViVnvchN+o0Lv/EiAZEROjUXw8=
+		</data>
 		<key>Headers/QYVideoService.h</key>
 		<data>
-		gCU/ZdU6qxXjR86u6lGMNV57SSM=
+		5Ap0uzAMjeGbF8dvE+f5WyOZZOc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -19,15 +23,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/QYVideoSDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+ViVnvchN+o0Lv/EiAZEROjUXw8=
+			</data>
+			<key>hash2</key>
+			<data>
+			85mGvyKUz5/lgrp4xjyUYt7SdsWc5fF3FZ871YO5q/4=
+			</data>
+		</dict>
 		<key>Headers/QYVideoService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gCU/ZdU6qxXjR86u6lGMNV57SSM=
+			5Ap0uzAMjeGbF8dvE+f5WyOZZOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/ctaRQEvY4bXcv74V8G9YAceb+7LQ9zcM5y6Ow74hi8=
+			zJ5boTLB8OayUPmE43zLiAOsTDR7lkmI9HteM0H1j+M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

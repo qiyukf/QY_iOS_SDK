@@ -87,6 +87,62 @@
 			</dict>
 			<dict>
 				<key>file</key>
+				<string>emoji_246.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_246</string>
+				<key>tag</key>
+				<string>[斜眼笑]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_240.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_240</string>
+				<key>tag</key>
+				<string>[笑得满地打滚]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_247.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_247</string>
+				<key>tag</key>
+				<string>[微笑天使]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_241.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_241</string>
+				<key>tag</key>
+				<string>[好崇拜哦]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_242.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_242</string>
+				<key>tag</key>
+				<string>[滑稽]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_235.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_235</string>
+				<key>tag</key>
+				<string>[发财]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_236.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_236</string>
+				<key>tag</key>
+				<string>[想一想]</string>
+			</dict>
+			<dict>
+				<key>file</key>
 				<string>emoji_09.png</string>
 				<key>id</key>
 				<string>emoticon_emoji_09</string>
@@ -236,6 +292,22 @@
 				<string>emoticon_emoji_27</string>
 				<key>tag</key>
 				<string>[口罩]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_237.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_237</string>
+				<key>tag</key>
+				<string>[受伤]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_243.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_243</string>
+				<key>tag</key>
+				<string>[爆炸头]</string>
 			</dict>
 			<dict>
 				<key>file</key>
@@ -423,6 +495,38 @@
 			</dict>
 			<dict>
 				<key>file</key>
+				<string>emoji_248.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_248</string>
+				<key>tag</key>
+				<string>[微笑的猫]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_249.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_249</string>
+				<key>tag</key>
+				<string>[笑出眼泪的猫]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_250.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_250</string>
+				<key>tag</key>
+				<string>[花痴的猫]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_251.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_251</string>
+				<key>tag</key>
+				<string>[亲亲猫]</string>
+			</dict>
+			<dict>
+				<key>file</key>
 				<string>1f63e.png</string>
 				<key>id</key>
 				<string>emoticon_emoji_127</string>
@@ -543,6 +647,110 @@
 			</dict>
 			<dict>
 				<key>file</key>
+				<string>emoji_221.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_221</string>
+				<key>tag</key>
+				<string>[猴头]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_222.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_222</string>
+				<key>tag</key>
+				<string>[狗脸]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_219.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_219</string>
+				<key>tag</key>
+				<string>[老虎头]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_220.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_220</string>
+				<key>tag</key>
+				<string>[兔子头]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_205.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_205</string>
+				<key>tag</key>
+				<string>[幼苗]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_206.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_206</string>
+				<key>tag</key>
+				<string>[松树]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_231.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_231</string>
+				<key>tag</key>
+				<string>[花束]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_208.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_208</string>
+				<key>tag</key>
+				<string>[樱花]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_218.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_218</string>
+				<key>tag</key>
+				<string>[圆形花饰]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_209.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_209</string>
+				<key>tag</key>
+				<string>[芙蓉]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_210.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_210</string>
+				<key>tag</key>
+				<string>[向日葵]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_211.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_211</string>
+				<key>tag</key>
+				<string>[开花]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_207.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_207</string>
+				<key>tag</key>
+				<string>[郁金香]</string>
+			</dict>
+			<dict>
+				<key>file</key>
 				<string>new_emoji_25.png</string>
 				<key>id</key>
 				<string>emoticon_emoji_132</string>
@@ -639,6 +847,22 @@
 			</dict>
 			<dict>
 				<key>file</key>
+				<string>emoji_229.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_229</string>
+				<key>tag</key>
+				<string>[外星怪物]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_238.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_238</string>
+				<key>tag</key>
+				<string>[机器人]</string>
+			</dict>
+			<dict>
+				<key>file</key>
 				<string>1f49d.png</string>
 				<key>id</key>
 				<string>emoticon_emoji_152</string>
@@ -719,6 +943,70 @@
 			</dict>
 			<dict>
 				<key>file</key>
+				<string>emoji_252.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_252</string>
+				<key>tag</key>
+				<string>[举双手]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_228.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_228</string>
+				<key>tag</key>
+				<string>[出拳]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_239.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_239</string>
+				<key>tag</key>
+				<string>[给我打电话]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_226.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_226</string>
+				<key>tag</key>
+				<string>[反手食指向左指]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_227.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_227</string>
+				<key>tag</key>
+				<string>[反手食指向右指]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_224.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_224</string>
+				<key>tag</key>
+				<string>[反手食指向上指]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_225.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_225</string>
+				<key>tag</key>
+				<string>[反手食指向下指]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_223.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_223</string>
+				<key>tag</key>
+				<string>[双眼]</string>
+			</dict>
+			<dict>
+				<key>file</key>
 				<string>emoji_40.png</string>
 				<key>id</key>
 				<string>emoticon_emoji_40</string>
@@ -780,6 +1068,22 @@
 				<string>emoticon_emoji_47</string>
 				<key>tag</key>
 				<string>[钟情]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_232.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_232</string>
+				<key>tag</key>
+				<string>[心跳]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_230.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_230</string>
+				<key>tag</key>
+				<string>[情书]</string>
 			</dict>
 			<dict>
 				<key>file</key>
@@ -852,6 +1156,118 @@
 				<string>emoticon_emoji_56</string>
 				<key>tag</key>
 				<string>[雪花]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_202.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_202</string>
+				<key>tag</key>
+				<string>[星星]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_204.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_204</string>
+				<key>tag</key>
+				<string>[闪亮的星星]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_203.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_203</string>
+				<key>tag</key>
+				<string>[彩虹]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_201.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_201</string>
+				<key>tag</key>
+				<string>[闪亮]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_245.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_245</string>
+				<key>tag</key>
+				<string>[爆竹]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_213.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_213</string>
+				<key>tag</key>
+				<string>[拉炮彩带]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_214.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_214</string>
+				<key>tag</key>
+				<string>[五彩纸屑球]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_244.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_244</string>
+				<key>tag</key>
+				<string>[红包]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_212.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_212</string>
+				<key>tag</key>
+				<string>[蝴蝶结]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_215.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_215</string>
+				<key>tag</key>
+				<string>[票]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_217.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_217</string>
+				<key>tag</key>
+				<string>[奖杯]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_216.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_216</string>
+				<key>tag</key>
+				<string>[正中靶心的飞镖]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_233.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_233</string>
+				<key>tag</key>
+				<string>[水晶球]</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>emoji_234.png</string>
+				<key>id</key>
+				<string>emoticon_emoji_234</string>
+				<key>tag</key>
+				<string>[游戏操控杆]</string>
 			</dict>
 			<dict>
 				<key>file</key>

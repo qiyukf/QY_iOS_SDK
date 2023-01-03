@@ -8,12 +8,12 @@
 "QYMessageStringCustomerLeaved" = "⽤⼾離開";
 "QYToastStringFileExpired" = "文件已超過15天有效期";
 "QYButtonStringQuiet" = "靜⾳";
-"QYToastStringVideoDownloadError" = "視頻下載錯誤";
+"QYToastStringVideoDownloadError" = "影片下載錯誤";
 "QYButtonStringSubmitted" = "已提交";
 "QYMessageStringSystemClosed" = "系統關閉";
 "QYToastStringInfoEmptyError" = "此信息不得為空";
 "QYToastStringSending" = "發送中";
-"QYToastStringVideoPlayError" = "視頻播放錯誤";
+"QYToastStringVideoPlayError" = "影片播放錯誤";
 "QYMessageStringSessionTransfered" = "會話已轉接";
 "QYTitleStringLogining" = "正在登录";
 "QYStringMonday" = "星期一";
@@ -32,7 +32,7 @@
 "QYToastStringQuitQueueConfirm" = "確認退出排隊？";
 "QYToastStringImageUploadError" = "圖片上傳失敗，請稍後重試";
 "QYToastStringLoadFail" = "加載失敗";
-"QYToastStringAlbumVideoTip" = "已為您過濾時長超過30秒，大小超過50M的視頻";
+"QYToastStringAlbumVideoTip" = "已為您過濾時長超過30秒，大小超過50M的影片";
 "QYStringNotAccepted" = "未受理";
 "QYStringChange" = "換一換";
 "QYToastStringFileDownloadError" = "下載失敗，網絡錯誤";
@@ -41,7 +41,7 @@
 "QYStringRequired" = "(必填)";
 "QYMessageStringNotification" = "[通知]";
 "QYButtonStringUseful" = "有⽤";
-"QYToastStringRecordError" = "視頻錄製失敗，請重新嘗試";
+"QYToastStringRecordError" = "錄影失敗，請重新嘗試";
 "QYButtonStringSaveLocal" = "保存⾄本地";
 "QYStringDownloaded" = "已下載";
 "QYButtonStringEvaluated" = "已評價";
@@ -49,7 +49,7 @@
 "QYToastStringLeaveError" = "留言失敗";
 "QYStringEvening" = "晚上";
 "QYButtonStringQuit" = "退出";
-"QYToastStringVideoUploadError" = "上傳視頻失敗";
+"QYToastStringVideoUploadError" = "上傳影片失敗";
 "QYButtonStringFillInfo" = "填寫信息";
 "QYMessageStringOrderMsg" = "[訂單消息]";
 "QYToastStringHasEvaluated" = "您已經評價過了哦~";
@@ -65,7 +65,7 @@
 "QYToastStringNoAlbumPermission" = "沒有相冊權限";
 "QYStringWednesday" = "星期三";
 "QYToastStringQueueTip" = "是否繼續諮詢在線客服？您可以先去逛逛，排隊成功後將提醒您";
-"QYToastStringVideoTypeExportError" = "該視頻類型暫不支持導出";
+"QYToastStringVideoTypeExportError" = "該影片類型暫不支持導出";
 "QYButtonStringCall" = "呼叫";
 "QYButtonStringFillForm" = "填寫表單";
 "QYMessageStringCustomerClosed" = "訪客關閉";
@@ -81,8 +81,8 @@
 "QYToastStringNoMoreData" = "沒有更多數據啦";
 "QYToastStringPhoneNumberTip" = "%@可能是一個電話號碼，你可以";
 "QYToastStringSessionQuitting" = "退出對話中";
-"QYMessageStringVideoDisplay" = "視頻發送於%@";
-"QYTitleStringVideo" = "視頻";
+"QYMessageStringVideoDisplay" = "影片發送於%@";
+"QYTitleStringVideo" = "影片";
 "QYTitleStringConnecting" = "正在連接";
 "QYToastStringLeaveSuccess" = "留言成功";
 "QYToastStringEvaluationResult" = "您對我們的服務評價為：";
@@ -111,7 +111,7 @@
 "QYToastStringThank" = "非常感謝！";
 "QYToastStringAudioLongError" = "說話時間超長";
 "QYToastStringQuitSessionConfirm" = "確認退出對話？";
-"QYToastStringRecordUnknownError" = "發生未知錯誤，視頻數據為空";
+"QYToastStringRecordUnknownError" = "發生未知錯誤，影片數據為空";
 "QYToastStringFeedback" = "請輸入您要反饋的意見";
 "QYToastStringAudioCancelSwipeUp" = "手指上滑，取消發送";
 "QYToastStringLargeFileError" = "文件過大無法發送";
@@ -121,7 +121,7 @@
 "QYMessageStringServiceTip" = "%@為您服務";
 "QYStringMorning" = "上午";
 "QYToastStringWaitConnecting" = "請等待連接成功後，再發送消息";
-"QYToastStringAlbumExportError" = "相冊導出視頻失敗";
+"QYToastStringAlbumExportError" = "相冊導出影片失敗";
 "QYMessageStringRecalledMsg" = "撤回了⼀條消息";
 "QYToastStringPlayingHandset" = "正在使用聽筒播放";
 "QYToastStringSessionCloseEvaluteError" = "會話已結束，無法評價";
@@ -161,7 +161,7 @@
 "QYStringOrderInfo" = "工單信息";
 "QYTitleStringFilePreview" = "文件預覽";
 "QYToastStringPhotoSelectMax" = "最多可選擇%zd張圖片";
-"QYButtonStringSelectLocalVideo" = "選擇本地視頻";
+"QYButtonStringSelectLocalVideo" = "選擇本地影片";
 "QYButtonStringBack" = "返回";
 "QYToastStringLoadingTip" = "加載中";
 "QYToastStringServiceOffline" = "客服離線狀態，暫不可發送消息";
@@ -186,7 +186,7 @@
 "QYButtonStringHeadsetMode" = "聽筒模式";
 "QYTitleStringFillInfo" = "填寫信息";
 "QYToastStringUserEvaluationResult" = "用戶提交的服務評價為：%@";
-"QYToastStringVideoSourceError" = "視頻源錯誤";
+"QYToastStringVideoSourceError" = "影片源錯誤";
 "QYMessageStringAutoClosedForNoNet" = "客服⽆⽹絡連接，系統⾃動關閉會話";
 "QYStringEnterTip" = "請輸入";
 "QYStringThursday" = "星期四";
@@ -212,7 +212,7 @@
 "QYStringFillEvaluationRemark" = "請填寫評價備註";
 "QYToastStringRemindSuccess" = "催單成功";
 "QYMessageStringQueryMsg" = "[查詢消息]";
-"QYMessageStringVideoText" = "發來了⼀段視頻";
+"QYMessageStringVideoText" = "發來了⼀段影片";
 "QYStringOrderNumber" = "訂單編號：%@";
 "QYStringGoodsNumber" = "商品ID：%@";
 "QYTitleStringWorkOrderDetail" = "工單詳情";
@@ -230,7 +230,7 @@
 "QYMessageStringUnknownMsgType" = "未知類型消息";
 "QYButtonStringContinueDownload" = "繼續下載";
 "QYMessageStringCustomMsg" = "[⾃定義消息]";
-"QYButtonStringTakeVideo" = "拍視頻";
+"QYButtonStringTakeVideo" = "錄影";
 "QYMessageStringUnknownMsg" = "[未知消息]";
 "QYStringMessageRequired" = "留言（必填）";
 "QYToastStringFileDownloadTrafficTip" = "下載文件將產生手機流量";
@@ -244,7 +244,7 @@
 "QYMessageStringSilentTransfer" = "靜默轉接";
 "QYStringOrderType" = "工單類型";
 "QYToastStringAudioToTextError" = "語音轉文字失敗";
-"QYToastStringVideoExportError" = "視頻導出失敗";
+"QYToastStringVideoExportError" = "影片導出失敗";
 "QYMessageStringTransferReceivedTip" = "已收到來⾃%@轉接的會話";
 "QYStringSatisfied" = "滿意";
 "QYStringConsultDetail" = "請選擇您要諮詢的內容";
@@ -256,7 +256,7 @@
 "QYMessageStringFailForProhibitedInfo" = "消息包含違禁信息，發送失敗";
 "QYToastStringSessionHasEnded" = "會話已結束";
 "QYToastStringAudioCancelRelease" = "鬆開手指，取消發送";
-"QYMessageStringVideo" = "[視頻]";
+"QYMessageStringVideo" = "[影片]";
 "QYStringClickButtonAndConnecting" = "您可點擊下方按鈕，直接和%@客服溝通";
 "QYToastStringUrgentProcess" = "正在為您加急處理，請耐心等待";
 "QYToastStringRequestError" = "請求失敗，請稍後再試";
@@ -324,7 +324,7 @@
 "QYToastStringConverting" = "正在轉換";
 "QYMessageStringCardMsg" = "[卡片消息]";
 "QYMessageStringOtherServiceClosed" = "已被其他客服接待";
-"QYToastStringVideoShortError" = "視頻至少錄製1秒";
+"QYToastStringVideoShortError" = "影片至少錄製1秒";
 "QYButtonStringEvaluateImmediately" = "⽴即評價";
 "QYMessageStringMiniProgramCard" = "[⼩程序卡⽚]";
 "QYToastStringLoadingWait" = "正在加載，請稍候…";
