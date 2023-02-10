@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 
     s.name     = 'QY_iOS_SDK'
-    s.version  = '7.12.0'
+    s.version  = '8.1.0'
     s.license  = { :"type" => "Copyright",
                    :"text" => " Copyright 2021 Netease \n"}  
     s.summary  = '网易七鱼客服访客端 iOS SDK'
     s.homepage = 'https://qiyukf.com'
     s.author   = { 'qiyukf' => 'yunshangfu@126.com' }
-    s.source   = { :git => 'https://github.com/qiyukf/QY_iOS_SDK.git'}
+    s.source   = { :git => 'https://github.com/qiyukf/QY_iOS_SDK.git', :tag => "#{s.version}" }
     s.platform = :ios, '9.0'
     s.frameworks = 'AVFoundation', 'UIKit', 'SystemConfiguration', 'MobileCoreServices', 'WebKit', 'CoreTelephony', 'CoreText', 'CoreMedia', 'ImageIO', 'CoreMotion', 'AudioToolbox', 'Photos', 'AssetsLibrary', 'Accelerate'
     s.libraries = 'c++', 'z','sqlite3.0','xml2'
@@ -29,8 +29,7 @@ Pod::Spec.new do |s|
     		vs.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle' , '**/Resources/QYVideoResource.bundle']
         vs.vendored_frameworks = ['**/QYSDK.xcframework','**/QYVideoService.xcframework']
         vs.dependency 'QY_NIMSDK_LITE', '8.9.3'
-        vs.dependency 'NERtcSDK/RtcBasic', '4.6.29'
-        vs.dependency 'QY_iOS_SDK_Package', '7.11.3'
+        vs.dependency 'NERtcSDK', '4.6.20'
     end
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 x86_64 arm64' }
     s.requires_arc = true

@@ -121,6 +121,12 @@
  *  交易订单号（父订单的交易编号），当卡片类型为订单时，推荐必填
  */
 @property (nonatomic, copy) NSString *orderId;
+
+/**
+ *  支持商品卡片带参数给一触即达
+ *
+ */
+@property (nonatomic, copy) NSString *intent;
 @end
 
 

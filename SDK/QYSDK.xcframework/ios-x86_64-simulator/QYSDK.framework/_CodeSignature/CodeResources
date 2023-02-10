@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/QYCommodityInfo.h</key>
 		<data>
-		BPHGb+XWakVfRZuKfPMYhguwmtE=
+		o2mQwlekSCFX4+voN5yfNr28/+o=
 		</data>
 		<key>Headers/QYConversationManager.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/QYSDK.h</key>
 		<data>
-		5FJ7NiQKaJoU1ELdXgqm2NKAuf8=
+		zwFqif3VXTVqYtNgpi137MjiX7o=
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YNZZXw5KeGbijWzlGbRigNtuR1A=
+		RM78PBAuB1N2cICQ67MfAhcqpDo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -166,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BPHGb+XWakVfRZuKfPMYhguwmtE=
+			o2mQwlekSCFX4+voN5yfNr28/+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			F07htX5HgcuQzxgD/MGEOmtEw+iDBDUP1SrjiyGBmBw=
+			8/Ft/sm9So4MwqyaELik9SlimVY2HcgvXptTakM/tsE=
 			</data>
 		</dict>
 		<key>Headers/QYConversationManager.h</key>
@@ -408,11 +408,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5FJ7NiQKaJoU1ELdXgqm2NKAuf8=
+			zwFqif3VXTVqYtNgpi137MjiX7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			T4LhPaevCGXJMNpdBKIqCZRDoBcTDWTSX2zqp3ClWUA=
+			BCixJoXpEge8/dEHSupg+dhcyvUS98PuuZHIjQjQTTU=
 			</data>
 		</dict>
 		<key>Headers/QYSDKOption.h</key>
