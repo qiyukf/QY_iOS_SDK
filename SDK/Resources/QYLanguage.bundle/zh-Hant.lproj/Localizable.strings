@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "您退出了諮詢";
 "QYToastStringFillInfoTip" = "請點擊以下按鈕填寫信息";
 "QYToastStringUnknownError" = "未知錯誤";
-"QYStringOrderProcess" = "工單進度";
+"QYStringOrderProcess" = "工單記錄";
 "QYToastStringRequestFail" = "請求失敗";
 "QYMessageStringWorkOrderMsg" = "[⼯單消息]";
 "QYToastStringPlayingSpeaker" = "正在使用揚聲器播放";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "選擇日期";
 "QYStringDateAndTimePicker" = "選擇日期及時間";
 "QYToastStringPhoneError" = "手機號不足%1d位";
+"QYStringConnectHuman" = "聯繫人工客服";
+"QYStringAllAttachments" = "查看所有%lu個附件";
+"QYStringAttachmentNum" = "共%lu個附件";

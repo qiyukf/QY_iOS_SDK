@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "تركت الإستشارة";
 "QYToastStringFillInfoTip" = "الرجاء النقر فوق الزر أدناه لملء المعلومات";
 "QYToastStringUnknownError" = "خطأ غير معروف";
-"QYStringOrderProcess" = "تقدم أمر العمل";
+"QYStringOrderProcess" = "سجل أمرة العمل";
 "QYToastStringRequestFail" = "فشل الطلب";
 "QYMessageStringWorkOrderMsg" = "[رسالة أمر العمل]";
 "QYToastStringPlayingSpeaker" = "يبث من خلال مكبر الصوت حاليا";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "حدد تاريخ";
 "QYStringDateAndTimePicker" = "حدد التاريخ والوقت";
 "QYToastStringPhoneError" = "عدد أرقام الهاتف المحمول أقل من%1d";
+"QYStringConnectHuman" = "موظف خدمة العملاء";
+"QYStringAllAttachments" = "عرض كافة المرفقات %lu";
+"QYStringAttachmentNum" = "إجماليإجمالي٪lu من المرفقات";

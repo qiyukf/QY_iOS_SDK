@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "Bạn đã rời khỏi cuộc tư vấn";
 "QYToastStringFillInfoTip" = "Vui lòng nhấn vào nút bên dưới để điền thông tin";
 "QYToastStringUnknownError" = "Lỗi không xác định";
-"QYStringOrderProcess" = "Tiến độ phiếu yêu cầu";
+"QYStringOrderProcess" = "Nhật ký phiếu yêu cầu";
 "QYToastStringRequestFail" = "Yêu cầu không thành công";
 "QYMessageStringWorkOrderMsg" = "[Thông tin phiếu yêu cầu]";
 "QYToastStringPlayingSpeaker" = "Đang sử dụng loa để phát";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "chọn ngày";
 "QYStringDateAndTimePicker" = "thời gian lựa chọn";
 "QYToastStringPhoneError" = "Số điện thoại không đủ %1d số";
+"QYStringConnectHuman" = "Nhân viên CSKH";
+"QYStringAllAttachments" = "Xem tất cả %lu tệp đính kèm";
+"QYStringAttachmentNum" = "Tổng số %lu tệp đính kèm";

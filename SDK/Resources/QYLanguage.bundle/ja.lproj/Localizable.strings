@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "お問い合わせを終了しました";
 "QYToastStringFillInfoTip" = "次のボタンをクリックして情報を記入してください";
 "QYToastStringUnknownError" = "未知のエラー";
-"QYStringOrderProcess" = "課題の進捗";
+"QYStringOrderProcess" = "課題記録";
 "QYToastStringRequestFail" = "リクエストに失敗しました";
 "QYMessageStringWorkOrderMsg" = "[フォームメッセージ]";
 "QYToastStringPlayingSpeaker" = "スピーカー再生しています";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "日付を選択";
 "QYStringDateAndTimePicker" = "時間を選択する";
 "QYToastStringPhoneError" = "携帯電話の番号の桁数が%1d桁以下です";
+"QYStringConnectHuman" = "カスタマーサービス人間の担当者";
+"QYStringAllAttachments" = "%lu 個の添付ファイルをすべて表示";
+"QYStringAttachmentNum" = "合計 %lu 個の添付ファイル";

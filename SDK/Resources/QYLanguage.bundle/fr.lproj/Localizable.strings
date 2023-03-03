@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "Vous avez quitté la consultation";
 "QYToastStringFillInfoTip" = "Veuillez cliquer sur le bouton ci-dessous pour remplir les informations";
 "QYToastStringUnknownError" = "Erreur inconnue";
-"QYStringOrderProcess" = "Avancement du bon de travail";
+"QYStringOrderProcess" = "Enregistrement du bon de travail";
 "QYToastStringRequestFail" = "Échec de la demande";
 "QYMessageStringWorkOrderMsg" = "[Message de bon de travail]";
 "QYToastStringPlayingSpeaker" = "Jouer avec haut-parleur en cours";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "Sélectionnez la date";
 "QYStringDateAndTimePicker" = "Sélectionnez une heure";
 "QYToastStringPhoneError" = "Numéro de téléphone portable inférieur à %1d chiffres";
+"QYStringConnectHuman" = "Service client humain";
+"QYStringAllAttachments" = "Afficher toutes les pièces jointes %lu";
+"QYStringAttachmentNum" = "Un total de %lu pièces jointes";

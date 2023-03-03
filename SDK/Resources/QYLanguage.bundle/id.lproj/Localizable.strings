@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "Anda keluar dari sesi konsultasi";
 "QYToastStringFillInfoTip" = "Silakan klik tombol berikut untuk mengisi data";
 "QYToastStringUnknownError" = "Kesalahan tidak diketahui";
-"QYStringOrderProcess" = "Kemajuan Perintah Kerja";
+"QYStringOrderProcess" = "Riwayat Perintah Kerja";
 "QYToastStringRequestFail" = "Permohonan gagal";
 "QYMessageStringWorkOrderMsg" = "[Informasi Perintah Kerja]";
 "QYToastStringPlayingSpeaker" = "Sedang menggunakan mode loud speaker";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "pilih tanggal";
 "QYStringDateAndTimePicker" = "Pilih tanggal dan waktu";
 "QYToastStringPhoneError" = "Nomor handphone tidak memenuhi %1d angka";
+"QYStringConnectHuman" = "Customer service manual";
+"QYStringAllAttachments" = "Lihat semua %lu lampiran";
+"QYStringAttachmentNum" = "Sebanyak %lu lampiran";

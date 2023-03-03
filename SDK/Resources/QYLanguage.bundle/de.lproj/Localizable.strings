@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "Sie haben sich von der Anfrage zurückgezogen";
 "QYToastStringFillInfoTip" = "Bitte klicken Sie auf die Schaltfläche unten, um die Informationen auszufüllen";
 "QYToastStringUnknownError" = "Unbekannter Fehler";
-"QYStringOrderProcess" = "Fortschritt des Arbeitsauftrags";
+"QYStringOrderProcess" = "Verlauf der Arbeitsaufträge";
 "QYToastStringRequestFail" = "Anfrage fehlgeschlagen";
 "QYMessageStringWorkOrderMsg" = "Arbeitsauftragnachricht";
 "QYToastStringPlayingSpeaker" = "Ertönt aus dem Lautsprecher";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "Datum auswählen";
 "QYStringDateAndTimePicker" = "Wählen Sie eine Zeit";
 "QYToastStringPhoneError" = "Die Mobiltelefonnummer hat weniger als %1d Ziffern";
+"QYStringConnectHuman" = "Kundenservice";
+"QYStringAllAttachments" = "Alle %lu-Anhänge anzeigen";
+"QYStringAttachmentNum" = "Insgesamt %lu Anhänge";

@@ -177,6 +177,7 @@
 "QYMessageStringLeaveMsg" = "[留言消息]";
 "QYButtonStringSend" = "发送";
 "QYStringConnectServer" = "联系商家客服";
+"QYStringConnectHuman" = "联系人工客服";
 "QYButtonStringDone" = "完成";
 "QYButtonStringFullImage" = "原图";
 "QYToastStringCameraDetectError" = "检测不到相机设备";
@@ -204,7 +205,7 @@
 "QYToastStringLeftConsultation" = "您退出了咨询";
 "QYToastStringFillInfoTip" = "请点击以下按钮填写信息";
 "QYToastStringUnknownError" = "未知错误";
-"QYStringOrderProcess" = "工单进度";
+"QYStringOrderProcess" = "工单记录";
 "QYToastStringRequestFail" = "请求失败";
 "QYMessageStringWorkOrderMsg" = "[工单消息]";
 "QYToastStringPlayingSpeaker" = "正在使用扬声器播放";
@@ -307,6 +308,8 @@
 "QYMessageStringRobotSessionEnd" = "机器人会话结束";
 "QYToastStringPhotoSelectMin" = "请至少选择%zd张照片";
 "QYStringAttachment" = "附件";
+"QYStringAllAttachments" = "查看所有%lu个附件";
+"QYStringAttachmentNum" = "共%lu个附件";
 "QYToastStringConvertFail" = "转换失败";
 "QYToastStringReminding" = "催单中";
 "QYToastStringCameraError" = "相机启动失败，请重新尝试";

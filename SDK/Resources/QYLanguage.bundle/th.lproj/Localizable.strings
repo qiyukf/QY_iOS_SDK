@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "คุณออกจากการให้คำปรึกษา";
 "QYToastStringFillInfoTip" = "กรุณาคลิกที่ปุ่มด้านล่างเพื่อกรอกข้อมูล";
 "QYToastStringUnknownError" = "ข้อผิดพลาดที่ไม่รู้จัก";
-"QYStringOrderProcess" = "ตารางงาน";
+"QYStringOrderProcess" = "บันทึกการสั่งงาน";
 "QYToastStringRequestFail" = "คำขอล้มเหลว";
 "QYMessageStringWorkOrderMsg" = "[ข้อความตั๋ว]";
 "QYToastStringPlayingSpeaker" = "เล่นกับลำโพง";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "เลือกวันที่";
 "QYStringDateAndTimePicker" = "เลือกวันที่และเวลา";
 "QYToastStringPhoneError" = "หมายเลขโทรศัพท์มือถือไม่เพียงพอ%1d";
+"QYStringConnectHuman" = "บริการลูกค้าแรงงานคน";
+"QYStringAllAttachments" = "ดูไฟล์แนบ %lu ทั้งหมด";
+"QYStringAttachmentNum" = "ไฟล์แนบทั้งหมด %lu";

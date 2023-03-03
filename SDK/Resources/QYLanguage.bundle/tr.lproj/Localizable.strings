@@ -197,7 +197,7 @@
 "QYToastStringLeftConsultation" = "Danışmadan ayrıldınız";
 "QYToastStringFillInfoTip" = "Bilgileri doldurmak için lütfen aşağıdaki butona tıklayın";
 "QYToastStringUnknownError" = "Bilinmeyen hata";
-"QYStringOrderProcess" = "İş emri ilerlemesi";
+"QYStringOrderProcess" = "İş emri kaydı";
 "QYToastStringRequestFail" = "İstek başarısız";
 "QYMessageStringWorkOrderMsg" = "[İş Emri Mesajı]";
 "QYToastStringPlayingSpeaker" = "Hoparlörler ile çalınıyor";
@@ -331,3 +331,6 @@
 "QYButtonStringEvaluateImmediately" = "Şimdi değerlendir";
 "QYMessageStringMiniProgramCard" = "[Mini program kartı]";
 "QYToastStringLoadingWait" = "Şu anda yükleniyor, lütfen bekleyin...";
+"QYStringConnectHuman" = "Manuel müşteri servisi";
+"QYStringAllAttachments" = "Tüm %lu eklerini görüntüle";
+"QYStringAttachmentNum" = "Toplam %lu ek";

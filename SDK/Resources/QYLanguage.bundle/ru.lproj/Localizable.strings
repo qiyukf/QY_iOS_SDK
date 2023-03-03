@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "Вы вышли из консультации";
 "QYToastStringFillInfoTip" = "Нажмите на нижеуказанную кнопку и введите информацию";
 "QYToastStringUnknownError" = "Неизвестная ошибка";
-"QYStringOrderProcess" = "Ход обработки тикета";
+"QYStringOrderProcess" = "Журнал тикетов";
 "QYToastStringRequestFail" = "Запрос не выполнен";
 "QYMessageStringWorkOrderMsg" = "[Сообщение тикета]";
 "QYToastStringPlayingSpeaker" = "Воспроизводит с помощью громкоговорителя";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "Выберите дату";
 "QYStringDateAndTimePicker" = "Выберите время";
 "QYToastStringPhoneError" = "%1dразрядов номера мобильного телефона не хватит";
+"QYStringConnectHuman" = "Живой оператор службы поддержки";
+"QYStringAllAttachments" = "Просмотреть все вложения %lu";
+"QYStringAttachmentNum" = "Всего вложений: %lu";

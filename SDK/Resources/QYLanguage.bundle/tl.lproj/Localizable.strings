@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "Umalis ka sa konsultasyon";
 "QYToastStringFillInfoTip" = "Paki-click ang susunod na pindutan para punan ang impormasyon";
 "QYToastStringUnknownError" = "Hindi alam na kamali";
-"QYStringOrderProcess" = "Pag-usad ng order ng trabaho";
+"QYStringOrderProcess" = "Rekord ng order ng trabaho";
 "QYToastStringRequestFail" = "Nabigo ang kahilingan";
 "QYMessageStringWorkOrderMsg" = "[Mensahe ng Order ng Trabaho]";
 "QYToastStringPlayingSpeaker" = "Naglalaro gamit ng speaker";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "piliin ang petsa";
 "QYStringDateAndTimePicker" = "Piliin ang petsa at oras";
 "QYToastStringPhoneError" = "Mas mababa sa %1d bits ang numero ng telepono";
+"QYStringConnectHuman" = "Manu-manong serbisyo sa kostumer";
+"QYStringAllAttachments" = "Tingnan ang lahat ng %lu attachment";
+"QYStringAttachmentNum" = "Isang kabuuan ng %lu attachment";

@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "You quit consulting";
 "QYToastStringFillInfoTip" = "Please tap the buttons below to fill in information";
 "QYToastStringUnknownError" = "Unknown error";
-"QYStringOrderProcess" = "Work order progress";
+"QYStringOrderProcess" = "Ticket records";
 "QYToastStringRequestFail" = "Request failed";
 "QYMessageStringWorkOrderMsg" = "[Work Order Message]";
 "QYToastStringPlayingSpeaker" = "Sound is played through speaker";
@@ -333,3 +333,6 @@
 "QYStringDatePicker" = "Select date";
 "QYStringDateAndTimePicker" = "Select time";
 "QYToastStringPhoneError" = "The phone number is less than %1d digits";
+"QYStringConnectHuman" = "Live Agent";
+"QYStringAllAttachments" = "View all %lu attachments";
+"QYStringAttachmentNum" = "%lu attachments in total";

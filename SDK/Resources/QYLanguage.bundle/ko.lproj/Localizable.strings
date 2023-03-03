@@ -196,7 +196,7 @@
 "QYToastStringLeftConsultation" = "상담에서 나가기";
 "QYToastStringFillInfoTip" = "하기 버튼을 클릭하여 정보를 입력해 주십시오";
 "QYToastStringUnknownError" = "미지 오류";
-"QYStringOrderProcess" = "오더 진도";
+"QYStringOrderProcess" = "오더 기록";
 "QYToastStringRequestFail" = "청구 실패";
 "QYMessageStringWorkOrderMsg" = "[오더 메시지]";
 "QYToastStringPlayingSpeaker" = "스피커로 재생하기";
@@ -331,3 +331,6 @@
 "QYStringDatePicker" = "날짜 선택";
 "QYStringDateAndTimePicker" = "날짜 및 시간 선택";
 "QYToastStringPhoneError" = "핸드폰 번호는 %1d자리 부족합니다";
+"QYStringConnectHuman" = "상담원";
+"QYStringAllAttachments" = "모든 %lu 첨부 파일 보기";
+"QYStringAttachmentNum" = "총 %lu개의 첨부 파일";
