@@ -104,6 +104,10 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
  */
 @property (nonatomic, assign) BOOL showTopHeadImage;
 
+/**
+ *  是否显示客服阶段的昵称  默认NO 不展示
+ */
+@property (nonatomic, assign) BOOL showServiceNickName;
 
 //访客相关设置
 
