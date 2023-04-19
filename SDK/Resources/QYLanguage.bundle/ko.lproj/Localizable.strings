@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "상담원";
 "QYStringAllAttachments" = "모든 %lu 첨부 파일 보기";
 "QYStringAttachmentNum" = "총 %lu개의 첨부 파일";
+"QYButtonStringGiveUp" = "취소";

@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "Kundenservice";
 "QYStringAllAttachments" = "Alle %lu-Anhänge anzeigen";
 "QYStringAttachmentNum" = "Insgesamt %lu Anhänge";
+"QYButtonStringGiveUp" = "Abbrechen";

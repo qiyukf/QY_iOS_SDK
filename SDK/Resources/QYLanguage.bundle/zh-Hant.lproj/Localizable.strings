@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "聯繫人工客服";
 "QYStringAllAttachments" = "查看所有%lu個附件";
 "QYStringAttachmentNum" = "共%lu個附件";
+"QYButtonStringGiveUp" = "放棄";

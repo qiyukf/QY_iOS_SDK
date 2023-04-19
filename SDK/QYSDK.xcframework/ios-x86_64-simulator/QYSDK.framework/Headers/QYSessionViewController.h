@@ -177,6 +177,11 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  *  是否发起视频客服
  */
 @property (nonatomic, assign) BOOL isVideoServer;
+/**
+ *  是否支持屏幕共享
+ *  如果需要使用屏幕共享功能，需要同时开启isVideoServer和isScreenShare
+ */
+@property (nonatomic, assign) BOOL isScreenShare;
 
 /** 以下为客服相关接口 **/
 
@@ -297,6 +302,10 @@ typedef void (^QYEvaluationBlock)(QYEvaluactionData *data);
 typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
 
 /**
+ *  会话前强制人工满意度评价事件，自定义视图写在此回调中（web端可配置关闭，默认关闭）
+ */
+@property (nonatomic, copy) QYEvaluationBlock preSessionEvaluationBlock;
+/**
  *  人工满意度评价事件
  */
 @property (nonatomic, copy) QYEvaluationBlock evaluationBlock;
@@ -310,12 +319,16 @@ typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
  *  发送人工满意度评价结果
  */
 - (void)sendEvaluationResult:(QYEvaluactionResult *)result completion:(QYEvaluationCompletion)completion;
-
+/**
+ *  上报再次邀评功能，用户评价的结果 YES 成功评价  NO 放弃评价
+ *  需要配合preSessionEvaluationBlock使用，会话中的评价弹框不需要调用此方法
+ *  开启了再次邀评，不调用此方法会导致无法正常进线
+ */
+- (void)reportEvaluationResult:(BOOL)result data:(QYEvaluactionData *)data;
 /**
  *  发送机器人满意度评价结果
  */
 - (void)sendRobotEvaluationResult:(QYEvaluactionResult *)result completion:(QYEvaluationCompletion)completion;
-
 
 @end
 

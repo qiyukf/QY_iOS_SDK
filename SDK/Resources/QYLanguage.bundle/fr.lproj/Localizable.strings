@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "Service client humain";
 "QYStringAllAttachments" = "Afficher toutes les pièces jointes %lu";
 "QYStringAttachmentNum" = "Un total de %lu pièces jointes";
+"QYButtonStringGiveUp" = "Annuler";

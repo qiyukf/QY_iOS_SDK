@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "カスタマーサービス人間の担当者";
 "QYStringAllAttachments" = "%lu 個の添付ファイルをすべて表示";
 "QYStringAttachmentNum" = "合計 %lu 個の添付ファイル";
+"QYButtonStringGiveUp" = "キャンセル";

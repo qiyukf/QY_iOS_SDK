@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "Живой оператор службы поддержки";
 "QYStringAllAttachments" = "Просмотреть все вложения %lu";
 "QYStringAttachmentNum" = "Всего вложений: %lu";
+"QYButtonStringGiveUp" = "Отмена";

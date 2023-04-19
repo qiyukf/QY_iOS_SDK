@@ -336,3 +336,4 @@
 "QYStringConnectHuman" = "Live Agent";
 "QYStringAllAttachments" = "View all %lu attachments";
 "QYStringAttachmentNum" = "%lu attachments in total";
+"QYButtonStringGiveUp" = "Cancel";

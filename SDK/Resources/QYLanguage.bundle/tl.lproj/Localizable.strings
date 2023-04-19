@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "Manu-manong serbisyo sa kostumer";
 "QYStringAllAttachments" = "Tingnan ang lahat ng %lu attachment";
 "QYStringAttachmentNum" = "Isang kabuuan ng %lu attachment";
+"QYButtonStringGiveUp" = "Kanselahin";

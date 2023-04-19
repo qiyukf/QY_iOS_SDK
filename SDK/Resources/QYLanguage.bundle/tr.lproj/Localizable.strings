@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "Manuel müşteri servisi";
 "QYStringAllAttachments" = "Tüm %lu eklerini görüntüle";
 "QYStringAttachmentNum" = "Toplam %lu ek";
+"QYButtonStringGiveUp" = "İptal";

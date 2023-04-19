@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "Customer service manual";
 "QYStringAllAttachments" = "Lihat semua %lu lampiran";
 "QYStringAttachmentNum" = "Sebanyak %lu lampiran";
+"QYButtonStringGiveUp" = "Batal";

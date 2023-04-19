@@ -100,7 +100,10 @@ typedef NS_ENUM(NSInteger, QYEvaluationResolveStatus) {
  *  评价会话ID，不可为空
  */
 @property (nonatomic, assign) long long sessionId;
-
+/**
+ *  消息ID，从QYEvaluactionData中取出传过来
+ */
+@property (nonatomic, assign) long long  messageId;
 /**
  *  评价模式，透传 QYEvaluactionData.mode（提交机器人评价结果时此项必须）
  */

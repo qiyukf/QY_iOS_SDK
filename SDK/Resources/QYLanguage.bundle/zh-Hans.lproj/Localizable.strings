@@ -107,6 +107,7 @@
 "QYToastStringNoMicrophonePermission" = "没有麦克风权限";
 "QYButtonStringRefresh" = "刷新";
 "QYButtonStringEvaluate" = "评价";
+"QYButtonStringGiveUp" = "放弃";
 "QYButtonStringInviteEdit" = "邀请用户修改";
 "QYToastStringConnectFail" = "连接失败，您可以尝试重新连接";
 "QYToastStringVideoUnknownError" = "未知播放错误";

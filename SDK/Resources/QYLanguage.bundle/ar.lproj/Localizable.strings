@@ -334,3 +334,4 @@
 "QYStringConnectHuman" = "موظف خدمة العملاء";
 "QYStringAllAttachments" = "عرض كافة المرفقات %lu";
 "QYStringAttachmentNum" = "إجماليإجمالي٪lu من المرفقات";
+"QYButtonStringGiveUp" = "الغاء";
