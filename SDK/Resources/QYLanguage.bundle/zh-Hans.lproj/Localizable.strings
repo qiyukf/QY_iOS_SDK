@@ -286,6 +286,7 @@
 "QYToastStringLeftSession" = "您已退出咨询";
 "QYStringMiniProgram" = "小程序";
 "QYButtonStringSubmitEvaluation" = "提交评价";
+"QYButtonStringSubmitEvaluationNavi" = "提交评价并关闭会话";
 "QYMessageStringOption" = "#选择项#";
 "QYToastStringCustomerEvaluationResult" = "您对我们的服务评价为：%@。非常感谢！%@";
 "QYButtonStringRemind" = "我要催单";
@@ -343,3 +344,5 @@
 "QYStringDatePicker" = "选择日期";
 "QYStringDateAndTimePicker" = "选择日期及时间";
 "QYToastStringPhoneError" = "手机号不足%ld位";
+"QYButtonStringCloseSession" = "关闭会话";
+"QYButtonStringLeaveSession" = "暂时离开";

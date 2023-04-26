@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/QYSDK.h</key>
 		<data>
-		Nd0RLhMScsHlfrqe6WXBumBGMC0=
+		/Ol7S/tsIfpcVsKAbHKOwPb63c0=
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/QYSessionViewController.h</key>
 		<data>
-		6gHNOOlnknT9kmeN0yYLlcWB2wQ=
+		zB4fjPowF2zcN+wGw70sF43LqJo=
 		</data>
 		<key>Headers/QYSource.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bHzEUF6YSiYvmQxb8rqE1oV1hRY=
+		VLHvfv/PzrZvjMlpxHIY9zIcNzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -408,11 +408,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nd0RLhMScsHlfrqe6WXBumBGMC0=
+			/Ol7S/tsIfpcVsKAbHKOwPb63c0=
 			</data>
 			<key>hash2</key>
 			<data>
-			LQIQD83xuUOqc30uBvdEVDkMHpPUS9aYy37uM3eQ4MI=
+			CXhYqEVsemu9arqLto7NmF3oRT+eYuKLgfvTo3zD5+Y=
 			</data>
 		</dict>
 		<key>Headers/QYSDKOption.h</key>
@@ -463,11 +463,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6gHNOOlnknT9kmeN0yYLlcWB2wQ=
+			zB4fjPowF2zcN+wGw70sF43LqJo=
 			</data>
 			<key>hash2</key>
 			<data>
-			SYbux1RMMNvBrK5ZSzjZbZWruvu51QU+c2fw9vCuIEs=
+			W3XVQrPDVKY80mb8L8lrn2IhRdiy7FdFGoYs4YTczVk=
 			</data>
 		</dict>
 		<key>Headers/QYSource.h</key>
