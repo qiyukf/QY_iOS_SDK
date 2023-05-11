@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "查看所有%lu個附件";
 "QYStringAttachmentNum" = "共%lu個附件";
 "QYButtonStringGiveUp" = "放棄";
+"QYButtonStringSubmitEvaluationNavi" = "提交評價並關閉會話";
+"QYButtonStringCloseSession" = "關閉會話";
+"QYButtonStringLeaveSession" = "暫時離開";

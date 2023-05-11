@@ -337,3 +337,6 @@
 "QYStringAllAttachments" = "View all %lu attachments";
 "QYStringAttachmentNum" = "%lu attachments in total";
 "QYButtonStringGiveUp" = "Cancel";
+"QYButtonStringSubmitEvaluationNavi" = "Evaluate and Close";
+"QYButtonStringCloseSession" = "Quit Session";
+"QYButtonStringLeaveSession" = "Temporarily Leave";

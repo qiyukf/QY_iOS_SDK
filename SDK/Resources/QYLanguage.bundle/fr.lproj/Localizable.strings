@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "Afficher toutes les pièces jointes %lu";
 "QYStringAttachmentNum" = "Un total de %lu pièces jointes";
 "QYButtonStringGiveUp" = "Annuler";
+"QYButtonStringSubmitEvaluationNavi" = "Évaluer et conclure";
+"QYButtonStringCloseSession" = "Quitter la session";
+"QYButtonStringLeaveSession" = "Partir temporairement";

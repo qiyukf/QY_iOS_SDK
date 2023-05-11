@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "%lu 個の添付ファイルをすべて表示";
 "QYStringAttachmentNum" = "合計 %lu 個の添付ファイル";
 "QYButtonStringGiveUp" = "キャンセル";
+"QYButtonStringSubmitEvaluationNavi" = "評価して閉じる";
+"QYButtonStringCloseSession" = "セッションを閉じる";
+"QYButtonStringLeaveSession" = "一時退社";

@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "Tüm %lu eklerini görüntüle";
 "QYStringAttachmentNum" = "Toplam %lu ek";
 "QYButtonStringGiveUp" = "İptal";
+"QYButtonStringSubmitEvaluationNavi" = "Değerlendir ve Kapat";
+"QYButtonStringCloseSession" = "Oturumdan Çık";
+"QYButtonStringLeaveSession" = "Geçici Ayrılma";

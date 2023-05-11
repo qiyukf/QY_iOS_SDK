@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "ดูไฟล์แนบ %lu ทั้งหมด";
 "QYStringAttachmentNum" = "ไฟล์แนบทั้งหมด %lu";
 "QYButtonStringGiveUp" = "ยกเลิก";
+"QYButtonStringSubmitEvaluationNavi" = "ประเมินและปิด";
+"QYButtonStringCloseSession" = "ออกจากเซสชัน";
+"QYButtonStringLeaveSession" = "ออกจากชั่วคราว";

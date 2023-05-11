@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "Lihat semua %lu lampiran";
 "QYStringAttachmentNum" = "Sebanyak %lu lampiran";
 "QYButtonStringGiveUp" = "Batal";
+"QYButtonStringSubmitEvaluationNavi" = "Evaluasi dan Tutup";
+"QYButtonStringCloseSession" = "Keluar dari Sesi";
+"QYButtonStringLeaveSession" = "Tinggalkan Sementara";

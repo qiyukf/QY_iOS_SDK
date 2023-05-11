@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "Xem tất cả %lu tệp đính kèm";
 "QYStringAttachmentNum" = "Tổng số %lu tệp đính kèm";
 "QYButtonStringGiveUp" = "Hủy";
+"QYButtonStringSubmitEvaluationNavi" = "Đánh giá và Đóng";
+"QYButtonStringCloseSession" = "Thoát phiên";
+"QYButtonStringLeaveSession" = "Tạm thời nghỉ việc";

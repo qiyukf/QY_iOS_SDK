@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "Tingnan ang lahat ng %lu attachment";
 "QYStringAttachmentNum" = "Isang kabuuan ng %lu attachment";
 "QYButtonStringGiveUp" = "Kanselahin";
+"QYButtonStringSubmitEvaluationNavi" = "Suriin at Isara";
+"QYButtonStringCloseSession" = "Tumigil sa Sesyon";
+"QYButtonStringLeaveSession" = "Pansamantalang Umalis";

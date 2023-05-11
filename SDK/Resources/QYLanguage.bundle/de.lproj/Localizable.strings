@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "Alle %lu-Anhänge anzeigen";
 "QYStringAttachmentNum" = "Insgesamt %lu Anhänge";
 "QYButtonStringGiveUp" = "Abbrechen";
+"QYButtonStringSubmitEvaluationNavi" = "Auswerten und schließen";
+"QYButtonStringCloseSession" = "Sitzung beenden";
+"QYButtonStringLeaveSession" = "Vorübergehend verlassen";

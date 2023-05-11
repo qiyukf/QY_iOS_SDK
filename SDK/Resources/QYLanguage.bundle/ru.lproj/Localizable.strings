@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "Просмотреть все вложения %lu";
 "QYStringAttachmentNum" = "Всего вложений: %lu";
 "QYButtonStringGiveUp" = "Отмена";
+"QYButtonStringSubmitEvaluationNavi" = "Оценить и закрыть";
+"QYButtonStringCloseSession" = "Выйти из сеанса";
+"QYButtonStringLeaveSession" = "Временно покинуть";

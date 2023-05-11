@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "모든 %lu 첨부 파일 보기";
 "QYStringAttachmentNum" = "총 %lu개의 첨부 파일";
 "QYButtonStringGiveUp" = "취소";
+"QYButtonStringSubmitEvaluationNavi" = "평가 및 마감";
+"QYButtonStringCloseSession" = "세션 닫기";
+"QYButtonStringLeaveSession" = "일시적으로 떠나다";

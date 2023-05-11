@@ -335,3 +335,6 @@
 "QYStringAllAttachments" = "عرض كافة المرفقات %lu";
 "QYStringAttachmentNum" = "إجماليإجمالي٪lu من المرفقات";
 "QYButtonStringGiveUp" = "الغاء";
+"QYButtonStringSubmitEvaluationNavi" = "تقييم وإغلاق";
+"QYButtonStringCloseSession" = "إنهاء الجلسة";
+"QYButtonStringLeaveSession" = "إجازة مؤقتة";
