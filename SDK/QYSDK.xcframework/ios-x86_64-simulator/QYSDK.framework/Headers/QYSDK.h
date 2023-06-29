@@ -69,6 +69,8 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
     QYLanguageRussian               = 11,    //俄语
     QYLanguageArabic                = 12,    //阿拉伯语
     QYLanguageTurkey                = 13,    //土耳其
+    QYLanguageSpain                 = 14,    //西班牙
+    QYLanguagePortugal              = 15,    //葡萄牙
 };
 
 
