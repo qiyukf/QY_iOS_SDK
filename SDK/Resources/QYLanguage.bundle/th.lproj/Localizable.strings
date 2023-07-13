@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "ประเมินและปิด";
 "QYButtonStringCloseSession" = "ออกจากเซสชัน";
 "QYButtonStringLeaveSession" = "ออกจากชั่วคราว";
+"QYToastStringEvaluationLimit" = "จํานวนการประเมินถึงขีด จํากัด สูงสุด";
+"QYButtonStringWaitingConnect" = "กำลังเชื่อมต่อ โปรดรอ...";
+"QYToastStringPreCloseSession" = "จำเป็นต้องมีการสอบถามล่วงหน้าสำหรับตัวแทนจริง ยืนยันที่จะออกจากการสนทนา?";

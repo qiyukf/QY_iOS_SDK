@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "提交評價並關閉會話";
 "QYButtonStringCloseSession" = "關閉會話";
 "QYButtonStringLeaveSession" = "暫時離開";
+"QYToastStringEvaluationLimit" = "評價次數已達到上限";
+"QYButtonStringWaitingConnect" = "正在連接，請稍等...";
+"QYToastStringPreCloseSession" = "需先填寫表單才能轉人工，是否要退出對話？";

@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "Suriin at Isara";
 "QYButtonStringCloseSession" = "Tumigil sa Sesyon";
 "QYButtonStringLeaveSession" = "Pansamantalang Umalis";
+"QYToastStringEvaluationLimit" = "Naabot ang limit ng pagsusuri";
+"QYButtonStringWaitingConnect" = "Kumukunekta, pakihintay...";
+"QYToastStringPreCloseSession" = "Kinakailangan ang paunang pagtatanong para sa live na ahente. Kumpirmahing umalis sa pakikipag-usap?";

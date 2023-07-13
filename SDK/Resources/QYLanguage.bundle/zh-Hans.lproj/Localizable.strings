@@ -346,3 +346,6 @@
 "QYToastStringPhoneError" = "手机号不足%ld位";
 "QYButtonStringCloseSession" = "关闭会话";
 "QYButtonStringLeaveSession" = "暂时离开";
+"QYButtonStringWaitingConnect" = "正在连接，请稍等...";
+"QYToastStringEvaluationLimit" = "评价次数已达到上限";
+"QYToastStringPreCloseSession" = "需先填写表单才能转人工，是否要退出对话？";

@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "評価して閉じる";
 "QYButtonStringCloseSession" = "セッションを閉じる";
 "QYButtonStringLeaveSession" = "一時退社";
+"QYToastStringEvaluationLimit" = "レビュー回数は上限に達しました";
+"QYButtonStringWaitingConnect" = "接続中ですので、少々お待ちください...";
+"QYToastStringPreCloseSession" = "ライブエージェントの場合は事前のお問い合わせが必要です。会話を終了しますか？";

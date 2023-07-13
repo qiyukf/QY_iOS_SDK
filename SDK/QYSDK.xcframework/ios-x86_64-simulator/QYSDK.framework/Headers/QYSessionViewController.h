@@ -183,6 +183,11 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  */
 @property (nonatomic, assign) BOOL isScreenShare;
 
+/**
+ *  客服成功连接之前，是否禁用输入框
+ *  默认 NO，YES则开启，开启后进入客服页面，连接客服之前输入框将无法使用，键盘也无法弹起
+ */
+@property (nonatomic, assign) BOOL isForbiddenInput;
 /** 以下为客服相关接口 **/
 
 /**

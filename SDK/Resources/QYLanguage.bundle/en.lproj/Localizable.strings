@@ -340,3 +340,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "Evaluate and Close";
 "QYButtonStringCloseSession" = "Quit Session";
 "QYButtonStringLeaveSession" = "Temporarily Leave";
+"QYToastStringEvaluationLimit" = "Evaluation limit reached";
+"QYButtonStringWaitingConnect" = "Connecting. Please wait...";
+"QYToastStringPreCloseSession" = "Pre-inquiry is required for live agent. Sure to quit the conversation?";

@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "Đánh giá và Đóng";
 "QYButtonStringCloseSession" = "Thoát phiên";
 "QYButtonStringLeaveSession" = "Tạm thời nghỉ việc";
+"QYToastStringEvaluationLimit" = "Đã đạt đến số lần đánh ";
+"QYButtonStringWaitingConnect" = "Đang kết nối, vui lòng đợi...";
+"QYToastStringPreCloseSession" = "Yêu cầu trước là cần thiết cho đại lý trực tiếp. Có chắc chắn muốn thoát khỏi cuộc trò chuyện?";

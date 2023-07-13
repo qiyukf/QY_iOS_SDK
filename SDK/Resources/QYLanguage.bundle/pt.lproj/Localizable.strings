@@ -338,3 +338,6 @@
 "QYButtonStringEvaluateImmediately" = "Classificar agora";
 "QYMessageStringMiniProgramCard" = "[Cartão de Mini Programa]";
 "QYToastStringLoadingWait" = "Carregando. Aguarde...";
+"QYToastStringEvaluationLimit" = "Limite de avaliação atingido";
+"QYButtonStringWaitingConnect" = "Conetando. Aguarde...";
+"QYToastStringPreCloseSession" = "Pré-consulta é necessária para o agente ao vivo. Certo de sair da conversa?";

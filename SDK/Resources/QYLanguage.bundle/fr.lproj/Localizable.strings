@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "Évaluer et conclure";
 "QYButtonStringCloseSession" = "Quitter la session";
 "QYButtonStringLeaveSession" = "Partir temporairement";
+"QYToastStringEvaluationLimit" = "Vous avez atteint le nombre maximum d’évaluations";
+"QYButtonStringWaitingConnect" = "Connexion en cours, veuillez patienter...";
+"QYToastStringPreCloseSession" = "Une pré-enquête est requise pour l'agent en direct. Confirmez-vous pour quitter la conversation ?";

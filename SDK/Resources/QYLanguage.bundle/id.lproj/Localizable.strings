@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "Evaluasi dan Tutup";
 "QYButtonStringCloseSession" = "Keluar dari Sesi";
 "QYButtonStringLeaveSession" = "Tinggalkan Sementara";
+"QYToastStringEvaluationLimit" = "Jumlah ulasan sudah mencapai batas";
+"QYButtonStringWaitingConnect" = "Sedang menyambung, silakan tunggu sebentar...";
+"QYToastStringPreCloseSession" = "Pra-pertanyaan diperlukan untuk agen langsung. Yakin keluar dari percakapan ini?";

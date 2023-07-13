@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "تقييم وإغلاق";
 "QYButtonStringCloseSession" = "إنهاء الجلسة";
 "QYButtonStringLeaveSession" = "إجازة مؤقتة";
+"QYToastStringEvaluationLimit" = "تم انفاق فرص التقييم كلها";
+"QYButtonStringWaitingConnect" = "قيد الإتصال، يرجى الإنتظار";
+"QYToastStringPreCloseSession" = "مطلوب استفسار مسبق للوكيل المباشر. هل أنت متأكد من إنهاء المحادثة؟";

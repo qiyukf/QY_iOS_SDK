@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "평가 및 마감";
 "QYButtonStringCloseSession" = "세션 닫기";
 "QYButtonStringLeaveSession" = "일시적으로 떠나다";
+"QYToastStringEvaluationLimit" = "평가 횟수가 상한에 달한 것입니다";
+"QYButtonStringWaitingConnect" = "연결 중입니다. 잠시만 기다려 주세요...";
+"QYToastStringPreCloseSession" = "라이브 에이전트는 사전 문의가 필요합니다. 대화에서 나가시겠습니까?";

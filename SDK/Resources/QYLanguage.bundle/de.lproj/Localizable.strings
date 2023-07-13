@@ -338,3 +338,6 @@
 "QYButtonStringSubmitEvaluationNavi" = "Auswerten und schließen";
 "QYButtonStringCloseSession" = "Sitzung beenden";
 "QYButtonStringLeaveSession" = "Vorübergehend verlassen";
+"QYToastStringEvaluationLimit" = "Die maximale Anzahl von Bewertungen wurde erreicht";
+"QYButtonStringWaitingConnect" = "Verbindung wird hergestellt, bitte warten...";
+"QYToastStringPreCloseSession" = "Für Live-Agenten ist eine Vorabanfrage erforderlich. Bestätigung der Beendigung des Gesprächs?";
