@@ -341,3 +341,15 @@
 "QYToastStringEvaluationLimit" = "評價次數已達到上限";
 "QYButtonStringWaitingConnect" = "正在連接，請稍等...";
 "QYToastStringPreCloseSession" = "需先填寫表單才能轉人工，是否要退出對話？";
+"QYButtonStringIconAppend" = "補";
+"QYButtonStringOrderSearchHolder" = "請輸入工單類型";
+"QYButtonStringOrderStatus" = "所有工單狀態";
+"QYButtonStringOrderSort" = "按照%@排序";
+"QYButtonStringCreateTime" = "創建時間";
+"QYButtonStringUpdateTime" = "更新時間";
+"QYButtonStringBuCaiLiao" = "待補充材料";
+"QYButtonStringOrderHangUp" = "掛起";
+"QYButtonStringOrderAppendInfo" = "補充信息";
+"QYButtonStringOrderNeedAppendInfo" = "需補充信息";
+"QYButtonStringOrderNeedAppendTitle" = "您當前需補充回復如下信息";
+

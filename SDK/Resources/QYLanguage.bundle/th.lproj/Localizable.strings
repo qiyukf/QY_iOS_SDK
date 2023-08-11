@@ -341,3 +341,15 @@
 "QYToastStringEvaluationLimit" = "จํานวนการประเมินถึงขีด จํากัด สูงสุด";
 "QYButtonStringWaitingConnect" = "กำลังเชื่อมต่อ โปรดรอ...";
 "QYToastStringPreCloseSession" = "จำเป็นต้องมีการสอบถามล่วงหน้าสำหรับตัวแทนจริง ยืนยันที่จะออกจากการสนทนา?";
+"QYButtonStringIconAppend" = "เติมเต็ม";
+"QYButtonStringOrderSearchHolder" = "กรุณากรอกประเภทตั๋ว";
+"QYButtonStringOrderStatus" = "สถานะใบสั่งงานทั้งหมด";
+"QYButtonStringOrderSort" = "เรียงตาม %@";
+"QYButtonStringCreateTime" = "เวลาในการสร้าง";
+"QYButtonStringUpdateTime" = "เวลาอัปเดต";
+"QYButtonStringBuCaiLiao" = "วัสดุที่จะเสริม";
+"QYButtonStringOrderHangUp" = "วางสาย";
+"QYButtonStringOrderAppendInfo" = "ข้อมูลเพิ่มเติม";
+"QYButtonStringOrderNeedAppendInfo" = "ต้องการข้อมูลเพิ่มเติม";
+"QYButtonStringOrderNeedAppendTitle" = "ขณะนี้คุณจำเป็นต้องเสริมข้อมูลต่อไปนี้";
+

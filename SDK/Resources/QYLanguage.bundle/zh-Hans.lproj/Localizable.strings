@@ -349,3 +349,14 @@
 "QYButtonStringWaitingConnect" = "正在连接，请稍等...";
 "QYToastStringEvaluationLimit" = "评价次数已达到上限";
 "QYToastStringPreCloseSession" = "需先填写表单才能转人工，是否要退出对话？";
+"QYButtonStringIconAppend" = "补";
+"QYButtonStringOrderSearchHolder" = "请输入工单类型";
+"QYButtonStringOrderStatus" = "所有工单状态";
+"QYButtonStringOrderSort" = "按%@排序";
+"QYButtonStringCreateTime" = "创建时间";
+"QYButtonStringUpdateTime" = "更新时间";
+"QYButtonStringBuCaiLiao" = "待补充材料";
+"QYButtonStringOrderHangUp" = "挂起";
+"QYButtonStringOrderAppendInfo" = "补充信息";
+"QYButtonStringOrderNeedAppendInfo" = "需补充信息";
+"QYButtonStringOrderNeedAppendTitle" = "您当前需补充回复如下信息";

@@ -343,3 +343,14 @@
 "QYToastStringEvaluationLimit" = "Evaluation limit reached";
 "QYButtonStringWaitingConnect" = "Connecting. Please wait...";
 "QYToastStringPreCloseSession" = "Pre-inquiry is required for live agent. Sure to quit the conversation?";
+"QYButtonStringIconAppend" = "supplement";
+"QYButtonStringOrderSearchHolder" = "Please enter ticket type";
+"QYButtonStringOrderStatus" = "All work order status";
+"QYButtonStringOrderSort" = "Sort by %@";
+"QYButtonStringCreateTime" = "creation time";
+"QYButtonStringUpdateTime" = "update time";
+"QYButtonStringBuCaiLiao" = "Materials to be supplemented";
+"QYButtonStringOrderHangUp" = "hang up";
+"QYButtonStringOrderAppendInfo" = "Additional information";
+"QYButtonStringOrderNeedAppendInfo" = "Supplementary information required";
+"QYButtonStringOrderNeedAppendTitle" = "You currently need to supplement the following information";

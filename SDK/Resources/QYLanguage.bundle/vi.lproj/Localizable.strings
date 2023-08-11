@@ -341,3 +341,15 @@
 "QYToastStringEvaluationLimit" = "Đã đạt đến số lần đánh ";
 "QYButtonStringWaitingConnect" = "Đang kết nối, vui lòng đợi...";
 "QYToastStringPreCloseSession" = "Yêu cầu trước là cần thiết cho đại lý trực tiếp. Có chắc chắn muốn thoát khỏi cuộc trò chuyện?";
+"QYButtonStringIconAppend" = "bổ sung";
+"QYButtonStringOrderSearchHolder" = "Vui lòng nhập loại vé";
+"QYButtonStringOrderStatus" = "Tất cả trạng thái lệnh sản xuất";
+"QYButtonStringOrderSort" = "Sắp xếp theo %@";
+"QYButtonStringCreateTime" = "thời gian sáng tạo";
+"QYButtonStringUpdateTime" = "cập nhật thời gian";
+"QYButtonStringBuCaiLiao" = "Tài liệu cần bổ sung";
+"QYButtonStringOrderHangUp" = "treo lên";
+"QYButtonStringOrderAppendInfo" = "Thông tin thêm";
+"QYButtonStringOrderNeedAppendInfo" = "Thông tin bổ sung bắt buộc";
+"QYButtonStringOrderNeedAppendTitle" = "Hiện tại bạn cần bổ sung các thông tin sau";
+

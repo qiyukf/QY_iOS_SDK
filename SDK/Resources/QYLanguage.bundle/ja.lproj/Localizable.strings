@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "レビュー回数は上限に達しました";
 "QYButtonStringWaitingConnect" = "接続中ですので、少々お待ちください...";
 "QYToastStringPreCloseSession" = "ライブエージェントの場合は事前のお問い合わせが必要です。会話を終了しますか？";
+"QYButtonStringIconAppend" = "補充する";
+"QYButtonStringOrderSearchHolder" = "チケットタイプを入力してください";
+"QYButtonStringOrderStatus" = "すべての作業指示ステータス";
+"QYButtonStringOrderSort" = "並べ替え ％@";
+"QYButtonStringCreateTime" = "作成時間";
+"QYButtonStringUpdateTime" = "更新時間";
+"QYButtonStringBuCaiLiao" = "補充する材料";
+"QYButtonStringOrderHangUp" = "電話を切る";
+"QYButtonStringOrderAppendInfo" = "追加情報";
+"QYButtonStringOrderNeedAppendInfo" = "補足情報が必要です";
+"QYButtonStringOrderNeedAppendTitle" = "現在、次の情報を補足する必要があります";

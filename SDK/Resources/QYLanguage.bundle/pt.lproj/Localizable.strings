@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "Limite de avaliação atingido";
 "QYButtonStringWaitingConnect" = "Conetando. Aguarde...";
 "QYToastStringPreCloseSession" = "Pré-consulta é necessária para o agente ao vivo. Certo de sair da conversa?";
+"QYButtonStringIconAppend" = "reparar";
+"QYButtonStringOrderSearchHolder" = "Por favor, insira o tipo de ingresso";
+"QYButtonStringOrderStatus" = "Todos os status da ordem de serviço";
+"QYButtonStringOrderSort" = "Ordenar por %@";
+"QYButtonStringCreateTime" = "tempo de criação";
+"QYButtonStringUpdateTime" = "tempo de atualização";
+"QYButtonStringBuCaiLiao" = "Materiais a serem complementados";
+"QYButtonStringOrderHangUp" = "desligar";
+"QYButtonStringOrderAppendInfo" = "Informações adicionais";
+"QYButtonStringOrderNeedAppendInfo" = "Informações complementares necessárias";
+"QYButtonStringOrderNeedAppendTitle" = "No momento, você precisa complementar as seguintes informações";

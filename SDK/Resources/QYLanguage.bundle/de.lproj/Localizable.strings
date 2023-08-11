@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "Die maximale Anzahl von Bewertungen wurde erreicht";
 "QYButtonStringWaitingConnect" = "Verbindung wird hergestellt, bitte warten...";
 "QYToastStringPreCloseSession" = "Für Live-Agenten ist eine Vorabanfrage erforderlich. Bestätigung der Beendigung des Gesprächs?";
+"QYButtonStringIconAppend" = "Reparatur";
+"QYButtonStringOrderSearchHolder" = "Bitte geben Sie den Tickettyp ein";
+"QYButtonStringOrderStatus" = "Alle Arbeitsauftragsstatus";
+"QYButtonStringOrderSort" = "Sortiere nach %@";
+"QYButtonStringCreateTime" = "Erstellungszeitpunkt";
+"QYButtonStringUpdateTime" = "Updatezeit";
+"QYButtonStringBuCaiLiao" = "Zu ergänzende Materialien";
+"QYButtonStringOrderHangUp" = "auflegen";
+"QYButtonStringOrderAppendInfo" = "Weitere Informationen";
+"QYButtonStringOrderNeedAppendInfo" = "Ergänzende Informationen erforderlich";
+"QYButtonStringOrderNeedAppendTitle" = "Derzeit müssen Sie die folgenden Informationen ergänzen";

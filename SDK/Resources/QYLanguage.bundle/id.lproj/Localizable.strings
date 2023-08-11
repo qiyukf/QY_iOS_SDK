@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "Jumlah ulasan sudah mencapai batas";
 "QYButtonStringWaitingConnect" = "Sedang menyambung, silakan tunggu sebentar...";
 "QYToastStringPreCloseSession" = "Pra-pertanyaan diperlukan untuk agen langsung. Yakin keluar dari percakapan ini?";
+"QYButtonStringIconAppend" = "Mengisi kembali";
+"QYButtonStringOrderSearchHolder" = "Masukkan jenis tiket";
+"QYButtonStringOrderStatus" = "Semua status perintah kerja";
+"QYButtonStringOrderSort" = "Sortir dengan %@";
+"QYButtonStringCreateTime" = "Waktu penciptaan";
+"QYButtonStringUpdateTime" = "waktu pembaruan";
+"QYButtonStringBuCaiLiao" = "Bahan yang harus dilengkapi";
+"QYButtonStringOrderHangUp" = "Tutup Telepon";
+"QYButtonStringOrderAppendInfo" = "Informasi tambahan";
+"QYButtonStringOrderNeedAppendInfo" = "Informasi tambahan diperlukan";
+"QYButtonStringOrderNeedAppendTitle" = "Saat ini Anda perlu melengkapi informasi berikut";

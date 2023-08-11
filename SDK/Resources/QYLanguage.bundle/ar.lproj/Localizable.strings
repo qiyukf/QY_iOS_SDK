@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "تم انفاق فرص التقييم كلها";
 "QYButtonStringWaitingConnect" = "قيد الإتصال، يرجى الإنتظار";
 "QYToastStringPreCloseSession" = "مطلوب استفسار مسبق للوكيل المباشر. هل أنت متأكد من إنهاء المحادثة؟";
+"QYButtonStringIconAppend" = "جدد";
+"QYButtonStringOrderSearchHolder" = "الرجاء إدخال نوع التذكرة";
+"QYButtonStringOrderStatus" = "كل حالة أمر العمل";
+"QYButtonStringOrderSort" = "ترتيب حسب ٪@";
+"QYButtonStringCreateTime" = "وقت الابتكار";
+"QYButtonStringUpdateTime" = "تحديث الوقت";
+"QYButtonStringBuCaiLiao" = "المواد المراد استكمالها";
+"QYButtonStringOrderHangUp" = "يشنق";
+"QYButtonStringOrderAppendInfo" = "معلومات إضافية";
+"QYButtonStringOrderNeedAppendInfo" = "المعلومات التكميلية المطلوبة";
+"QYButtonStringOrderNeedAppendTitle" = "تحتاج حاليًا إلى استكمال المعلومات التالية";

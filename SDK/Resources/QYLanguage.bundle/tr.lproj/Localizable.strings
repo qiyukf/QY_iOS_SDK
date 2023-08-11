@@ -341,3 +341,20 @@
 "QYToastStringEvaluationLimit" = "Yorum sayısı maksimuma ulaştı";
 "QYButtonStringWaitingConnect" = "Bağlanıyor, lütfen bekleyin...";
 "QYToastStringPreCloseSession" = "Canlı temsilci için ön sorgulama gereklidir. Oturumdan ayrılmak istediğinize emin misiniz?";
+"QYButtonStringIconAppend" = "tamirat";
+"QYButtonStringOrderSearchHolder" = "Lütfen bilet tipini giriniz";
+"QYButtonStringOrderStatus" = "Tüm iş emri durumu";
+"QYButtonStringOrderSort" = "Göre sırala %@";
+"QYButtonStringCreateTime" = "yaratma zamanı";
+"QYButtonStringUpdateTime" = "Güncelleme zamanı";
+"QYButtonStringBuCaiLiao" = "Eklenecek malzemeler";
+"QYButtonStringOrderHangUp" = "telefonu kapatmak";
+"QYButtonStringOrderAppendInfo" = "Ek Bilgiler";
+"QYButtonStringOrderNeedAppendInfo" = "Ek bilgi gerekli";
+"QYButtonStringOrderNeedAppendTitle" = "Şu anda aşağıdaki bilgileri tamamlamanız gerekiyor";
+
+
+
+
+
+

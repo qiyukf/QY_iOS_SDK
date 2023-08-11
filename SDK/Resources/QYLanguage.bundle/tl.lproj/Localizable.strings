@@ -341,3 +341,15 @@
 "QYToastStringEvaluationLimit" = "Naabot ang limit ng pagsusuri";
 "QYButtonStringWaitingConnect" = "Kumukunekta, pakihintay...";
 "QYToastStringPreCloseSession" = "Kinakailangan ang paunang pagtatanong para sa live na ahente. Kumpirmahing umalis sa pakikipag-usap?";
+"QYButtonStringIconAppend" = "pagkukumpuni";
+"QYButtonStringOrderSearchHolder" = "Mangyaring ilagay ang uri ng tiket";
+"QYButtonStringOrderStatus" = "Lahat ng katayuan ng order sa trabaho";
+"QYButtonStringOrderSort" = "Pagbukud-bukurin ayon sa %@";
+"QYButtonStringCreateTime" = "oras ng paglikha";
+"QYButtonStringUpdateTime" = "oras ng pag-update";
+"QYButtonStringBuCaiLiao" = "Mga materyales na pupunan";
+"QYButtonStringOrderHangUp" = "ibaba ang tawag";
+"QYButtonStringOrderAppendInfo" = "Karagdagang impormasyon";
+"QYButtonStringOrderNeedAppendInfo" = "Kinakailangan ang karagdagang impormasyon";
+"QYButtonStringOrderNeedAppendTitle" = "Kasalukuyang kailangan mong dagdagan ang sumusunod na impormasyon";
+

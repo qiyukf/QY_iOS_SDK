@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "평가 횟수가 상한에 달한 것입니다";
 "QYButtonStringWaitingConnect" = "연결 중입니다. 잠시만 기다려 주세요...";
 "QYToastStringPreCloseSession" = "라이브 에이전트는 사전 문의가 필요합니다. 대화에서 나가시겠습니까?";
+"QYButtonStringIconAppend" = "수리하다";
+"QYButtonStringOrderSearchHolder" = "티켓 종류를 입력하세요";
+"QYButtonStringOrderStatus" = "모든 작업 주문 상태";
+"QYButtonStringOrderSort" = "정렬 기준 %@";
+"QYButtonStringCreateTime" = "생성 시간";
+"QYButtonStringUpdateTime" = "업데이트 시간";
+"QYButtonStringBuCaiLiao" = "보완할 자료";
+"QYButtonStringOrderHangUp" = "끊다";
+"QYButtonStringOrderAppendInfo" = "추가 정보";
+"QYButtonStringOrderNeedAppendInfo" = "추가 정보 필요";
+"QYButtonStringOrderNeedAppendTitle" = "현재 다음 정보를 보완해야 합니다";

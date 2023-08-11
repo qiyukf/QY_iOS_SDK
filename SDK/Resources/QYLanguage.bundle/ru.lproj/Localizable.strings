@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "Количество оценок достигло верхнего предела";
 "QYButtonStringWaitingConnect" = "Соединяем сейчас, подождите, пожалуйста,...";
 "QYToastStringPreCloseSession" = "Для живого агента требуется предварительное расследование. Вы хотите выйти из чата?";
+"QYButtonStringIconAppend" = "ремонт";
+"QYButtonStringOrderSearchHolder" = "Пожалуйста, введите тип билета";
+"QYButtonStringOrderStatus" = "Все статусы заказа на работу";
+"QYButtonStringOrderSort" = "Сортировать по %@";
+"QYButtonStringCreateTime" = "время создания";
+"QYButtonStringUpdateTime" = "Время обновления";
+"QYButtonStringBuCaiLiao" = "Материалы для дополнения";
+"QYButtonStringOrderHangUp" = "вешать трубку";
+"QYButtonStringOrderAppendInfo" = "Дополнительная информация";
+"QYButtonStringOrderNeedAppendInfo" = "Требуется дополнительная информация";
+"QYButtonStringOrderNeedAppendTitle" = "В настоящее время вам необходимо дополнить следующую информацию";

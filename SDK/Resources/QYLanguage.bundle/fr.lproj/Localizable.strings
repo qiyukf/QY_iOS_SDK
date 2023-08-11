@@ -341,3 +341,14 @@
 "QYToastStringEvaluationLimit" = "Vous avez atteint le nombre maximum d’évaluations";
 "QYButtonStringWaitingConnect" = "Connexion en cours, veuillez patienter...";
 "QYToastStringPreCloseSession" = "Une pré-enquête est requise pour l'agent en direct. Confirmez-vous pour quitter la conversation ?";
+"QYButtonStringIconAppend" = "réparation";
+"QYButtonStringOrderSearchHolder" = "Veuillez entrer le type de billet";
+"QYButtonStringOrderStatus" = "Tous les statuts des bons de travail";
+"QYButtonStringOrderSort" = "Trier par %@";
+"QYButtonStringCreateTime" = "temps de creation";
+"QYButtonStringUpdateTime" = "temps de mise à jour";
+"QYButtonStringBuCaiLiao" = "Matériel à compléter";
+"QYButtonStringOrderHangUp" = "raccrocher";
+"QYButtonStringOrderAppendInfo" = "Informations Complémentaires";
+"QYButtonStringOrderNeedAppendInfo" = "Informations complémentaires requises";
+"QYButtonStringOrderNeedAppendTitle" = "Vous devez actuellement compléter les informations suivantes";
