@@ -52,9 +52,15 @@
 
 /**
  *  清空未读数
- *
+ *  平台版企业会清空所有会话的未读消息，包括子企业
  */
 - (void)clearUnreadCount;
+
+/**
+ *  清空某个子企业的未读数
+ *
+ */
+- (void)clearUnreadCountWithShopId:(NSString *)shopId;
 
 /**
  *  获取所有会话的列表；非平台电商用户，只有一个会话项，平台电商用户，有多个会话项
