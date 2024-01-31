@@ -352,4 +352,4 @@
 "QYButtonStringOrderAppendInfo" = "Karagdagang impormasyon";
 "QYButtonStringOrderNeedAppendInfo" = "Kinakailangan ang karagdagang impormasyon";
 "QYButtonStringOrderNeedAppendTitle" = "Kasalukuyang kailangan mong dagdagan ang sumusunod na impormasyon";
-
+"QYMessageStringFailForSensitiveWords" = "Ang mensahe ay naglalaman ng mga sensitibong salita";

@@ -352,3 +352,4 @@
 "QYButtonStringOrderAppendInfo" = "추가 정보";
 "QYButtonStringOrderNeedAppendInfo" = "추가 정보 필요";
 "QYButtonStringOrderNeedAppendTitle" = "현재 다음 정보를 보완해야 합니다";
+"QYMessageStringFailForSensitiveWords" = "메시지에 민감한 단어가 포함되어 있습니다.";

@@ -251,6 +251,7 @@
 "QYStringRobot" = "机器人";
 "QYToastStringVideoNoSupportPreset" = "当前设备不支持该预设 = %@";
 "QYMessageStringFailForProhibitedWords" = "消息包含违禁词“";
+"QYMessageStringFailForSensitiveWords" = "消息包含敏感词";
 "QYMessageStringSilentTransfer" = "静默转接";
 "QYStringOrderType" = "工单类型";
 "QYToastStringAudioToTextError" = "语音转文字失败";

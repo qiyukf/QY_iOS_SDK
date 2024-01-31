@@ -352,3 +352,4 @@
 "QYButtonStringOrderAppendInfo" = "Informações adicionais";
 "QYButtonStringOrderNeedAppendInfo" = "Informações complementares necessárias";
 "QYButtonStringOrderNeedAppendTitle" = "No momento, você precisa complementar as seguintes informações";
+"QYMessageStringFailForSensitiveWords" = "A mensagem contém palavras sensíveis";

@@ -352,4 +352,4 @@
 "QYButtonStringOrderAppendInfo" = "補充信息";
 "QYButtonStringOrderNeedAppendInfo" = "需補充信息";
 "QYButtonStringOrderNeedAppendTitle" = "您當前需補充回復如下信息";
-
+"QYMessageStringFailForSensitiveWords" = "訊息包含敏感詞";

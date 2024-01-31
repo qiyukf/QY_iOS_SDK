@@ -352,3 +352,4 @@
 "QYButtonStringOrderAppendInfo" = "Дополнительная информация";
 "QYButtonStringOrderNeedAppendInfo" = "Требуется дополнительная информация";
 "QYButtonStringOrderNeedAppendTitle" = "В настоящее время вам необходимо дополнить следующую информацию";
+"QYMessageStringFailForSensitiveWords" = "Сообщение содержит деликатные слова";

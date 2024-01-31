@@ -352,4 +352,5 @@
 "QYButtonStringOrderAppendInfo" = "Thông tin thêm";
 "QYButtonStringOrderNeedAppendInfo" = "Thông tin bổ sung bắt buộc";
 "QYButtonStringOrderNeedAppendTitle" = "Hiện tại bạn cần bổ sung các thông tin sau";
+"QYMessageStringFailForSensitiveWords" = "Tin nhắn chứa từ ngữ nhạy cảm";
 
