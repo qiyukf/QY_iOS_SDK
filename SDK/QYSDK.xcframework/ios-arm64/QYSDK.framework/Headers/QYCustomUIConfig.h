@@ -85,11 +85,6 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
 //导航栏相关设置（人工/评价按钮可后台关闭显示）
 
 /**
- *  导航栏右侧按钮是否使用后台样式颜色，默认NO
- */
-@property (nonatomic, assign) BOOL rightItemStyleFllowSetting;
-
-/**
  *  导航栏右侧按钮风格，默认灰色风格，NO为白色风格
  */
 @property (nonatomic, assign) BOOL rightItemStyleGrayOrWhite;
@@ -100,7 +95,7 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
 @property (nonatomic, assign) BOOL showCloseSessionEntry;
 
 /**
- *  是否显示消息流头像,仅在后台样式开关关闭时生效
+ *  是否显示消息流头像
  */
 @property (nonatomic, assign) BOOL showHeadImage;
 
