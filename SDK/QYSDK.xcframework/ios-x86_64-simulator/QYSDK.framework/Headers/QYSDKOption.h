@@ -31,13 +31,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *pkCerName;
 
 /**
- * APNS推送消息是否显示具体的消息内容，默认YES
- * @discussion 设置成NO，显示成“你收到一条新消息”，并根据系统语言语种自动翻译
- *
- */
-@property (nonatomic, assign) BOOL showAPNSDetail;
-
-/**
  * 是否为融合SDK，默认NO；需同时使用NIMSDK和QYSDK的客户应配置为YES
  */
 @property (nonatomic, assign) BOOL isFusion;
