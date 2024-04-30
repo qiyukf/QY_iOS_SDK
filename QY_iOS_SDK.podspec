@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name     = 'QY_iOS_SDK'
-    s.version  = '9.2.4'
+    s.version  = '9.2.5'
     s.license  = { :"type" => "Copyright",
                    :"text" => " Copyright 2021 Netease \n"}  
     s.summary  = '网易七鱼客服访客端 iOS SDK'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.subspec 'Default' do |ds|
     		ds.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle']
         ds.vendored_frameworks = '**/QYSDK.xcframework'
-        ds.dependency 'NIMSDK_LITE', '8.9.110'
+        ds.dependency 'NIMSDK_LITE', '8.9.1101'
       end
     s.subspec 'Abroad' do |as|
     		as.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle', '**/Resources/QYConfigResource.bundle']
