@@ -18,9 +18,7 @@
 		</dict>
 	</array>
 	<key>NSPrivacyTrackingDomains</key>
-	<array>
-		<string></string>
-	</array>
+	<array/>
 	<key>NSPrivacyTracking</key>
 	<false/>
 	<key>NSPrivacyAccessedAPITypes</key>

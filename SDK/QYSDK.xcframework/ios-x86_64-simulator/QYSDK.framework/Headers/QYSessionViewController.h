@@ -13,6 +13,7 @@
 @class QYStaffInfo;
 @class QYCommodityInfo;
 @class QYSelectedCommodityInfo;
+@class QYMessageCardModel;
 
 
 /**
@@ -140,6 +141,11 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 @property (nonatomic, assign) BOOL canCopyCommodityInfo;
 
 /**
+ *  卡片消息展示
+ */
+@property (nonatomic, strong) QYMessageCardModel *cardInfo;
+
+/**
  *  人工客服信息
  */
 @property (nonatomic, strong) QYStaffInfo *staffInfo;
@@ -243,6 +249,10 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  */
 - (void)sendSelectedCommodityInfo:(QYSelectedCommodityInfo *)commodityInfo;
 
+/**
+ *  发送卡片消息
+ */
+- (void)sendCardInfo:(QYMessageCardModel *)cardInfo;
 
 /** 以下为开放能力接口 **/
 
