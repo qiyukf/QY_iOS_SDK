@@ -353,7 +353,9 @@
 "QYButtonStringOrderNeedAppendInfo" = "Ek bilgi gerekli";
 "QYButtonStringOrderNeedAppendTitle" = "Şu anda aşağıdaki bilgileri tamamlamanız gerekiyor";
 "QYMessageStringFailForSensitiveWords" = "Mesaj hassas kelimeler içeriyor";
-
+"QYMessageStringRevocation" = "Hatırlamak";
+"QYMessageStringRevocationDone" = "Geri çağrıldı";
+"QYMessageStringReEdit" = "Yeniden düzenle";
 
 
 

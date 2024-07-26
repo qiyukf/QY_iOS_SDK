@@ -353,3 +353,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "Kinakailangan ang karagdagang impormasyon";
 "QYButtonStringOrderNeedAppendTitle" = "Kasalukuyang kailangan mong dagdagan ang sumusunod na impormasyon";
 "QYMessageStringFailForSensitiveWords" = "Ang mensahe ay naglalaman ng mga sensitibong salita";
+"QYMessageStringRevocation" = "Alalahanin";
+"QYMessageStringRevocationDone" = "Naalala";
+"QYMessageStringReEdit" = "Muling i-edit";

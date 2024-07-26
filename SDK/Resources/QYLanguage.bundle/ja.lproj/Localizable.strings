@@ -353,3 +353,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "補足情報が必要です";
 "QYButtonStringOrderNeedAppendTitle" = "現在、次の情報を補足する必要があります";
 "QYMessageStringFailForSensitiveWords" = "メッセージにデリケートな言葉が含まれています";
+"QYMessageStringRevocation" = "想起";
+"QYMessageStringRevocationDone" = "思い出した";
+"QYMessageStringReEdit" = "再編集";

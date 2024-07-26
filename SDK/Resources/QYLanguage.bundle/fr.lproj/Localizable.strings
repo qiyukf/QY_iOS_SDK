@@ -353,3 +353,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "Informations complémentaires requises";
 "QYButtonStringOrderNeedAppendTitle" = "Vous devez actuellement compléter les informations suivantes";
 "QYMessageStringFailForSensitiveWords" = "Le message contient des mots sensibles";
+"QYMessageStringRevocation" = "Rappel";
+"QYMessageStringRevocationDone" = "Rappelé";
+"QYMessageStringReEdit" = "Rééditer";

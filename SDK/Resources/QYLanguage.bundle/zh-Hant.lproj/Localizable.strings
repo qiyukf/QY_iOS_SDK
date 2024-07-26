@@ -353,3 +353,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "需補充信息";
 "QYButtonStringOrderNeedAppendTitle" = "您當前需補充回復如下信息";
 "QYMessageStringFailForSensitiveWords" = "訊息包含敏感詞";
+"QYMessageStringRevocation" = "撤回";
+"QYMessageStringRevocationDone" = "已撤回";
+"QYMessageStringReEdit" = "重新編輯";

@@ -132,6 +132,9 @@
 "QYToastStringWaitConnecting" = "请等待连接成功后，再发送消息";
 "QYToastStringAlbumExportError" = "相册导出视频失败";
 "QYMessageStringRecalledMsg" = "撤回了一条消息";
+"QYMessageStringRevocation" = "撤回";
+"QYMessageStringRevocationDone" = "已撤回";
+"QYMessageStringReEdit" = "重新编辑";
 "QYToastStringPlayingHandset" = "正在使用听筒播放";
 "QYToastStringSessionCloseEvaluteError" = "会话已结束，无法评价";
 "QYMessageStringTransferSessionWithRemark" = "会话转接至 %@\n备注：%@";
