@@ -6,8 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+@class YSFBypassEntrance;
 
-typedef void (^ByPassCallback)(BOOL done, NSDictionary *byPassDict);
+typedef void (^VideoByPassCallback)(BOOL done, YSFBypassEntrance *byPassDict);
 typedef void (^RulesCallBack)(BOOL isAgree);
 @protocol QYVideoServiceProtocol <NSObject>
 
@@ -31,7 +32,7 @@ typedef void (^RulesCallBack)(BOOL isAgree);
 //视频客服初始化配置
 - (void)vs_setVideoConfig:(id)videoConfig;
 //视频客服访客分流
-- (void)vs_didReceiveByPass:(NSArray *)entranceList title:(NSString *)title callBack:(ByPassCallback)callBack;
+- (void)vs_didReceiveByPass:(NSArray *)entranceList title:(NSString *)title callBack:(VideoByPassCallback)callBack;
 //视频客服排队数据刷新
 - (void)vs_updateWaitingQueueNumber:(NSInteger)videoCallQueueNum;
 //结束视频通话
