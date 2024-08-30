@@ -358,3 +358,4 @@
 "QYMessageStringRevocation" = "Recall";
 "QYMessageStringRevocationDone" = "Recalled";
 "QYMessageStringReEdit" = "Re-edit";
+"QYButtonStringQuoteReply" = "Reply";

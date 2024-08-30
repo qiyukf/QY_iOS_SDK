@@ -356,3 +356,4 @@
 "QYMessageStringRevocation" = "撤回";
 "QYMessageStringRevocationDone" = "已撤回";
 "QYMessageStringReEdit" = "重新編輯";
+"QYButtonStringQuoteReply" = "引用回復";

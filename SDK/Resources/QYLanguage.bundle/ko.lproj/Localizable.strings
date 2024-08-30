@@ -356,3 +356,4 @@
 "QYMessageStringRevocation" = "상기하다";
 "QYMessageStringRevocationDone" = "리콜됨";
 "QYMessageStringReEdit" = "재편집";
+"QYButtonStringQuoteReply" = "답장";

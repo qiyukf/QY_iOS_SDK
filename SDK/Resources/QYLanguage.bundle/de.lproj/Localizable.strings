@@ -356,3 +356,4 @@
 "QYMessageStringRevocation" = "Abrufen";
 "QYMessageStringRevocationDone" = "Zurückgerufen";
 "QYMessageStringReEdit" = "Überarbeiten";
+"QYButtonStringQuoteReply" = "Re";

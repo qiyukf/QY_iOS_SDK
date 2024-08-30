@@ -356,3 +356,4 @@
 "QYMessageStringRevocation" = "Recordar";
 "QYMessageStringRevocationDone" = "Recordado";
 "QYMessageStringReEdit" = "Reeditar";
+"QYButtonStringQuoteReply" = "Responder";

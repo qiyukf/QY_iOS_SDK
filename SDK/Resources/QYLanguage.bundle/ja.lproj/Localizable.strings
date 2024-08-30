@@ -356,3 +356,4 @@
 "QYMessageStringRevocation" = "想起";
 "QYMessageStringRevocationDone" = "思い出した";
 "QYMessageStringReEdit" = "再編集";
+"QYButtonStringQuoteReply" = "返信";

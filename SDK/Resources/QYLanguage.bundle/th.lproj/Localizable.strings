@@ -356,3 +356,4 @@
 "QYMessageStringRevocation" = "จำ";
 "QYMessageStringRevocationDone" = "เรียกคืน";
 "QYMessageStringReEdit" = "แก้ไขอีกครั้ง";
+"QYButtonStringQuoteReply" = "ตอบ";
