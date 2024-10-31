@@ -20,6 +20,12 @@
 
 @end
 
+typedef NS_ENUM(NSUInteger, QYOrderStageType) {
+    QYOrderStageTypePreSale = 10000,//售前
+    QYOrderStageTypePreDelivery = 20000,//发货前
+    QYOrderStageTypeAfterDelivery = 30000,//发货后
+    QYOrderStageTypeAfterSale = 40000,//售后
+};
 
 /**
  *  商品信息类：QYCommodityInfo
@@ -127,6 +133,12 @@
  *
  */
 @property (nonatomic, copy) NSString *intent;
+
+/**
+ *  订单状态
+ *
+ */
+@property (nonatomic, assign) QYOrderStageType orderStageType;
 @end
 
 

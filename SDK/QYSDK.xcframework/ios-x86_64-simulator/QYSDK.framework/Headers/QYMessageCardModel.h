@@ -11,12 +11,50 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, QYCardStageType) {
+    QYCardStageTypePreSale = 10000,//售前
+    QYCardStageTypePreDelivery = 20000,//发货前
+    QYCardStageTypeAfterDelivery = 30000,//发货后
+    QYCardStageTypeAfterSale = 40000,//售后
+};
 @interface QYMessageCardModel : NSObject
 
+/**
+ *  机器人会话是否发送卡片消息
+ *  1 机器人阶段和人工阶段都发送卡片，0 仅人工会话中发送
+ *  默认 0
+ */
+@property (nonatomic, assign) NSInteger autoSendInRobot;
+
+/**
+ *  留言阶段是否发送卡片消息
+ *  仅对留言样式位消息的情况生效
+ *  1 发送，0 不发送
+ *  默认 0
+ */
+@property (nonatomic, assign) NSInteger autoSendInLeave;
 /**
  *  0 进线自动发送, 1 手动发送。默认0
  */
 @property (nonatomic, assign) NSInteger sendByUser;
+
+/**
+ *  订单状态分类
+ */
+
+@property (nonatomic, assign) QYCardStageType stageType;
+/**
+ *  意图名称
+ *  透传参数
+ */
+@property (nonatomic, copy) NSString *intent;
+
+
+/**
+ *  一触即达流程参数
+ *  透传参数
+ */
+@property (nonatomic, copy) NSString *params;
 
 /**
  *  发送按钮标题
@@ -30,7 +68,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  卡片消息内容，共9种模板类型，可以重复添加
- *  支持的类型：标题、副标题、图片、操作按钮、订单、商品、富文本、跳转链接、节点流程
+ *  支持的类型：标题、副标题、图片、操作按钮、订单、商品、富文本、跳转链接、节点流程、标签
  */
 
 @property (nonatomic, strong) NSArray<NSDictionary *> *cards;

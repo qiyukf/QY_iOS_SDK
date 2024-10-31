@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/QYCommodityInfo.h</key>
 		<data>
-		o2mQwlekSCFX4+voN5yfNr28/+o=
+		3WsP98E3YAn/gAyA7F9i5zsV2zU=
 		</data>
 		<key>Headers/QYConversationManager.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/QYMessageCardModel.h</key>
 		<data>
-		N42vNdeRo9u/RwC/E7wHiKXWFwA=
+		ZT0/Fw1tNBRIVhFWiIEtyM89pg8=
 		</data>
 		<key>Headers/QYMessageInfo.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Headers/QYSessionViewController.h</key>
 		<data>
-		FVHFV2QwpyaXryNFt5gEMUPjZNg=
+		urUkbNHhtFaib3ecZcaoMlEg4wM=
 		</data>
 		<key>Headers/QYSource.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tJ1EHG6dp64IG1ef+BKnWoctja4=
+		fWx+d7F/grPBvOErM0Xonuy+ivU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o2mQwlekSCFX4+voN5yfNr28/+o=
+			3WsP98E3YAn/gAyA7F9i5zsV2zU=
 			</data>
 			<key>hash2</key>
 			<data>
-			8/Ft/sm9So4MwqyaELik9SlimVY2HcgvXptTakM/tsE=
+			Xtt80l/5ltCb3nM4mDgeYJhy8+LwHxW4eVfvryFNzoc=
 			</data>
 		</dict>
 		<key>Headers/QYConversationManager.h</key>
@@ -324,11 +324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N42vNdeRo9u/RwC/E7wHiKXWFwA=
+			ZT0/Fw1tNBRIVhFWiIEtyM89pg8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ji2D05o4Y9BLyGNfh6LJJkY6+mZ9QTged7m2buFSUxI=
+			LTsKmE+knTagiE0wRkuCHJo5vSKygieBHGL2pxugAtc=
 			</data>
 		</dict>
 		<key>Headers/QYMessageInfo.h</key>
@@ -478,11 +478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FVHFV2QwpyaXryNFt5gEMUPjZNg=
+			urUkbNHhtFaib3ecZcaoMlEg4wM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ggecXyvScinEdAN2RAfFNUSJYqJPqbvx+l/Oxjf10+o=
+			+ERbvEa5c6T4w6F54+m/LlXhYeaAfx1E5kuZly6JVQU=
 			</data>
 		</dict>
 		<key>Headers/QYSource.h</key>

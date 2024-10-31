@@ -166,6 +166,12 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 @property (nonatomic, assign) BOOL autoSendInRobot;
 
 /**
+ *  消息流留言自动发送商品信息功能
+ */
+@property (nonatomic, assign) BOOL autoSendInLeave;
+
+
+/**
  *  每页消息加载的最大数量，默认为20条
  */
 @property (nonatomic, assign) NSInteger messagePageLimit;
@@ -194,6 +200,41 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  *  默认 NO，YES则开启，开启后进入客服页面，连接客服之前输入框将无法使用，键盘也无法弹起
  */
 @property (nonatomic, assign) BOOL isForbiddenInput;
+/*** 以下为商品详情页进入或订单详情页进入携带的参数,进线时会上报服务端*/
+//用于会话与商品或订单的关联
+
+//1.商品类型
+
+/**
+ * 商品类目 ID，长度限制 100 字符
+ */
+@property (nonatomic, copy) NSString *goodsCId;
+/**
+ * 商品类目名称
+ */
+@property (nonatomic, copy) NSString *goodsCName;
+/**
+ * 商品 Id，长度限制为 100 字符，商品唯一标识符。
+ */
+@property (nonatomic, copy) NSString *goodsId;
+
+//2.订单类型
+
+/**
+ * 订单 ID
+ */
+@property (nonatomic, copy) NSString *orderId;
+
+/**
+ * 订单阶段类型
+ * 售前阶段：10000
+ * 发货前阶段：20000
+ * 发货后阶段：30000
+ * 售后阶段：40000
+ */
+
+@property (nonatomic, copy) NSString *orderStageType;
+
 /** 以下为客服相关接口 **/
 
 /**
