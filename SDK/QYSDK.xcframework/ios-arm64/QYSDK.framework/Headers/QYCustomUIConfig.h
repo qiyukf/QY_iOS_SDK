@@ -346,6 +346,12 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
  */
 @property (nonatomic, strong) NSArray<QYCustomInputItem *> *customInputItems;
 
+
+/**
+ *  url地址是否关闭encoding
+ *  默认是NO，即url地址会进行encoding
+ */
+@property (nonatomic, assign) BOOL disableWebLinkEncoding;
 /**
  *  消息下拉刷新loading图片设置，区分不同state状态
  */
