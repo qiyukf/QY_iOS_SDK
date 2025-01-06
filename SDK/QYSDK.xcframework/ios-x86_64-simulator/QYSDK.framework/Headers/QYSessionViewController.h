@@ -119,6 +119,10 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  *  机器人欢迎语 模板Id
  */
 @property (nonatomic, assign) int64_t robotWelcomeTemplateId;
+/**
+ *  常见快捷入口 模板Id
+ */
+@property (nonatomic, assign) long long shortcutTemplateId;
 
 /**
  *  多入口分流 模板Id
