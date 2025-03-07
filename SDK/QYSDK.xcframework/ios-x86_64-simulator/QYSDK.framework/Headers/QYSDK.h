@@ -342,5 +342,6 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
 //- (void)addUserInfo:(NSDictionary *)infos;
 
 #pragma mark - Debug
-- (void)log:(NSString *)log;
+- (void)log:(NSString *)format,...;
+- (void)logError:(NSString *)format,...;
 @end
