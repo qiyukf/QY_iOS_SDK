@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zhongzhida/Documents/SDK/qysdk/NIMScript/build/build-iphone/QYKFNIMSDK.framework/QYKFNIMSDK'
+relocations:     []
+...

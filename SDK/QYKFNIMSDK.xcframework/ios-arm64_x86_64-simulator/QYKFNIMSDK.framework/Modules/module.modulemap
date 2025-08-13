@@ -1,0 +1,6 @@
+framework module QYKFNIMSDK {
+  umbrella header "QYKFNIMSDK.h"
+  export *
+
+  module * { export * }
+}

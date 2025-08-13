@@ -1,0 +1,50 @@
+//
+//  QYKFNIMBroadcastManagerProtocol.h
+//  NIMLib
+//
+//  Created by Netease.
+//  Copyright © 2017年 Netease. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@class QYKFNIMBroadcastMessage;
+
+/**
+ *  广播消息委托
+ */
+@protocol QYKFNIMBroadcastManagerDelegate <NSObject>
+
+/**
+ *  收到广播消息回调
+ *
+ *  @param broadcastMessage 广播消息
+ */
+
+- (void)onReceiveBroadcastMessage:(QYKFNIMBroadcastMessage *)broadcastMessage;
+@end
+
+/**
+ *  广播消息协议
+ */
+@protocol QYKFNIMBroadcastManager <NSObject>
+
+/**
+ *  添加广播消息委托
+ *
+ *  @param delegate 广播通知回调
+ */
+- (void)addDelegate:(id<QYKFNIMBroadcastManagerDelegate>)delegate;
+
+/**
+ *  移除广播消息委托
+ *
+ *  @param delegate 广播通知回调
+ */
+- (void)removeDelegate:(id<QYKFNIMBroadcastManagerDelegate>)delegate;
+
+@end
+
+NS_ASSUME_NONNULL_END
