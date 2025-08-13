@@ -357,3 +357,5 @@
 "QYMessageStringRevocationDone" = "bị thu hồi";
 "QYMessageStringReEdit" = "Chỉnh sửa lại";
 "QYButtonStringQuoteReply" = "Trả lời";
+"QYTitleStringAlbum" = "Album";
+"QYTitleStringShooting" = "Quay video";

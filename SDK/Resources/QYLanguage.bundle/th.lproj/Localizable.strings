@@ -357,3 +357,5 @@
 "QYMessageStringRevocationDone" = "เรียกคืน";
 "QYMessageStringReEdit" = "แก้ไขอีกครั้ง";
 "QYButtonStringQuoteReply" = "ตอบ";
+"QYTitleStringAlbum" = "อัลบั้ม";
+"QYTitleStringShooting" = "ถ่ายวีดีโอ";

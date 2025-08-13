@@ -357,3 +357,5 @@
 "QYMessageStringRevocationDone" = "Rappelé";
 "QYMessageStringReEdit" = "Rééditer";
 "QYButtonStringQuoteReply" = "Réponse";
+"QYTitleStringAlbum" = "Album photo";
+"QYTitleStringShooting" = "Faire une vidéo";

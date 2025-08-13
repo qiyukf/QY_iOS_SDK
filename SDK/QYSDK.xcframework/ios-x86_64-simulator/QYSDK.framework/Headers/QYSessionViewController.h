@@ -391,12 +391,17 @@ typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
 - (void)sendRobotEvaluationResult:(QYEvaluactionResult *)result completion:(QYEvaluationCompletion)completion;
 /**
  *  导航栏左侧点击返回时，是否需要弹出满意度评价
+ *
+ *  人工会话功能：
  *  isOpenAlert:是否弹出弹框（确认退出对话？）
  *  isOpenEvaluation:点击结束会话时，是否需要弹出满意度评价
  *  注意：想要弹出评价的弹框，必须同时开启上述两个开关。
- *  该方法需要在导航栏左侧返回按钮的点击事件时调用，并且将popViewControllerAnimated放在complete中；如果是present方式，则需要在关闭界面的点击事件中调用此方法
+ *  机器人会话功能：
+ *  会话强制邀评
+ *  该方法需要在关闭页面的事件中调用，并且将popViewControllerAnimated放在complete中；
  */
 - (void)showEvaluationAlert:(BOOL)isOpenAlert openEvaluation:(BOOL)isOpenEvaluation complete:(QYCompletion)complete;
+
 @end
 
 

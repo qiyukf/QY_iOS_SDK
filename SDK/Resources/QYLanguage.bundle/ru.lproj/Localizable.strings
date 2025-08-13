@@ -357,3 +357,5 @@
 "QYMessageStringRevocationDone" = "Вспомнил";
 "QYMessageStringReEdit" = "Повторное редактирование";
 "QYButtonStringQuoteReply" = "Ответ";
+"QYTitleStringAlbum" = "Альбом";
+"QYTitleStringShooting" = "Снимать видео";

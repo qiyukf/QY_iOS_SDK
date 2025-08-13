@@ -357,3 +357,5 @@
 "QYMessageStringRevocationDone" = "리콜됨";
 "QYMessageStringReEdit" = "재편집";
 "QYButtonStringQuoteReply" = "답장";
+"QYTitleStringAlbum" = "앨범";
+"QYTitleStringShooting" = "영상 촬영";

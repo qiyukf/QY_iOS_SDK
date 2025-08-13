@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/QYCustomUIConfig.h</key>
 		<data>
-		gOfszvtHw3HuVWbME7ekdipBTN0=
+		K+auPYPc7cMN1a+1UV6zhZvRpkM=
 		</data>
 		<key>Headers/QYEvaluation.h</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>Headers/QYSDK.h</key>
 		<data>
-		frQE63kc/AZYeTWu8Z/vFX21ekA=
+		poX95+lV5hHABAGk/gXDQSfCfl0=
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
-		8BlNMQs7LGEQHQyV53RMkoqDaT4=
+		glKafQvBO9wLJ72pbdcaQecpXCc=
 		</data>
 		<key>Headers/QYSDKSPI.h</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Headers/QYSessionInfo.h</key>
 		<data>
-		wMazyMHMiLzZdZQdEB5GZTRZbU0=
+		AwvjvfSDhnl6wahnrJQc5/0EUUk=
 		</data>
 		<key>Headers/QYSessionViewController.h</key>
 		<data>
-		uSlSVMF1lfrAzDae53KPEP075i8=
+		BX1wVO+IIe5o6cqs6V25xBLjFzg=
 		</data>
 		<key>Headers/QYSource.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yHfDAgUDaAfBjEm/82YeniByDUo=
+		gOks6kK5aDI8ExkQsuguggSM64s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -291,11 +291,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gOfszvtHw3HuVWbME7ekdipBTN0=
+			K+auPYPc7cMN1a+1UV6zhZvRpkM=
 			</data>
 			<key>hash2</key>
 			<data>
-			il3yVak9O+boc/+lO8W+1KYhT+I+7L1/xMKY1lvs7RU=
+			bctAYWT7cByo4k24DVr8iyNGhnsmJv++A/xH9RoHpDo=
 			</data>
 		</dict>
 		<key>Headers/QYEvaluation.h</key>
@@ -423,22 +423,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			frQE63kc/AZYeTWu8Z/vFX21ekA=
+			poX95+lV5hHABAGk/gXDQSfCfl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			45lWVdjXP2U1iAujS/TydNU2G+JhS18L0D3lzuLJSSE=
+			11UBYWaSNQE8kIPou1mbgdsCrsmK42MYiL5oj/8J5K0=
 			</data>
 		</dict>
 		<key>Headers/QYSDKOption.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8BlNMQs7LGEQHQyV53RMkoqDaT4=
+			glKafQvBO9wLJ72pbdcaQecpXCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ijA2REwUxW1UAZiiX2QB3Mbp4WjXYBNB7x8NLOSn+cw=
+			CG/6ozq19Y8uytxd4ac35ec3c6n0rexgnkBU7G9HrDg=
 			</data>
 		</dict>
 		<key>Headers/QYSDKSPI.h</key>
@@ -467,22 +467,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wMazyMHMiLzZdZQdEB5GZTRZbU0=
+			AwvjvfSDhnl6wahnrJQc5/0EUUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			v4f2czVwNxugaUDICBc3d7f5ISucVdTEBhNbeOY7tuI=
+			71pEMwffmDj+Wt/Rd4empAfdP3Ym0Gkr8DvnCWRY0RE=
 			</data>
 		</dict>
 		<key>Headers/QYSessionViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uSlSVMF1lfrAzDae53KPEP075i8=
+			BX1wVO+IIe5o6cqs6V25xBLjFzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			NykZ3uaX+/piJll1ZpeP8eNzw9cyTaESAnjSD2dcxVA=
+			xY/CCqxZSyzsIvLbqBQG+LSHMsHnyKob9GRSb8uG04Y=
 			</data>
 		</dict>
 		<key>Headers/QYSource.h</key>

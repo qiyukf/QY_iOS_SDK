@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL showAPNSDetail;
 
 /**
- * 是否为融合SDK，默认NO；需同时使用NIMSDK和QYSDK的客户应配置为YES
+ * 是否为融合SDK，默认NO；需同时使用QYKFNIMSDK和QYSDK的客户应配置为YES
  */
 @property (nonatomic, assign) BOOL isFusion;
 

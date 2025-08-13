@@ -357,3 +357,5 @@
 "QYMessageStringRevocationDone" = "思い出した";
 "QYMessageStringReEdit" = "再編集";
 "QYButtonStringQuoteReply" = "返信";
+"QYTitleStringAlbum" = "アルバム";
+"QYTitleStringShooting" = "動画を撮影";

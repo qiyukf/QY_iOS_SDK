@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name     = 'QY_iOS_SDK'
-    s.version  = '10.5.0'
+    s.version  = '10.9.1'
     s.license  = { :"type" => "Copyright",
                    :"text" => " Copyright 2021 Netease \n"}  
     s.summary  = '网易七鱼客服访客端 iOS SDK'
@@ -14,21 +14,17 @@ Pod::Spec.new do |s|
     s.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle']
     s.default_subspec = 'Default'
     s.subspec 'Default' do |ds|
-    		ds.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle']
-        ds.vendored_frameworks = '**/QYSDK.xcframework'
-        ds.dependency 'QY_NIMSDK', '8.9.110.1'
+        ds.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle']
+        ds.vendored_frameworks = ['**/QYSDK.xcframework','**/QYKFNIMSDK.xcframework','**/QYKFNIMNOS.xcframework']
       end
     s.subspec 'Abroad' do |as|
-    		as.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle', '**/Resources/QYConfigResource.bundle']
-        as.vendored_frameworks = '**/QYSDK.xcframework'
-        as.frameworks = 'QYSDK'
-        as.dependency 'QY_NIMSDK', '9.2.8.1'
+        as.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle', '**/Resources/QYConfigResource.bundle']
+        as.vendored_frameworks = ['**/QYSDK.xcframework','**/QYKFNIMSDK.xcframework','**/QYKFNIMNOS.xcframework','**/QYKFAWSCore.xcframework','**/QYKFAWSS3.xcframework']
         
     end  
     s.subspec 'Video' do |vs|
-    		vs.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle' , '**/Resources/QYVideoResource.bundle']
-        vs.vendored_frameworks = ['**/QYSDK.xcframework','**/QYVideoService.xcframework']
-        vs.dependency 'QY_NIMSDK', '8.9.110.1'
+        vs.resources  = ['**/Resources/QYResource.bundle', '**/Resources/QYLanguage.bundle', '**/Resources/QYCustomResource.bundle' , '**/Resources/QYVideoResource.bundle']
+        vs.vendored_frameworks = ['**/QYSDK.xcframework','**/QYKFNIMSDK.xcframework','**/QYKFNIMNOS.xcframework','**/QYVideoService.xcframework']
         vs.dependency 'QY_iOS_SDK_Package', '7.11.5'
     end
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 x86_64 arm64' }

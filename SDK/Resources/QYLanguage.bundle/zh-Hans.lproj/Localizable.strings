@@ -13,6 +13,8 @@
 "QYToastStringInfoSubmit" = "信息已提交";
 "QYToastStringMicrophonePermissionGuide" = "请在iPhone的“设置-隐私-麦克风”选项中，允许访问你的麦克风。";
 "QYTitleStringPhoto" = "照片";
+"QYTitleStringAlbum" = "相册";
+"QYTitleStringShooting" = "拍摄";
 "QYMessageStringCustomerLeaved" = "用户离开";
 "QYToastStringFileExpired" = "文件已超过15天有效期";
 "QYButtonStringQuiet" = "静音";

@@ -281,6 +281,13 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
  */
 @property (nonatomic, assign) BOOL showRobotImageEntry;
 /**
+ *  输入栏机器人阶段相机按钮展示样式
+ *  0（默认） 展示相机图标
+ *  1       展示“+”图标
+ *  注意：此配置依赖showRobotImageEntry为YES时生效
+ */
+@property (nonatomic, assign) NSInteger robotImageStyle;
+/**
  *  输入栏人工阶段相机按钮是否显示，默认为YES
  */
 @property (nonatomic, assign) BOOL showImageEntry;
