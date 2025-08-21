@@ -367,3 +367,4 @@
 "QYButtonStringOrderNeedAppendInfo" = "需补充信息";
 "QYButtonStringOrderNeedAppendTitle" = "您当前需补充回复如下信息";
 "QYButtonStringQuoteReply" = "引用回复";
+"QYButtonStringSelectCopy" = "选择文本";

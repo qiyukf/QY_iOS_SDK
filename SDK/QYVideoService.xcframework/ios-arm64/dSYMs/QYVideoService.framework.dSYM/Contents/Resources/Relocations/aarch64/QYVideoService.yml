@@ -3,7 +3,7 @@ triple:          'arm64-apple-darwin'
 binary-path:     '/Users/zhongzhida/Documents/SDK/qysdk/DerivedData/Build/Products/Release-iphoneos/QYVideoService.framework/QYVideoService'
 relocations:
   - { offset: 0x8472D, size: 0x8, addend: 0x0, symName: _QYVideoServiceVersionString, symObjAddr: 0x0, symBinAddr: 0x20960, symSize: 0x0 }
-  - { offset: 0x84762, size: 0x8, addend: 0x0, symName: _QYVideoServiceVersionNumber, symObjAddr: 0x38, symBinAddr: 0x20998, symSize: 0x0 }
+  - { offset: 0x84762, size: 0x8, addend: 0x0, symName: _QYVideoServiceVersionNumber, symObjAddr: 0x40, symBinAddr: 0x209A0, symSize: 0x0 }
   - { offset: 0x8479F, size: 0x8, addend: 0x0, symName: '-[QYSessionViewController(VideoService) vs_parseAndDealWithContent:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x68 }
   - { offset: 0x847C7, size: 0x8, addend: 0x0, symName: _videoConfigKey, symObjAddr: 0xEA0, symBinAddr: 0x372B8, symSize: 0x0 }
   - { offset: 0x848AC, size: 0x8, addend: 0x0, symName: '-[QYSessionViewController(VideoService) vs_parseAndDealWithContent:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x68 }
