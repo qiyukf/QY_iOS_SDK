@@ -1,11 +1,11 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/zhongzhida/Documents/SDK/qysdk/DerivedData/Build/Products/Release-iphoneos/QYVideoService.framework/QYVideoService'
+binary-path:     '/Users/wangyangdan/Documents/ios/auto_package/qysdk/DerivedData/Build/Products/Release-iphoneos/QYVideoService.framework/QYVideoService'
 relocations:
   - { offset: 0x8472D, size: 0x8, addend: 0x0, symName: _QYVideoServiceVersionString, symObjAddr: 0x0, symBinAddr: 0x20960, symSize: 0x0 }
   - { offset: 0x84762, size: 0x8, addend: 0x0, symName: _QYVideoServiceVersionNumber, symObjAddr: 0x40, symBinAddr: 0x209A0, symSize: 0x0 }
   - { offset: 0x8479F, size: 0x8, addend: 0x0, symName: '-[QYSessionViewController(VideoService) vs_parseAndDealWithContent:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x68 }
-  - { offset: 0x847C7, size: 0x8, addend: 0x0, symName: _videoConfigKey, symObjAddr: 0xEA0, symBinAddr: 0x372B8, symSize: 0x0 }
+  - { offset: 0x847C7, size: 0x8, addend: 0x0, symName: _videoConfigKey, symObjAddr: 0xEA8, symBinAddr: 0x372B8, symSize: 0x0 }
   - { offset: 0x848AC, size: 0x8, addend: 0x0, symName: '-[QYSessionViewController(VideoService) vs_parseAndDealWithContent:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x68 }
   - { offset: 0x848FF, size: 0x8, addend: 0x0, symName: '-[QYSessionViewController(VideoService) vs_reportSupportVideo:]', symObjAddr: 0x68, symBinAddr: 0x4068, symSize: 0x60 }
   - { offset: 0x8494E, size: 0x8, addend: 0x0, symName: '___63-[QYSessionViewController(VideoService) vs_reportSupportVideo:]_block_invoke', symObjAddr: 0xC8, symBinAddr: 0x40C8, symSize: 0x3C }
@@ -143,8 +143,8 @@ relocations:
   - { offset: 0x88B6F, size: 0x8, addend: 0x0, symName: '-[QYSDK(VideoService) getVideoVersion]', symObjAddr: 0x0, symBinAddr: 0x8A60, symSize: 0x8 }
   - { offset: 0x88C90, size: 0x8, addend: 0x0, symName: '+[QYVideoUIManager shareInstance]', symObjAddr: 0x0, symBinAddr: 0x8A68, symSize: 0x40 }
   - { offset: 0x88C9E, size: 0x8, addend: 0x0, symName: '+[QYVideoUIManager shareInstance]', symObjAddr: 0x0, symBinAddr: 0x8A68, symSize: 0x40 }
-  - { offset: 0x88CC8, size: 0x8, addend: 0x0, symName: _shareInstance.instance, symObjAddr: 0x7DE8, symBinAddr: 0x37B00, symSize: 0x0 }
-  - { offset: 0x88CDE, size: 0x8, addend: 0x0, symName: _shareInstance.onceToken, symObjAddr: 0x7DF0, symBinAddr: 0x37B08, symSize: 0x0 }
+  - { offset: 0x88CC8, size: 0x8, addend: 0x0, symName: _shareInstance.instance, symObjAddr: 0x7E78, symBinAddr: 0x37B00, symSize: 0x0 }
+  - { offset: 0x88CDE, size: 0x8, addend: 0x0, symName: _shareInstance.onceToken, symObjAddr: 0x7E80, symBinAddr: 0x37B08, symSize: 0x0 }
   - { offset: 0x88F93, size: 0x8, addend: 0x0, symName: '___33+[QYVideoUIManager shareInstance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x8AA8, symSize: 0x30 }
   - { offset: 0x88FBA, size: 0x8, addend: 0x0, symName: '-[QYVideoUIManager drawSmallPlayingView]', symObjAddr: 0x70, symBinAddr: 0x8AD8, symSize: 0xF8 }
   - { offset: 0x88FFD, size: 0x8, addend: 0x0, symName: '___40-[QYVideoUIManager drawSmallPlayingView]_block_invoke', symObjAddr: 0x168, symBinAddr: 0x8BD0, symSize: 0x44 }
@@ -248,8 +248,8 @@ relocations:
   - { offset: 0x8BB50, size: 0x8, addend: 0x0, symName: '-[QYVideoSafeConfig setType:]', symObjAddr: 0x7C, symBinAddr: 0xE648, symSize: 0x10 }
   - { offset: 0x8BC29, size: 0x8, addend: 0x0, symName: '+[QYVideoManager shareInstance]', symObjAddr: 0x0, symBinAddr: 0xE658, symSize: 0x40 }
   - { offset: 0x8BC37, size: 0x8, addend: 0x0, symName: '+[QYVideoManager shareInstance]', symObjAddr: 0x0, symBinAddr: 0xE658, symSize: 0x40 }
-  - { offset: 0x8BC61, size: 0x8, addend: 0x0, symName: _shareInstance.instance, symObjAddr: 0x15ED0, symBinAddr: 0x37B10, symSize: 0x0 }
-  - { offset: 0x8BC77, size: 0x8, addend: 0x0, symName: _shareInstance.onceToken, symObjAddr: 0x15ED8, symBinAddr: 0x37B18, symSize: 0x0 }
+  - { offset: 0x8BC61, size: 0x8, addend: 0x0, symName: _shareInstance.instance, symObjAddr: 0x15FD8, symBinAddr: 0x37B10, symSize: 0x0 }
+  - { offset: 0x8BC77, size: 0x8, addend: 0x0, symName: _shareInstance.onceToken, symObjAddr: 0x15FE0, symBinAddr: 0x37B18, symSize: 0x0 }
   - { offset: 0x8C0EC, size: 0x8, addend: 0x0, symName: '___31+[QYVideoManager shareInstance]_block_invoke', symObjAddr: 0x40, symBinAddr: 0xE698, symSize: 0x80 }
   - { offset: 0x8C113, size: 0x8, addend: 0x0, symName: '-[QYVideoManager onReceiveCustomSystemNotification:]', symObjAddr: 0xC0, symBinAddr: 0xE718, symSize: 0x584 }
   - { offset: 0x8C27E, size: 0x8, addend: 0x0, symName: '___52-[QYVideoManager onReceiveCustomSystemNotification:]_block_invoke', symObjAddr: 0x644, symBinAddr: 0xEC9C, symSize: 0x4 }
@@ -490,8 +490,8 @@ relocations:
   - { offset: 0x9262C, size: 0x8, addend: 0x0, symName: '-[QYVideoByPassViewController .cxx_destruct]', symObjAddr: 0x20B0, symBinAddr: 0x1890C, symSize: 0x7C }
   - { offset: 0x928FE, size: 0x8, addend: 0x0, symName: '+[QYVideoSDK sharedSDK]', symObjAddr: 0x0, symBinAddr: 0x18988, symSize: 0x40 }
   - { offset: 0x9290C, size: 0x8, addend: 0x0, symName: '+[QYVideoSDK sharedSDK]', symObjAddr: 0x0, symBinAddr: 0x18988, symSize: 0x40 }
-  - { offset: 0x92936, size: 0x8, addend: 0x0, symName: _sharedSDK.instance, symObjAddr: 0x22B0, symBinAddr: 0x37B20, symSize: 0x0 }
-  - { offset: 0x9294C, size: 0x8, addend: 0x0, symName: _sharedSDK.onceToken, symObjAddr: 0x22B8, symBinAddr: 0x37B28, symSize: 0x0 }
+  - { offset: 0x92936, size: 0x8, addend: 0x0, symName: _sharedSDK.instance, symObjAddr: 0x2328, symBinAddr: 0x37B20, symSize: 0x0 }
+  - { offset: 0x9294C, size: 0x8, addend: 0x0, symName: _sharedSDK.onceToken, symObjAddr: 0x2330, symBinAddr: 0x37B28, symSize: 0x0 }
   - { offset: 0x92B00, size: 0x8, addend: 0x0, symName: '___23+[QYVideoSDK sharedSDK]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x189C8, symSize: 0x30 }
   - { offset: 0x92B27, size: 0x8, addend: 0x0, symName: '-[QYVideoSDK zoomBlock]', symObjAddr: 0x70, symBinAddr: 0x189F8, symSize: 0x8 }
   - { offset: 0x92B5E, size: 0x8, addend: 0x0, symName: '-[QYVideoSDK setZoomBlock:]', symObjAddr: 0x78, symBinAddr: 0x18A00, symSize: 0x8 }
