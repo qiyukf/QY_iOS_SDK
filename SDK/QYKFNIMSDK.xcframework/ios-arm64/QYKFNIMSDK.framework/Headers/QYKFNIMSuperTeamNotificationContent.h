@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
  *  群操作类型
  */
 typedef NS_ENUM(NSInteger, QYKFNIMSuperTeamOperationType){
+    // default
+    QYKFNIMSuperTeamOperationTypeUnknown         = -1,
+    
     /**
      *  邀请成员
      */
