@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/QYKFNIMChatroomManagerProtocol.h</key>
 		<data>
-		gdRNYTIWgzOeeeLiK8Lh+7mtgMQ=
+		rwAHMzhtkqr6KmlIXWn+6HF0eFk=
 		</data>
 		<key>Headers/QYKFNIMChatroomMember.h</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>Headers/QYKFNIMSession.h</key>
 		<data>
-		Cluv5i8JBCKZq9j/YEH1tOBdqAE=
+		KnVXDvwnQIcl68eQEF38ocnkz2k=
 		</data>
 		<key>Headers/QYKFNIMSessionDeleteAllRemoteMessagesInfo.h</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Headers/QYKFNIMSuperTeamNotificationContent.h</key>
 		<data>
-		36scck1OydEgVkFGJFkrQhNBBSI=
+		7UvFTr9XEEUnFzuK4kkmpoWKZcQ=
 		</data>
 		<key>Headers/QYKFNIMSyncMessagePinRequest.h</key>
 		<data>
@@ -550,7 +550,7 @@
 		</data>
 		<key>Headers/QYKFNIMTeamNotificationContent.h</key>
 		<data>
-		WjGOgVyc2LDF/Uv30KDCgdWsG58=
+		pZJrdF693rRuKlv0vqhvqgNb0Ic=
 		</data>
 		<key>Headers/QYKFNIMTeamSearchOption.h</key>
 		<data>
@@ -839,11 +839,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gdRNYTIWgzOeeeLiK8Lh+7mtgMQ=
+			rwAHMzhtkqr6KmlIXWn+6HF0eFk=
 			</data>
 			<key>hash2</key>
 			<data>
-			agKSXBeNCwWnW+iCuzHngi1CFRT6D76fyBumfJpQvvc=
+			lrT+s/Ma6HXjLipNiRWWkXbEmhMURWd3KcYQAogANg4=
 			</data>
 		</dict>
 		<key>Headers/QYKFNIMChatroomMember.h</key>
@@ -1785,11 +1785,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cluv5i8JBCKZq9j/YEH1tOBdqAE=
+			KnVXDvwnQIcl68eQEF38ocnkz2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			9CT3QObxAXELSktGpapXRwaZdxvvcecWwD44bK5Hz4A=
+			xd7USH2I/N8bX6dI5bfRpkJVe53Y9aw8nNcG69kxtCA=
 			</data>
 		</dict>
 		<key>Headers/QYKFNIMSessionDeleteAllRemoteMessagesInfo.h</key>
@@ -1928,11 +1928,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			36scck1OydEgVkFGJFkrQhNBBSI=
+			7UvFTr9XEEUnFzuK4kkmpoWKZcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			v7V77unnEm33qP/E+dObhMPj5p3XCUTkmXEzZc6CLrw=
+			eHywFZSgXayD5ttgPnkyLopa5qskurH4chIxJ+LnpPI=
 			</data>
 		</dict>
 		<key>Headers/QYKFNIMSyncMessagePinRequest.h</key>
@@ -2115,11 +2115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WjGOgVyc2LDF/Uv30KDCgdWsG58=
+			pZJrdF693rRuKlv0vqhvqgNb0Ic=
 			</data>
 			<key>hash2</key>
 			<data>
-			OjdBcI6Yi6wLLmzWhL5MDaj3aLC2uHgQ1i3mtVR3GTw=
+			UBMhLEVHeSuabZ+3nu6qOMztqDNPqJHNfPT7bSLr3jM=
 			</data>
 		</dict>
 		<key>Headers/QYKFNIMTeamSearchOption.h</key>

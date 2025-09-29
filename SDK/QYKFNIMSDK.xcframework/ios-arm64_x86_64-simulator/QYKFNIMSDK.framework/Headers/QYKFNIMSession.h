@@ -15,8 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
  *  会话类型
  */
 typedef NS_ENUM(NSInteger, QYKFNIMSessionType){
-    //未知
-    QYKFNIMSessionTypeUnknown = -1,
     /**
      *  点对点
      */

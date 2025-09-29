@@ -134,8 +134,6 @@ typedef NSString*__nullable(^QYKFNIMProvideChatroomDynamicTokenHandler)(NSString
  *  聊天室连接状态
  */
 typedef NS_ENUM(NSInteger, QYKFNIMChatroomConnectionState) {
-    //default value
-    QYKFNIMChatroomConnectionStateUnknown        = -1,
     /**
      *  正在进入
      */
