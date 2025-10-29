@@ -1,6 +1,0 @@
-framework module QYVideoService {
-  umbrella header "QYVideoService.h"
-  export *
-
-  module * { export * }
-}
