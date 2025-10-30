@@ -136,14 +136,6 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
 - (void)registerWithOption:(QYSDKOption *)option;
 
 /**
- *  注册SDK
- *
- *  @param option 注册选项
- *  @param completion 完成回调 回调结果为失败，仍然可以打开客服页面，但后台样式设置的效果不生效
- *  首次安装，未授权网络权限，会导致初始化失败，可以在回调中调用requestStyleConfig方法再次请求数据
- */
-- (void)registerWithOption:(QYSDKOption *)option completion:(QYResultCompletionBlock)completion;
-/**
  *  获取AppKey
  *
  *  @return 返回当前注册的AppKey
