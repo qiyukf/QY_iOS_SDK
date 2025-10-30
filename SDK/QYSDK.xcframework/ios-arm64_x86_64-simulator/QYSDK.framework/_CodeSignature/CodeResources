@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/QYSDK.h</key>
 		<data>
-		poX95+lV5hHABAGk/gXDQSfCfl0=
+		dSFzU/WT62cP8AluVAAAb6R/yL8=
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gTPEMmSvCtCXiwpGCVHWpjsnXQU=
+		DHr5zNu4xHNPG2Vl+1P6xtgb5nU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -423,11 +423,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			poX95+lV5hHABAGk/gXDQSfCfl0=
+			dSFzU/WT62cP8AluVAAAb6R/yL8=
 			</data>
 			<key>hash2</key>
 			<data>
-			11UBYWaSNQE8kIPou1mbgdsCrsmK42MYiL5oj/8J5K0=
+			V2GRZ1Nt7j9Tcgavr31y9OpHCHN14xH58PuORmPGaos=
 			</data>
 		</dict>
 		<key>Headers/QYSDKOption.h</key>
