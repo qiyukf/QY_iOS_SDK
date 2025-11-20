@@ -45,7 +45,7 @@ typedef void(^QYCleanCacheCompletion)(NSError *error);
 typedef NS_ENUM(NSInteger, QYLocalErrorCode) {
     QYLocalErrorCodeUnknown         = 0,    //未知错误
     QYLocalErrorCodeInvalidParam    = 1,    //错误参数
-    QYLocalErrorCodeFusionNeeded    = 2,    //必须为融合SDK
+    QYLocalErrorCodeFusionNeeded    = 2,    //必须为融合SDK（废弃）
     QYLocalErrorCodeAccountNeeded   = 3,    //帐号错误-底层通信IM帐号未登录
     QYLocalErrorCodeInvalidUserId   = 4,    //userId错误，应与帐号相同
     QYLocalErrorCodeNeedLogout      = 5,    //userId变化，应走帐号切换逻辑，先调用logout
@@ -92,13 +92,6 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  *  @return 七鱼SDK版本号
  */
 - (NSString *)sdkVersion;
-
-/**
- *  获取融合SDK版本号
- *
- *  @return 融合SDK版本号
- */
-- (NSString *)fusionSdkVersion;
 
 /**
  * 当前服务器配置
@@ -306,30 +299,6 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  *  @discussion 清理全部帐号信息会登出当前帐号，并新建匿名帐号，请在调用完成后使用setUserInfo:接口恢复为有名帐号；请在合理时机调用本接口
  */
 - (void)cleanAccountInfoForAll:(BOOL)cleanAll completion:(QYCleanCacheCompletion)completion;
-
-
-#pragma mark - Fusion
-
-/**
- *  设置用户信息，带authToken校验，仅融合SDK使用
- *
- *  @param userInfo 用户信息，注意userId应与当前登录的云信帐号相同，否则userInfoBlock返回error
- *  @param userInfoBlock userInfo上报结果回调
- *  @param authTokenBlock authToken校验结果回调
- *  @discussion App帐号登录成功后，调用此函数上报。若非融合SDK调用，则userInfoBlock返回error
- */
-- (void)setUserInfoForFusion:(QYUserInfo *)userInfo
-         userInfoResultBlock:(QYResultCompletionBlock)userInfoBlock
-        authTokenResultBlock:(QYCompletionBlock)authTokenBlock;
-
-/**
- *  注册云信自定义消息解析器，仅融合SDK使用
- *
- *  @param decoder 自定义消息解析器
- *  @discussion 若使用自定义消息类型，需注册自定义消息解析器，将透传过来的消息反序列化成上层应用可识别的对象
- *  @discussion 使用融合SDK时，若需解析自定义消息，请使用该接口设置；若仍使用云信提供接口，则会覆盖七鱼解析器造成部分客服消息无法解析
- */
-- (void)registerCustomDecoderForFusion:(id<QYKFNIMCustomAttachmentCoding>)decoder;
 
 /**
  再次请求后台样式

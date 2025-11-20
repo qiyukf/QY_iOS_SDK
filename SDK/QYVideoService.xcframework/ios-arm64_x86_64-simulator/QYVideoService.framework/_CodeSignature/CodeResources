@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/QYKFNIMSDK.framework/QYKFNIMSDK</key>
 		<data>
-		nUgZjOBHvOJIGsUILRfzBBBHOW0=
+		6PTJFIWp75WYVMl78TrzaMAySLA=
 		</data>
 		<key>Frameworks/QYKFNIMSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cE7NZ1YBqqwNq98GBQSKEhGOBgk=
+		GaiM8Z1KfAb0d0pz+hYDlZzPMRE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,11 +88,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nUgZjOBHvOJIGsUILRfzBBBHOW0=
+			6PTJFIWp75WYVMl78TrzaMAySLA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tHTV3g+eAY2egsakkYMQPO1CQ+QQxEZCzBIrZ+QFYJE=
+			KYp9ftwej6Hw0auYiVxgKf7ZjgZdp0JypycPXqlc9C4=
 			</data>
 		</dict>
 		<key>Frameworks/QYKFNIMSDK.framework/_CodeSignature/CodeResources</key>
