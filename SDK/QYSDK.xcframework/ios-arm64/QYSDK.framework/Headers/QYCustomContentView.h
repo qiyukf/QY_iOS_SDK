@@ -1,45 +1,40 @@
-//
-//  QYCustomContentView.h
-//  YSFSDK
-//
-//  Created by Netease on 2018/11/27.
-//  Copyright © 2018 Netease. All rights reserved.
-//
-
+/**
+ * @file QYCustomContentView.h
+ * @brief 自定义消息视图基类。
+ * @details 针对需要自定义的消息视图，编写子类继承 QYCustomContentView，并实现初始化与刷新方法，本分组包含自定义消息的模型定义、视图基类、协议、事件以及会话扩展接口。
+ * @defgroup QYCustomMsg 自定义消息
+ */
 #import <UIKit/UIKit.h>
 
 @class QYCustomModel;
 @protocol QYCustomContentViewDelegate;
 
-
 /**
- *  自定义消息视图基类
- *  使用方法：针对需自定义的消息视图，写子类继承QYCustomContentView，并实现初始化和刷新方法
+ * @brief 自定义消息视图基类。
+ * @details 使用子类实现 `initCustomContentView` 与 `refreshData:` 来完成视图搭建与刷新。
+ * @ingroup QYCustomMsg
  */
 @interface QYCustomContentView : UIView
-
 /**
- *  数据模型
+ * @brief 数据模型。
+ * @details 传入的 `QYCustomModel`，用于驱动视图展示。
  */
 @property (nonatomic, strong, readonly) QYCustomModel *model;
-
 /**
- *  事件代理，通过addCustomContentViewDelegate:方法设置
+ * @brief 事件代理。
+ * @details 通过 `addCustomContentViewDelegate:` 方法设置。
  */
 @property (nonatomic, weak, readonly) id<QYCustomContentViewDelegate> delegate;
-
 /**
- *  视图初始化方法（必须）
- *  @discussion 一般来说，subViews在此init方法中添加
- *  @return 视图实例
+ * @brief 视图初始化方法。
+ * @details 一般在此方法中添加子视图。
+ * @return 视图实例。
  */
 - (instancetype)initCustomContentView;
-
 /**
- *  刷新方法（必须）
- *  @discussion model更新时会自动触发此方法，需重写来更新视图
- *  @param model 数据模型
+ * @brief 刷新视图数据。
+ * @details 当模型变更时自动触发，需要在子类中重写以更新视图。
+ * @param model 数据模型。
  */
 - (void)refreshData:(QYCustomModel *)model;
-
 @end

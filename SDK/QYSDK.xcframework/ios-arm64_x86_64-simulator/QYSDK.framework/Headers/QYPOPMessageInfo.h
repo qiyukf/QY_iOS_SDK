@@ -1,32 +1,30 @@
-//
-//  QYPOPMessageInfo.h
-//  QYSDK
-//
-//  Created by Netease on 12/21/15.
-//  Copyright (c) 2017 Netease. All rights reserved.
-//
 
+/**
+ * @file QYPOPMessageInfo.h
+ * @brief 平台电商消息信息扩展。
+ * @details 为消息信息扩展商铺 ID、头像 URL 与发送者字段。
+ * @ingroup QYPOP
+ */
 #import <Foundation/Foundation.h>
 
 /**
- *  消息信息
+ * @brief 平台电商消息信息。
+ * @details 扩展 POP 场景下的消息关联信息。
+ * @ingroup QYPOP
  */
 @interface QYMessageInfo (POP)
-
 /**
- *  会话ID，可以是商铺ID等
+ * @brief 平台电商店铺 ID。
+ * @details 非平台电商场景可忽略该字段。
  */
 @property (nonatomic, copy) NSString *shopId;
-
 /**
- *  会话头像URL
+ * @brief 会话头像 URL。
  */
 @property (nonatomic, copy) NSString *avatarImageUrlString;
-
 /**
- *  发送者
+ * @brief 发送者。
  */
 @property (nonatomic, copy) NSString *sender;
-
 @end
 

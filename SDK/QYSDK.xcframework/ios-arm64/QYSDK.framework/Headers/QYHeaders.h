@@ -1,11 +1,10 @@
-//
-//  QYHeaders.h
-//  QYSDK
-//
-//  Created by Netease on 12/21/15.
-//  Copyright (c) 2017 Netease. All rights reserved.
-//
-
+/**
+ * @file QYHeaders.h
+ * @brief 七鱼 SDK 公开头文件聚合。
+ * @details 统一导出 SDK 对外可用的头文件，便于上层按需引入。
+ *
+ * @defgroup sdk SDK 主模块
+ */
 #ifndef QYSDK_YSFHeaders_h
 #define QYSDK_YSFHeaders_h
 

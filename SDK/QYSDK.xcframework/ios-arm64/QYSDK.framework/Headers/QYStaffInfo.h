@@ -1,42 +1,22 @@
-//
-//  QYStaffInfo.h
-//  YSFSDK
-//
-//  Created by Netease on 2018/10/12.
-//  Copyright © 2018年 Netease. All rights reserved.
-//
+/**
+ * @file QYStaffInfo.h
+ * @brief 人工客服信息。
+ * @details 展示客服的昵称、头像、接入提示与信息描述。
+ *
+ * @defgroup session 会话页面模块
+ */
 
 #import <Foundation/Foundation.h>
 
 /**
- *  人工客服信息
+ * @brief 人工客服信息。
+ * @ingroup session
  */
 @interface QYStaffInfo : NSObject
-
-/**
- *  客服ID，限制20字符
- */
-@property (nonatomic, copy) NSString *staffId;
-
-/**
- *  客服昵称，限制20字符
- */
-@property (nonatomic, copy) NSString *nickName;
-
-/**
- *  客服头像URL
- */
-@property (nonatomic, copy) NSString *iconURL;
-
-/**
- *  接入提示，限制50字符
- */
-@property (nonatomic, copy) NSString *accessTip;
-
-/**
- *  客服信息描述
- */
-@property (nonatomic, copy) NSString *infoDesc;
-
+@property (nonatomic, copy) NSString *staffId;  //! 客服 ID（<=20 字符）
+@property (nonatomic, copy) NSString *nickName; //! 客服昵称（<=20 字符）
+@property (nonatomic, copy) NSString *iconURL;  //! 客服头像 URL
+@property (nonatomic, copy) NSString *accessTip; //! 接入提示（<=50 字符）
+@property (nonatomic, copy) NSString *infoDesc; //! 客服信息描述
 @end
 

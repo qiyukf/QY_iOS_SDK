@@ -1,53 +1,58 @@
-//
-//  QYSDKOption.h
-//  QYBiz
-//
-//  Created by Netease on 2020/2/17.
-//  Copyright © 2020 Netease. All rights reserved.
-//
+/**
+ * @file QYSDKOption.h
+ * @brief 七鱼 SDK 注册选项。
+ * @details 封装 SDK 注册所需的关键参数（AppKey、App 名称、推送配置、模板ID 等）。
+ *
+ * @defgroup config 配置模块
+ */
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- * 注册选项
+ * @brief SDK 注册选项。
+ * @details 通过该模型集中配置 SDK 初始化所需的选项。
+ * @ingroup config
  */
 @interface QYSDKOption : NSObject
 
 /**
- * AppKey
+ * @brief AppKey。
+ * @details 对应七鱼管理后台分配的 AppKey。
  */
 @property (nonatomic, copy) NSString *appKey;
 
 /**
- * App名称，即七鱼管理后台添加App时填写的App名称；对应云信的Apns推送证书名apnsCername
+ * @brief App 名称。
+ * @details 七鱼管理后台添加 App 时填写的名称；对应云信的 Apns 推送证书名 `apnsCername`。
  */
 @property (nonnull, nonatomic, copy) NSString *appName;
 
 /**
- * PushKit推送证书名；对应云信的pkCername
+ * @brief PushKit 推送证书名。
+ * @details 对应云信的 `pkCername`。
  */
 @property (nullable, nonatomic, copy) NSString *pkCerName;
 
 /**
- * APNS推送消息是否显示具体的消息内容，默认YES
- * @discussion 设置成NO，显示成“你收到一条新消息”，并根据系统语言语种自动翻译
- *
+ * @brief APNS 推送是否显示具体消息内容，默认 YES。
+ * @details 设为 NO 时显示“你收到一条新消息”，并根据系统语言自动翻译。
  */
 @property (nonatomic, assign) BOOL showAPNSDetail;
 
 /**
- * 后台模板id
- * 优先级：
- * 后台样式开关打开后，代码指定后台模板id > 后台设置app > 后台默认模板 > SDK代码设置 > 默认
- * 后台样式开关关闭，仅  SDK代码设置 > 默认
+ * @brief 后台模板 ID。
+ * @details 优先级：
+ * - 后台样式开关打开：代码指定的后台模板 ID > 后台设置的 App > 后台默认模板 > SDK 代码设置 > 默认；
+ * - 后台样式开关关闭：仅 SDK 代码设置 > 默认。
  */
 @property (nonatomic, assign) long templateId;
 
 /**
- *  注册选项初始化方法
- *  @param appKey  企业AppKey
+ * @brief 构造注册选项。
+ * @param[in] appKey 企业 AppKey。
+ * @return `QYSDKOption` 实例。
  */
 + (instancetype)optionWithAppKey:(NSString *)appKey;
 

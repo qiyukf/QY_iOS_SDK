@@ -5,78 +5,100 @@
 //  Created by zhongzhida on 2024/3/18.
 //  Copyright © 2024 Netease. All rights reserved.
 //
+/**
+ * @file QYMessageCardModel.h
+ * @brief 卡片消息模型与模板说明。
+ * @details 定义卡片消息的自动发送策略、阶段分类、按钮文案与样式，以及卡片/浮动卡片的模板内容。
+ *
+ * @defgroup QYCardMsg 卡片消息
+ */
 
 #import <Foundation/Foundation.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ * @brief 订单状态分类阶段。
+ * @details 用户所处服务阶段，用于定制不同阶段的卡片内容展示与交互。
+ * @ingroup QYCardMsg
+ */
 typedef NS_ENUM(NSUInteger, QYCardStageType) {
-    QYCardStageTypePreSale = 10000,//售前
-    QYCardStageTypePreDelivery = 20000,//发货前
-    QYCardStageTypeAfterDelivery = 30000,//发货后
-    QYCardStageTypeAfterSale = 40000,//售后
+    QYCardStageTypePreSale = 10000,      //! 售前
+    QYCardStageTypePreDelivery = 20000,  //! 发货前
+    QYCardStageTypeAfterDelivery = 30000,//! 发货后
+    QYCardStageTypeAfterSale = 40000,    //! 售后
 };
+/**
+ * @brief 卡片消息模型。
+ * @details 配置卡片消息的发送时机、阶段类型、按钮文案与样式，以及卡片/浮动卡片内容列表。
+ * @ingroup QYCardMsg
+ */
 @interface QYMessageCardModel : NSObject
 
+
 /**
- *  机器人会话是否发送卡片消息
- *  1 机器人阶段和人工阶段都发送卡片，0 仅人工会话中发送
- *  默认 0
+ * @brief 机器人会话是否发送卡片消息。
+ * @details 1 表示机器人阶段与人工阶段都发送；0 表示仅在人工会话中发送。
+ * @note 默认值为 0。
  */
 @property (nonatomic, assign) NSInteger autoSendInRobot;
 
 /**
- *  留言阶段是否发送卡片消息
- *  仅对留言样式位消息的情况生效
- *  1 发送，0 不发送
- *  默认 0
+ * @brief 留言阶段是否发送卡片消息。
+ * @details 仅对留言样式的消息生效；1 发送，0 不发送。
+ * @note 默认值为 0。
  */
 @property (nonatomic, assign) NSInteger autoSendInLeave;
+
 /**
- *  0 进线自动发送, 1 手动发送。默认0
+ * @brief 发送方式。
+ * @details 0 表示进线自动发送；1 表示手动发送。
+ * @note 默认值为 0。
  */
 @property (nonatomic, assign) NSInteger sendByUser;
 
 /**
- *  订单状态分类
+ * @brief 订单状态分类。
+ * @details 用于区分售前、发货前、发货后、售后四个阶段。
  */
-
 @property (nonatomic, assign) QYCardStageType stageType;
+
 /**
- *  意图名称
- *  透传参数
+ * @brief 意图名称。
+ * @details 作为会话的透传参数，用于后端或机器人识别业务意图。
  */
 @property (nonatomic, copy) NSString *intent;
 
-
 /**
- *  一触即达流程参数
- *  透传参数
+ * @brief 一触即达流程参数。
+ * @details 作为会话的透传参数，用于配置特定业务流程。
  */
 @property (nonatomic, copy) NSString *params;
 
 /**
- *  发送按钮标题
+ * @brief 发送按钮标题。
  */
 @property (nonatomic, copy) NSString *actionText;
 
 /**
- *  发送按钮文字颜色
+ * @brief 发送按钮文字颜色。
  */
 @property (nonatomic, copy) UIColor *actionTextColor;
 
 /**
- *  卡片消息内容，共9种模板类型，可以重复添加
- *  支持的类型：标题、副标题、图片、操作按钮、订单、商品、富文本、跳转链接、节点流程、标签
+ * @brief 卡片消息内容列表。
+ * @details 共 9 种模板类型，可重复添加。支持类型：标题、副标题、图片、操作按钮、订单、商品、富文本、跳转链接、节点流程、标签。
+ * @note 请按官网字段规范构造各模板数据项。
+ * @see 官网字段说明
  */
-
 @property (nonatomic, strong) NSArray<NSDictionary *> *cards;
 
 /**
- *  浮动卡片消息内容，共2种模板类型，可以重复添加
- *  此数组中的效果与cards展示不同，此数组的为浮动效果
- *  类型：操作按钮、商品
+ * @brief 浮动卡片消息内容列表。
+ * @details 共 2 种模板类型，可重复添加；展示效果与 `cards` 不同，为浮动样式。支持类型：操作按钮、商品。
+ * @note 请按官网字段规范构造各模板数据项。
+ * @see 官网字段说明
  */
 @property (nonatomic, strong) NSArray<NSDictionary *> *floatCards;
 

@@ -6,147 +6,147 @@
 	<dict>
 		<key>Headers/QYAction.h</key>
 		<data>
-		05ycziLP0tJtK7D3q1yEihrNOtg=
+		/G8BgdVx+04hbUxBMwGcb7YeOEw=
 		</data>
 		<key>Headers/QYCommodityInfo.h</key>
 		<data>
-		n/O9ovvYcNv5secy+tOWez3Cv+4=
+		w+wLzcTBAcO7QJPoVj2SPr0Pl84=
 		</data>
 		<key>Headers/QYConversationManager.h</key>
 		<data>
-		1HLfUbLlEJjNiEggQwLAqzqyZo4=
+		DbBYxbrkgZUIVfgT/yt9uUj/URo=
 		</data>
 		<key>Headers/QYCustomActionConfig.h</key>
 		<data>
-		QognF14fb0ET6lnqNW3T2GrD2vU=
+		c5fjq9nFqEA5qi0mka1B51Icx0w=
 		</data>
 		<key>Headers/QYCustomCommodityInfo.h</key>
 		<data>
-		iGXnOuHCl6Gfkw+pB5sUd1AsOAc=
+		fxKpWYpGn482TPxHktrtZIvRcp4=
 		</data>
 		<key>Headers/QYCustomContentView.h</key>
 		<data>
-		yaar1QHeG508IOcLZ3HfzYyZoLU=
+		BllGr0quX1TWP1jtdUtagTgmF7I=
 		</data>
 		<key>Headers/QYCustomEvent.h</key>
 		<data>
-		lECuYfZDQXL5gzBLIIk7YxuGtKg=
+		kTqxYiI4V+b1SAbEtxgmcmV13A8=
 		</data>
 		<key>Headers/QYCustomMessage.h</key>
 		<data>
-		ZnEyxsMzuslSVnSYa088blQQu+Y=
+		JZlYRb1h20KgO3tbODTlDn4JQ2s=
 		</data>
 		<key>Headers/QYCustomMessageProtocol.h</key>
 		<data>
-		06ksFjUGaiBy6wDVa5gSMd+8sFk=
+		YZ0BenzeAevz23w4jwFPch120ag=
 		</data>
 		<key>Headers/QYCustomModel.h</key>
 		<data>
-		6dhGdVy2VtYG6vF8+SzVU2ePLx0=
+		cP/zXwfnWa5mj9QWc3hLUEVQyyM=
 		</data>
 		<key>Headers/QYCustomSDK.h</key>
 		<data>
-		iAkxIJH+I1gBeQvACthYxDConWQ=
+		oEmR4njy5cWG95KrXpVw6RQFO4c=
 		</data>
 		<key>Headers/QYCustomSessionViewController.h</key>
 		<data>
-		s5IRup347YAdEH1iKnZJrlzDvFs=
+		iF41pp8lu7RRBvPA2W1Wz5r6v18=
 		</data>
 		<key>Headers/QYCustomUIConfig.h</key>
 		<data>
-		K+auPYPc7cMN1a+1UV6zhZvRpkM=
+		YnmyWUHUGVchEPdeeeahWqxKX0I=
 		</data>
 		<key>Headers/QYEvaluation.h</key>
 		<data>
-		kWdBwSznk9FcIVehZ7rJf3EOVIg=
+		X2yHY0AKchFC8IScgR7rEG1XxMs=
 		</data>
 		<key>Headers/QYHeaders.h</key>
 		<data>
-		lAzG5cHU+65GX/SnTYJCrWW3H/Y=
+		EIBhc9Hz56VYHaXB728YVMJ2U+s=
 		</data>
 		<key>Headers/QYMessageCardModel.h</key>
 		<data>
-		ZT0/Fw1tNBRIVhFWiIEtyM89pg8=
+		zZL0C5Drtz3CnxcqzY22ioc7e1U=
 		</data>
 		<key>Headers/QYMessageInfo.h</key>
 		<data>
-		YEb9EyDXBqEl3L5wM27XGC6KsAU=
+		Z1tWadisT71HBtO5Dn59Y29/64I=
 		</data>
 		<key>Headers/QYNIMConfig.h</key>
 		<data>
-		66w2ic2teG4dE8mMTZ2ZpnOEQpc=
+		BOHMJ8z9G+5gl45Ic7nR7WDaEwY=
 		</data>
 		<key>Headers/QYPOPConversationManager.h</key>
 		<data>
-		T95Ymg62Ueh6J7pdtMxOPulJCnE=
+		uXGlntqfyV9LDUloUu8f4Pu3ihc=
 		</data>
 		<key>Headers/QYPOPMessageInfo.h</key>
 		<data>
-		TW2DL0wZgghLTZh2jYhOELmH0CU=
+		GuYk7xTFGvTvD04iHJzN5kKfW3w=
 		</data>
 		<key>Headers/QYPOPSDK.h</key>
 		<data>
-		0I3eKfqQWgvzF2rOF+VaaWh4TEE=
+		XRnC8jnz9zWajMrBYavStT+REps=
 		</data>
 		<key>Headers/QYPOPSessionInfo.h</key>
 		<data>
-		ng8b7s5H3p5m4HfdlIoHFxKHWG8=
+		JXxXcQt8AqfueIP5AkrfPSSbyTc=
 		</data>
 		<key>Headers/QYPOPSessionViewController.h</key>
 		<data>
-		QTmJOwt/Lu+eVQtpVaZ8yPoVgMk=
+		32B1T0FOkY6lm63czRoU7PLjMV8=
 		</data>
 		<key>Headers/QYPushMessage.h</key>
 		<data>
-		zbLfrLx+F8YdtB5pyxHCSHlnmvc=
+		ab5xe4ahZqBYWkXHSqLFxxljJRA=
 		</data>
 		<key>Headers/QYSDK.h</key>
 		<data>
-		gWMM4G60tXWyrck2fZI1kzFZDR0=
+		Vx1RHYkzZ5LU7ZmGUREMUyi1PNo=
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
-		t4xP1aTBbGWwUjSJat64zWKZbiQ=
+		jduaaMrT+op2kG2eQ26VlxwuiRY=
 		</data>
 		<key>Headers/QYSDKSPI.h</key>
 		<data>
-		QJSpaRdGMWnVVp1hoz3DskVqxpA=
+		B5fJF/rvCWMhTOd7bGQIvM61qRk=
 		</data>
 		<key>Headers/QYServerSetting.h</key>
 		<data>
-		bxY24AVQouz9QOHUiAFbe7ekaHo=
+		Pe2XDvzFy8pPlnCF+mnzWzRLO4Q=
 		</data>
 		<key>Headers/QYSessionInfo.h</key>
 		<data>
-		AwvjvfSDhnl6wahnrJQc5/0EUUk=
+		8vr0HOjbNMicTxeNuBhQfxRsVjg=
 		</data>
 		<key>Headers/QYSessionViewController.h</key>
 		<data>
-		BX1wVO+IIe5o6cqs6V25xBLjFzg=
+		nD0Lqa9GlIA8qRlaERrIMkmQAlI=
 		</data>
 		<key>Headers/QYSource.h</key>
 		<data>
-		YSn60kmLhb/IclhKuJ0U7gKlPfs=
+		eIBTBVyLbGyE2Me5KoaT0pLJXa4=
 		</data>
 		<key>Headers/QYStaffInfo.h</key>
 		<data>
-		rkPN1+ZS2qqlYRBWgcBSv/u0uik=
+		7oZelIvi3Qlc1+kFbC/VX10FD5c=
 		</data>
 		<key>Headers/QYUserInfo.h</key>
 		<data>
-		07wXmpsK44NWoChkdoYAKiK5wJw=
+		yFILJzS/MLwF229KWdhiIsx5iCc=
 		</data>
 		<key>Headers/QYVideoServiceProtocol.h</key>
 		<data>
-		2Tj45hyMlDcSRyWbASXYjxlKt3I=
+		fIFd+aXZPt9Xi0FzfGzHc145Nfw=
 		</data>
 		<key>Headers/QYWorkOrderListViewController.h</key>
 		<data>
-		ZK+2M+WY37WJMWJbQxOK2pgRWyg=
+		5GqFwoIBTvXZwtUedQ3BVZci3bE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		A1a7AFttVA6vlFtcfmV67VbJEHs=
+		Sr8DCxCcadKi7PblmJGhQWcTElk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -159,385 +159,385 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			05ycziLP0tJtK7D3q1yEihrNOtg=
+			/G8BgdVx+04hbUxBMwGcb7YeOEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LpWwaHBuaT2dCuzNBJ6huWDn7EDgHwtd/3M4RJEu1h8=
+			hxNxZw9Z8KW49cYTliIEoPq4OaRaR106/QXNfVSe3AI=
 			</data>
 		</dict>
 		<key>Headers/QYCommodityInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n/O9ovvYcNv5secy+tOWez3Cv+4=
+			w+wLzcTBAcO7QJPoVj2SPr0Pl84=
 			</data>
 			<key>hash2</key>
 			<data>
-			azIDsAoCekgjNgMPsMsyv3Pui4ul8WoVs1Kvg0TR53M=
+			D7F0qIV4qVCrJZEZ146xJmgALy68FCW3Sl7bdD9HBbE=
 			</data>
 		</dict>
 		<key>Headers/QYConversationManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1HLfUbLlEJjNiEggQwLAqzqyZo4=
+			DbBYxbrkgZUIVfgT/yt9uUj/URo=
 			</data>
 			<key>hash2</key>
 			<data>
-			us5jgiuJoySUluTlzYMPEsuorliaPHLY5Tgt7UwJIh0=
+			ERMFVR4WDPNPQhHTAspAKfJk+QagPQrv/wo5DXNA1A8=
 			</data>
 		</dict>
 		<key>Headers/QYCustomActionConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QognF14fb0ET6lnqNW3T2GrD2vU=
+			c5fjq9nFqEA5qi0mka1B51Icx0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			T3BPm2CoqEjpmQiQaiZjsdxVWXPVseZJqWEQxTbtVZw=
+			B/8XhcLdHG3pOX1vlzYtKMCVk7PbCAo+Wta/Br6v3IY=
 			</data>
 		</dict>
 		<key>Headers/QYCustomCommodityInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iGXnOuHCl6Gfkw+pB5sUd1AsOAc=
+			fxKpWYpGn482TPxHktrtZIvRcp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XNg6KLsVbvYSxXadSucLACXRtN7YbRYgacEtejxwIWQ=
+			rgJx04T0NH1wv6DqSLivZ3EvHYRLDtLFWYtuji6dUIQ=
 			</data>
 		</dict>
 		<key>Headers/QYCustomContentView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yaar1QHeG508IOcLZ3HfzYyZoLU=
+			BllGr0quX1TWP1jtdUtagTgmF7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			08/EQpe2RcVV/DRIaOxs85qsm5wgh8dLhar5IaYQNqo=
+			2NttFCqvNyvgmPew5f7hCXTnDiebkZqbJAsNJunnNnY=
 			</data>
 		</dict>
 		<key>Headers/QYCustomEvent.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lECuYfZDQXL5gzBLIIk7YxuGtKg=
+			kTqxYiI4V+b1SAbEtxgmcmV13A8=
 			</data>
 			<key>hash2</key>
 			<data>
-			hCRaQkoTvO1c6ouhodhyNpOwPfeUVQx6Q9pxQoWp3HI=
+			ZM0DEUQOU706Mww7eKv66lyXZ6BY49+R9UFsI2Cgmtg=
 			</data>
 		</dict>
 		<key>Headers/QYCustomMessage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZnEyxsMzuslSVnSYa088blQQu+Y=
+			JZlYRb1h20KgO3tbODTlDn4JQ2s=
 			</data>
 			<key>hash2</key>
 			<data>
-			sfx3Ze1/sSnfYG++tIa1iOpohHRK8grtQCTMcA+Wq7I=
+			6Q0L+jzPrpETV3zLXWcgdRQXA/PiGux+ZPF3vU+Ovpw=
 			</data>
 		</dict>
 		<key>Headers/QYCustomMessageProtocol.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			06ksFjUGaiBy6wDVa5gSMd+8sFk=
+			YZ0BenzeAevz23w4jwFPch120ag=
 			</data>
 			<key>hash2</key>
 			<data>
-			iSyIa+ulrRvkN2uaOWOPLWNi0R58N7y/ZnrBS6VcUG8=
+			V39CHDEgbZTMJIKnBIxBk0jSfA+KnDY+Ro2wFNSdRLY=
 			</data>
 		</dict>
 		<key>Headers/QYCustomModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6dhGdVy2VtYG6vF8+SzVU2ePLx0=
+			cP/zXwfnWa5mj9QWc3hLUEVQyyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			KXZU+1bm4q0vsQE2NQ2/8+aY0PuzSyOHPUrJe9F6zZc=
+			8h69EbOEjnvEpc8Y/UXHJIm7W5kB6GEFqncua4vn7kY=
 			</data>
 		</dict>
 		<key>Headers/QYCustomSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iAkxIJH+I1gBeQvACthYxDConWQ=
+			oEmR4njy5cWG95KrXpVw6RQFO4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			DX+EAu8gAS25bGkJo/pxht2cL9u3LLh/19AeGmoTHSk=
+			q1YUVWvrTKvlm3wBpWabr3eB2EoLosev37PtbLr3H84=
 			</data>
 		</dict>
 		<key>Headers/QYCustomSessionViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s5IRup347YAdEH1iKnZJrlzDvFs=
+			iF41pp8lu7RRBvPA2W1Wz5r6v18=
 			</data>
 			<key>hash2</key>
 			<data>
-			oADIdbONIlnVuERIT4sxeaP0a8fh+71wfEjhFNaWGqg=
+			btInsfZ0Cp+tGrJydSJKn7GTwxleK3KnqXjo4gjIZ60=
 			</data>
 		</dict>
 		<key>Headers/QYCustomUIConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K+auPYPc7cMN1a+1UV6zhZvRpkM=
+			YnmyWUHUGVchEPdeeeahWqxKX0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			bctAYWT7cByo4k24DVr8iyNGhnsmJv++A/xH9RoHpDo=
+			pD+R2YDFE85zvSF6r9c3DqVwSJ7lQGdUMTn6cVAKreM=
 			</data>
 		</dict>
 		<key>Headers/QYEvaluation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kWdBwSznk9FcIVehZ7rJf3EOVIg=
+			X2yHY0AKchFC8IScgR7rEG1XxMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			EjxF4B6rqlWKDzTY9H9LBGQamL1OSUS6BfE0Avl8nRo=
+			NcwWTY6livfNBS6c8UjjbIeWoMRD2jLXoF0NJcYmcvM=
 			</data>
 		</dict>
 		<key>Headers/QYHeaders.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lAzG5cHU+65GX/SnTYJCrWW3H/Y=
+			EIBhc9Hz56VYHaXB728YVMJ2U+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z+6TgFeuOZjuNRZnZ4S0n60nSC3nEl2uvLweCQpsA+8=
+			exGrj6PoCV43YDR4mxfwtXAh63dRFpn+H6injoIc+hk=
 			</data>
 		</dict>
 		<key>Headers/QYMessageCardModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZT0/Fw1tNBRIVhFWiIEtyM89pg8=
+			zZL0C5Drtz3CnxcqzY22ioc7e1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			LTsKmE+knTagiE0wRkuCHJo5vSKygieBHGL2pxugAtc=
+			nINxE0NneLl/F6WIO68OV+OVufNd4BLdLF4wK7v0mYE=
 			</data>
 		</dict>
 		<key>Headers/QYMessageInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YEb9EyDXBqEl3L5wM27XGC6KsAU=
+			Z1tWadisT71HBtO5Dn59Y29/64I=
 			</data>
 			<key>hash2</key>
 			<data>
-			4T5m358YOqxFBWSbA5l7tmYNwwVvgT/bfh+y+BPhqU8=
+			VV+cw1UDmQcob/MWwtmoNkkIs4QjM7onZ29BR4DqgIc=
 			</data>
 		</dict>
 		<key>Headers/QYNIMConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			66w2ic2teG4dE8mMTZ2ZpnOEQpc=
+			BOHMJ8z9G+5gl45Ic7nR7WDaEwY=
 			</data>
 			<key>hash2</key>
 			<data>
-			JCZ6Cqjtgn88gTGuVtVDXt766yizJ0tH0uWASIXuH1I=
+			ngJtmMq0y8rbVxDKozjuFR7/9zO39oobWFF25Aednr0=
 			</data>
 		</dict>
 		<key>Headers/QYPOPConversationManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T95Ymg62Ueh6J7pdtMxOPulJCnE=
+			uXGlntqfyV9LDUloUu8f4Pu3ihc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7jIIfxCH7gGirgWRlq5IC3aKaSr12JVTkFOwcCheKQA=
+			v0uke5F70irdZorwQ6rtV+gGi9j//HmgbF2jNbY6liw=
 			</data>
 		</dict>
 		<key>Headers/QYPOPMessageInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TW2DL0wZgghLTZh2jYhOELmH0CU=
+			GuYk7xTFGvTvD04iHJzN5kKfW3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Hm/xnZRZzxnCNVJKMLdlaCnZdNqrNx/aGCpq6GyGec=
+			1DtgzO0HpoEdYtyU8o8DVWCP4jafo22t1YTPD6jndlo=
 			</data>
 		</dict>
 		<key>Headers/QYPOPSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0I3eKfqQWgvzF2rOF+VaaWh4TEE=
+			XRnC8jnz9zWajMrBYavStT+REps=
 			</data>
 			<key>hash2</key>
 			<data>
-			dr+HmKtUQwQLgNFyK8SSomvLQHEF/f+Lko1xm2YT9B4=
+			C//SFYyHg0xWaZGsDI239KV7nLM/Sv1epWMamhTY3X4=
 			</data>
 		</dict>
 		<key>Headers/QYPOPSessionInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ng8b7s5H3p5m4HfdlIoHFxKHWG8=
+			JXxXcQt8AqfueIP5AkrfPSSbyTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Axuyk21yURvaPdHncJ3vQgfTiOE28tYsrxJxCxjj71Q=
+			KfPHWn4X4HB6xqrHE5K8l59694SDgruQSyU89NCGvwA=
 			</data>
 		</dict>
 		<key>Headers/QYPOPSessionViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QTmJOwt/Lu+eVQtpVaZ8yPoVgMk=
+			32B1T0FOkY6lm63czRoU7PLjMV8=
 			</data>
 			<key>hash2</key>
 			<data>
-			YiyrvbqD5WD5RUbcLsyHv9WYNThdaUWd2kFOSki/axc=
+			SdK9fWlx5hX/EzgFllPHkX8MFvMwQ9tjwWqB6lIn58U=
 			</data>
 		</dict>
 		<key>Headers/QYPushMessage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zbLfrLx+F8YdtB5pyxHCSHlnmvc=
+			ab5xe4ahZqBYWkXHSqLFxxljJRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dZvMXddm257pyJiLIQPuKTo/vlvz2/vmLa+G8fwp0cM=
+			3JLX68YL6G73Qtnpn8CpLJ+pLmIWXrIUWCN2Tgf1b8E=
 			</data>
 		</dict>
 		<key>Headers/QYSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gWMM4G60tXWyrck2fZI1kzFZDR0=
+			Vx1RHYkzZ5LU7ZmGUREMUyi1PNo=
 			</data>
 			<key>hash2</key>
 			<data>
-			/lDJYKB/NW3NZECuHIw3oPATWFlvYpRxjIBqp6H83bQ=
+			tseDWH4k4eBO4SD/esZM5RJTb61fSNkktyNYn7gCHyg=
 			</data>
 		</dict>
 		<key>Headers/QYSDKOption.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t4xP1aTBbGWwUjSJat64zWKZbiQ=
+			jduaaMrT+op2kG2eQ26VlxwuiRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dvIsGCHJjwF8eE6xl+F1UfuWta9xqMBlFLsQUrpcXM4=
+			kOm9BnpIsydbzdxmeZFkMEgczJ0PLRG+aloBPeO8GTs=
 			</data>
 		</dict>
 		<key>Headers/QYSDKSPI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QJSpaRdGMWnVVp1hoz3DskVqxpA=
+			B5fJF/rvCWMhTOd7bGQIvM61qRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			GGOrh/rBVXQQvZwmPDIFKH6Hw6DxnX4sZjs4R9ajJmQ=
+			hl3qj5VY1kL1BkYhtjVQPTVwMyayd1eW9gWxQJnHN/o=
 			</data>
 		</dict>
 		<key>Headers/QYServerSetting.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bxY24AVQouz9QOHUiAFbe7ekaHo=
+			Pe2XDvzFy8pPlnCF+mnzWzRLO4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			lyFHO033YLr996QsW2EfPhD08J9Bn68bNTWhlK/m8lk=
+			28j+nPuWkwa/5f6OfaGoydR5G9i5yGMHwPBTb8XBJU4=
 			</data>
 		</dict>
 		<key>Headers/QYSessionInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AwvjvfSDhnl6wahnrJQc5/0EUUk=
+			8vr0HOjbNMicTxeNuBhQfxRsVjg=
 			</data>
 			<key>hash2</key>
 			<data>
-			71pEMwffmDj+Wt/Rd4empAfdP3Ym0Gkr8DvnCWRY0RE=
+			PPqHzROqL0OxpuT+pC4G2q6rdkmqwIOyqkkSUvKucgU=
 			</data>
 		</dict>
 		<key>Headers/QYSessionViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BX1wVO+IIe5o6cqs6V25xBLjFzg=
+			nD0Lqa9GlIA8qRlaERrIMkmQAlI=
 			</data>
 			<key>hash2</key>
 			<data>
-			xY/CCqxZSyzsIvLbqBQG+LSHMsHnyKob9GRSb8uG04Y=
+			5XA5tMivF0/OTzEuTDCixet4XACNi89g+Evm35nD38Q=
 			</data>
 		</dict>
 		<key>Headers/QYSource.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YSn60kmLhb/IclhKuJ0U7gKlPfs=
+			eIBTBVyLbGyE2Me5KoaT0pLJXa4=
 			</data>
 			<key>hash2</key>
 			<data>
-			WLcc5xF8ARbvnsjvlBQTWm/ilMPgXdGbgu6LD5CuwFU=
+			TQRC6n9Nn4Z2GDFfTp1SO8FlxbkddF47o5aZYOnwrok=
 			</data>
 		</dict>
 		<key>Headers/QYStaffInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rkPN1+ZS2qqlYRBWgcBSv/u0uik=
+			7oZelIvi3Qlc1+kFbC/VX10FD5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			wj4V5dEC8O19xMM1SJ/kxYcRQb81h84GsrZJ2i7y7UM=
+			qsuuQ5P+HMu1cML+xoTm6nkF1f7ucvSLIVzkAlSzNpg=
 			</data>
 		</dict>
 		<key>Headers/QYUserInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			07wXmpsK44NWoChkdoYAKiK5wJw=
+			yFILJzS/MLwF229KWdhiIsx5iCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			2c9Np63L3VvY+uRuJF52zsBYkNSSS5g5hWuLoIEpq40=
+			m2zI67CeOu5hs4snshWnCIQfG0asp/QLkF+RshShAyM=
 			</data>
 		</dict>
 		<key>Headers/QYVideoServiceProtocol.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2Tj45hyMlDcSRyWbASXYjxlKt3I=
+			fIFd+aXZPt9Xi0FzfGzHc145Nfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			HHE56lpl6S2FWEYEV+c+yN9SZEch0YPRizLOfwc7Ozk=
+			g9UpnY3zNzl4BHNRFMCmrAG9UO+r4PnbGy042+faID8=
 			</data>
 		</dict>
 		<key>Headers/QYWorkOrderListViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZK+2M+WY37WJMWJbQxOK2pgRWyg=
+			5GqFwoIBTvXZwtUedQ3BVZci3bE=
 			</data>
 			<key>hash2</key>
 			<data>
-			52HFIgTsKxaischQwu0W/6D/p/8OUKlJgBQMpe4zTqI=
+			Oi0Eh1OiQKhueaLyh/FmIPV6lvwU33MzghoZz53LnR0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

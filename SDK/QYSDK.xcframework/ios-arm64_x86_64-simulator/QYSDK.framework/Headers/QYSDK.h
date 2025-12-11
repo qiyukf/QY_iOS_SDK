@@ -1,12 +1,10 @@
-//
-//  QYSDK.h
-//  QYSDK
-//
-//  version 5.16.0
-//
-//  Created by Netease on 12/21/15.
-//  Copyright (c) 2017 Netease. All rights reserved.
-//
+/**
+ * @file QYSDK.h
+ * @brief 七鱼 SDK 入口与全局配置。
+ * @details 提供 SDK 注册、用户信息设置、会话入口、推送、日志接口。
+ *
+ * @defgroup sdk SDK 主模块
+ */
 
 #import <Foundation/Foundation.h>
 #import "QYHeaders.h"
@@ -15,67 +13,77 @@
 @protocol QYKFNIMCustomAttachmentCoding;
 
 /**
- *  完成回调
+ * @brief 通用完成回调。
+ * @param[in] success 是否成功。
  */
 typedef void(^QYCompletionBlock)(BOOL success);
 
 /**
- *  完成回调，带错误参数
+ * @brief 通用完成回调（带错误信息）。
+ * @param[in] success 是否成功。
+ * @param[in] error 错误信息；为空表示成功。
  */
 typedef void(^QYResultCompletionBlock)(BOOL success, NSError *error);
 
 /**
- *  完成结果回调
+ * @brief 结果回调（仅返回是否成功）。
+ * @param[in] isSuccess 是否成功。
  */
 typedef void(^QYCompletionWithResultBlock)(BOOL isSuccess);
 
 /**
- *  推送消息回调
+ * @brief 推送消息通知回调。
+ * @param[in] pushMessage 推送消息模型。
  */
 typedef void(^QYPushMessageBlock)(QYPushMessage *pushMessage);
 
 /**
- *  清理缓存回调
+ * @brief 清理缓存完成回调。
+ * @param[in] error 清理过程错误；为空表示成功。
  */
 typedef void(^QYCleanCacheCompletion)(NSError *error);
 
 /**
- *  错误码
+ * @brief 错误码。
+ * @details 表示本地校验和使用过程中的错误状态；不可与其他值组合。
  */
 typedef NS_ENUM(NSInteger, QYLocalErrorCode) {
-    QYLocalErrorCodeUnknown         = 0,    //未知错误
-    QYLocalErrorCodeInvalidParam    = 1,    //错误参数
-    QYLocalErrorCodeFusionNeeded    = 2,    //必须为融合SDK（废弃）
-    QYLocalErrorCodeAccountNeeded   = 3,    //帐号错误-底层通信IM帐号未登录
-    QYLocalErrorCodeInvalidUserId   = 4,    //userId错误，应与帐号相同
-    QYLocalErrorCodeNeedLogout      = 5,    //userId变化，应走帐号切换逻辑，先调用logout
+    QYLocalErrorCodeUnknown         = 0,    //! 未知错误
+    QYLocalErrorCodeInvalidParam    = 1,    //! 错误参数
+    QYLocalErrorCodeFusionNeeded    = 2,    //! 必须为融合SDK（废弃）
+    QYLocalErrorCodeAccountNeeded   = 3,    //! 帐号错误：底层通信IM帐号未登录
+    QYLocalErrorCodeInvalidUserId   = 4,    //! userId错误，应与帐号相同
+    QYLocalErrorCodeNeedLogout      = 5,    //! userId变化，应先调用logout再重新设置
 };
 
 /**
- *  语言
+ * @brief 语言枚举。
+ * @details 表示 SDK 当前展示语言。
  */
 typedef NS_ENUM(NSInteger, QYLanguage) {
-    QYLanguageChineseSimplified     = 0,    //简体中文
-    QYLanguageChineseTraditional    = 1,    //繁体中文
-    QYLanguageEnglish               = 2,    //英语
-    QYLanguageJapan                 = 3,    //日语
-    QYLanguageKorea                 = 4,    //韩语
-    QYLanguageGerman                = 5,    //德语
-    QYLanguageFrench                = 6,    //法语
-    QYLanguageThai                  = 7,    //泰语
-    QYLanguageIndonesian            = 8,    //印尼语
-    QYLanguageVietnamese            = 9,    //越南语
-    QYLanguageFilipino              = 10,    //菲律宾语
-    QYLanguageRussian               = 11,    //俄语
-    QYLanguageArabic                = 12,    //阿拉伯语
-    QYLanguageTurkey                = 13,    //土耳其
-    QYLanguageSpain                 = 14,    //西班牙
-    QYLanguagePortugal              = 15,    //葡萄牙
+    QYLanguageChineseSimplified     = 0,    //! 简体中文
+    QYLanguageChineseTraditional    = 1,    //! 繁体中文
+    QYLanguageEnglish               = 2,    //! 英语
+    QYLanguageJapan                 = 3,    //! 日语
+    QYLanguageKorea                 = 4,    //! 韩语
+    QYLanguageGerman                = 5,    //! 德语
+    QYLanguageFrench                = 6,    //! 法语
+    QYLanguageThai                  = 7,    //! 泰语
+    QYLanguageIndonesian            = 8,    //! 印尼语
+    QYLanguageVietnamese            = 9,    //! 越南语
+    QYLanguageFilipino              = 10,   //! 菲律宾语
+    QYLanguageRussian               = 11,   //! 俄语
+    QYLanguageArabic                = 12,   //! 阿拉伯语
+    QYLanguageTurkey                = 13,   //! 土耳其语
+    QYLanguageSpain                 = 14,   //! 西班牙语
+    QYLanguagePortugal              = 15,   //! 葡萄牙语
 };
 
 
 /**
- *  QYSDK：单例模式
+ * @brief 七鱼 SDK 单例。
+ * @details 提供 SDK 注册、用户与会话管理、推送等能力。
+ * @ingroup sdk
  */
 @interface QYSDK : NSObject <QYSDKSPI>
 
@@ -210,7 +218,12 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  *  @discussion 若设置的userId与上次设置不同，即需要实现帐号切换，应先调用logout还原为匿名帐号再进行设置
  */
 - (void)setUserInfo:(QYUserInfo *)userInfo userInfoResultBlock:(QYResultCompletionBlock)userInfoBlock;
-
+/**
+ *  查询当前的登录状态。
+ *
+ *  @discussion当前的登录状态，返回 YES，表示已登录；返回 NO，表示处于未登录状态
+ */
+- (BOOL)isLogined;
 /**
  *  注销当前帐号，App帐号注销时调用
  *

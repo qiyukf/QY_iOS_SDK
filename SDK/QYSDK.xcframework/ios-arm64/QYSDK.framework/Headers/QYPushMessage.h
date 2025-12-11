@@ -1,64 +1,31 @@
-//
-//  QYPushMessage.h
-//  QYSDK
-//
-//  Created by Netease on 9/10/16.
-//  Copyright (c) 2017 Netease. All rights reserved.
-//
-
 /**
- *  推送消息类型
+ * @file QYPushMessage.h
+ * @brief 推送消息模型声明。
+ * @details 定义推送消息类型与展示内容，监听到新消息时会回调。
+ *
+ * @defgroup push 推送模块
  */
+
 typedef NS_ENUM(NSInteger, QYPushMessageType) {
-    QYPushMessageTypeText,
-    QYPushMessageTypeRichText,
-    QYPushMessageTypeImage,
+    QYPushMessageTypeText,      //! 文本
+    QYPushMessageTypeRichText,  //! 富文本
+    QYPushMessageTypeImage,     //! 图片
 };
 
 /**
- *  推送消息定义
+ * @brief 推送消息。
+ * @ingroup push
  */
 @interface QYPushMessage : NSObject
 
-/**
- *  消息类型
- */
-@property (nonatomic, assign) QYPushMessageType type;
-
-/**
- *  发送方头像图片url
- */
-@property (nonatomic, copy) NSString *headImageUrl;
-
-/**
- *  按钮文本
- */
-@property (nonatomic, copy) NSString *actionText;
-
-/**
- *  按钮url
- */
-@property (nonatomic, copy) NSString *actionUrl;
-
-/**
- *  消息内容 文本
- */
-@property (nonatomic, copy) NSString *text;
-
-/**
- *  消息内容 富文本
- */
-@property (nonatomic, copy) NSString *richText;
-
-/**
- *  消息内容 图片
- */
-@property (nonatomic, copy) NSString *imageUrl;
-
-/**
- *  消息接收时间
- */
-@property (nonatomic, assign) NSTimeInterval time;
+@property (nonatomic, assign) QYPushMessageType type;   //! 消息类型
+@property (nonatomic, copy) NSString *headImageUrl;     //! 发送方头像 URL
+@property (nonatomic, copy) NSString *actionText;       //! 按钮文本
+@property (nonatomic, copy) NSString *actionUrl;        //! 按钮 URL
+@property (nonatomic, copy) NSString *text;             //! 文本内容
+@property (nonatomic, copy) NSString *richText;         //! 富文本内容
+@property (nonatomic, copy) NSString *imageUrl;         //! 图片 URL
+@property (nonatomic, assign) NSTimeInterval time;      //! 接收时间戳（秒）
 
 @end
 

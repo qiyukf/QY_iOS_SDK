@@ -1,26 +1,25 @@
-//
-//  QYSessionViewController.h
-//  QYSDK
-//
-//  Created by Netease on 12/21/15.
-//  Copyright (c) 2017 Netease. All rights reserved.
-//
 
+/**
+ * @file QYPOPSessionViewController.h
+ * @brief 平台电商会话控制器扩展。
+ * @details 在会话控制器上扩展 POP 专用字段与回调。
+ * @ingroup QYPOP
+ */
 #import "QYSessionViewController.h"
 
 /**
- *  平台电商专用
+ * @brief 平台电商专用会话分类。
+ * @details 添加商铺 ID 与会话窗口回调属性。
+ * @ingroup QYPOP
  */
 @interface QYSessionViewController (POP)
-
 /**
- *  平台电商店铺Id，不是平台电商不用管
+ * @brief 平台电商店铺 ID。
+ * @details 非平台电商场景可忽略该字段。
  */
 @property (nonatomic, copy) NSString *shopId;
-
 /**
- *  会话窗口回调
+ * @brief 会话窗口回调。
  */
 @property (nonatomic, weak) id<QYSessionViewDelegate> delegate;
-
 @end
