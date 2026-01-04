@@ -227,7 +227,10 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
  */
 @property (nonatomic, strong) UIColor *messageButtonBackColor;
 
-
+/**
+ * @brief 富文本内容，默认行高倍数。通过此属性，可以控制行间距
+ */
+@property (nonatomic, assign) CGFloat lineHeightMultiple;
 //输入栏上方操作按钮设置
 
 /**

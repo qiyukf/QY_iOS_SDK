@@ -87,6 +87,11 @@ typedef NS_ENUM(NSUInteger, QYCardStageType) {
 @property (nonatomic, copy) UIColor *actionTextColor;
 
 /**
+ * @brief 发送按钮字体大小。
+ */
+@property (nonatomic, assign) CGFloat actionFontSize;
+
+/**
  * @brief 卡片消息内容列表。
  * @details 共 9 种模板类型，可重复添加。支持类型：标题、副标题、图片、操作按钮、订单、商品、富文本、跳转链接、节点流程、标签。
  * @note 请按官网字段规范构造各模板数据项。

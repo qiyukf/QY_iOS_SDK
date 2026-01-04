@@ -48,6 +48,7 @@ typedef NS_ENUM(NSUInteger, QYOrderStageType) {
 @property (nonatomic, assign) BOOL sendByUser;          //! 是否由访客主动发送（默认否）
 @property (nonatomic, copy) NSString *actionText;       //! 发送按钮文案
 @property (nonatomic, strong) UIColor *actionTextColor; //! 发送按钮文案颜色
+@property (nonatomic, assign) CGFloat actionFontSize;          //! 发送按钮字体大小
 @property (nonatomic, copy) NSString *ext;              //! 特定用户使用的扩展字段
 @property (nonatomic, assign) NSInteger cardType;       //! 卡片类型：商品/订单/自定义（0/1/2）
 @property (nonatomic, copy) NSString *goodsCId;         //! 商品类目 ID（最多 100 字符，最多100字符，商品所属类目ID，填写后有助于机器人识别商品和后续业务）

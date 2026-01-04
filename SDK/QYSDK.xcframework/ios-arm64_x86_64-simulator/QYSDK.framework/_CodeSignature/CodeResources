@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/QYCommodityInfo.h</key>
 		<data>
-		w+wLzcTBAcO7QJPoVj2SPr0Pl84=
+		8bqGHqWNihku8rvPUn97K8SjXD4=
 		</data>
 		<key>Headers/QYConversationManager.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/QYCustomUIConfig.h</key>
 		<data>
-		YnmyWUHUGVchEPdeeeahWqxKX0I=
+		JHg3mFMeOifrnbLha/5sFLd0/jg=
 		</data>
 		<key>Headers/QYEvaluation.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/QYMessageCardModel.h</key>
 		<data>
-		zZL0C5Drtz3CnxcqzY22ioc7e1U=
+		eaeeasY9KQslWd8lywIpqdLkFgo=
 		</data>
 		<key>Headers/QYMessageInfo.h</key>
 		<data>
@@ -112,6 +112,10 @@
 		<data>
 		B5fJF/rvCWMhTOd7bGQIvM61qRk=
 		</data>
+		<key>Headers/QYServerConfig.h</key>
+		<data>
+		vWXSVhoUdxZZxMIpgPTkSXAmlGM=
+		</data>
 		<key>Headers/QYServerSetting.h</key>
 		<data>
 		Pe2XDvzFy8pPlnCF+mnzWzRLO4Q=
@@ -146,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Sr8DCxCcadKi7PblmJGhQWcTElk=
+		beT5d+n0iDcvRiJ9HLoEzoFl2Dw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,11 +174,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w+wLzcTBAcO7QJPoVj2SPr0Pl84=
+			8bqGHqWNihku8rvPUn97K8SjXD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			D7F0qIV4qVCrJZEZ146xJmgALy68FCW3Sl7bdD9HBbE=
+			sdlypjiiLCZmqi0OeQ57Hkk0/DPkTVDYxuArJKUIYBg=
 			</data>
 		</dict>
 		<key>Headers/QYConversationManager.h</key>
@@ -291,11 +295,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YnmyWUHUGVchEPdeeeahWqxKX0I=
+			JHg3mFMeOifrnbLha/5sFLd0/jg=
 			</data>
 			<key>hash2</key>
 			<data>
-			pD+R2YDFE85zvSF6r9c3DqVwSJ7lQGdUMTn6cVAKreM=
+			BTfV1ojqvqXyZ3/9pGElLcVdK6JmbAkvPz92YybyXhk=
 			</data>
 		</dict>
 		<key>Headers/QYEvaluation.h</key>
@@ -324,11 +328,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zZL0C5Drtz3CnxcqzY22ioc7e1U=
+			eaeeasY9KQslWd8lywIpqdLkFgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			nINxE0NneLl/F6WIO68OV+OVufNd4BLdLF4wK7v0mYE=
+			dDt61GKPiV9MfSeOi6AtCqdVbeY/gSe/QuoQ5HOZkjA=
 			</data>
 		</dict>
 		<key>Headers/QYMessageInfo.h</key>
@@ -450,6 +454,17 @@
 			<key>hash2</key>
 			<data>
 			hl3qj5VY1kL1BkYhtjVQPTVwMyayd1eW9gWxQJnHN/o=
+			</data>
+		</dict>
+		<key>Headers/QYServerConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vWXSVhoUdxZZxMIpgPTkSXAmlGM=
+			</data>
+			<key>hash2</key>
+			<data>
+			YTayGu4sgippQM9+WnA0pECXC6zSDNxDjWHPxElg9yQ=
 			</data>
 		</dict>
 		<key>Headers/QYServerSetting.h</key>
