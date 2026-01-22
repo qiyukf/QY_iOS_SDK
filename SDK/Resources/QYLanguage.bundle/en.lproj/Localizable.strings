@@ -363,3 +363,5 @@
 "QYTitleStringShooting" = "Record video";
 "QYButtonStringSelectCopy" = "Select text";
 "QYButtonStringAddPhoto" = "Add more accessible photos";
+"QYButtonStringDetail" = "detailed";
+"QYButtonStringExpand" = "concise";

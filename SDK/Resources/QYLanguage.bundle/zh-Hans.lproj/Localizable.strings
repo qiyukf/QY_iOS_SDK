@@ -369,3 +369,5 @@
 "QYButtonStringQuoteReply" = "引用回复";
 "QYButtonStringSelectCopy" = "选择文本";
 "QYButtonStringAddPhoto" = "添加更多可访问照片";
+"QYButtonStringDetail" = "详细";
+"QYButtonStringExpand" = "简洁";

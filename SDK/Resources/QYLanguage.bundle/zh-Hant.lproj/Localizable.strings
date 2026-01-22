@@ -361,3 +361,5 @@
 "QYTitleStringShooting" = "錄影";
 "QYButtonStringSelectCopy" = "選擇文本";
 "QYButtonStringAddPhoto" = "添加更多可訪問照片";
+"QYButtonStringDetail" = "詳細";
+"QYButtonStringExpand" = "簡潔";

@@ -361,3 +361,5 @@
 "QYTitleStringShooting" = "Gravar vídeo";
 "QYButtonStringSelectCopy" = "Selecionar texto";
 "QYButtonStringAddPhoto" = "Adicionar mais fotos acessíveis";
+"QYButtonStringDetail" = "detalhado";
+"QYButtonStringExpand" = "conciso";

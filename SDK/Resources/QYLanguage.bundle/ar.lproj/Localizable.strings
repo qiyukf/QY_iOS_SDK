@@ -361,3 +361,5 @@
 "QYTitleStringShooting" = "جلسة نهاية";
 "QYButtonStringSelectCopy" = "اختر النص";
 "QYButtonStringAddPhoto" = "إضافة المزيد من الصور القابلة للوصول";
+"QYButtonStringDetail" = "مفصل";
+"QYButtonStringExpand" = "موجز";

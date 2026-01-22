@@ -361,3 +361,5 @@
 "QYTitleStringShooting" = "영상 촬영";
 "QYButtonStringSelectCopy" = "텍스트 선택";
 "QYButtonStringAddPhoto" = "액세스 가능한 사진 추가";
+"QYButtonStringDetail" = "자세한";
+"QYButtonStringExpand" = "간결한";

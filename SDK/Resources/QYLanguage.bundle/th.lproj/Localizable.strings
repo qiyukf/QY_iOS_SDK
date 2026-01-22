@@ -361,3 +361,5 @@
 "QYTitleStringShooting" = "ถ่ายวีดีโอ";
 "QYButtonStringSelectCopy" = "เลือกข้อความ";
 "QYButtonStringAddPhoto" = "เพิ่มภาพถ่ายที่สามารถเข้าถึงได้มากขึ้น";
+"QYButtonStringDetail" = "ละเอียด";
+"QYButtonStringExpand" = "กระชับ";
