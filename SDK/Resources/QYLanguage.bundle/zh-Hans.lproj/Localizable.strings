@@ -371,3 +371,8 @@
 "QYButtonStringAddPhoto" = "添加更多可访问照片";
 "QYButtonStringDetail" = "详细";
 "QYButtonStringExpand" = "简洁";
+"QYButtonStringOrderCategoryOne" = "一级";
+"QYButtonStringOrderCategoryTwo" = "二级";
+"QYButtonStringOrderCategoryThree" = "三级";
+"QYButtonStringOrderCategoryFour" = "四级";
+"QYButtonStringOrderCategoryFive" = "五级";

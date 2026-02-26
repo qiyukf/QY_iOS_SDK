@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "Weitere zugängliche Fotos hinzufügen";
 "QYButtonStringDetail" = "detailliert";
 "QYButtonStringExpand" = "prägnant";
+"QYButtonStringOrderCategoryOne" = "Stufe 1";
+"QYButtonStringOrderCategoryTwo" = "Stufe 2";
+"QYButtonStringOrderCategoryThree" = "Stufe 3";
+"QYButtonStringOrderCategoryFour" = "Stufe 4";
+"QYButtonStringOrderCategoryFive" = "Stufe 5";

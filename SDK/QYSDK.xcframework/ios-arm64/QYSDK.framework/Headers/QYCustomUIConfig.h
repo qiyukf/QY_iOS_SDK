@@ -43,6 +43,14 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
     QYMessagesLoadStateWillLoad,  //! 即将加载
     QYMessagesLoadStateLoading,   //! 加载中
 };
+
+/**
+ *  @brief 工单附件后缀
+ */
+typedef NS_ENUM(NSInteger, QYAttachmentSuffixType) {
+    QYAttachmentSuffixTypeJPG = 0,      //! 默认 JPG后缀
+    QYAttachmentSuffixTypePNG,      //! PNG后缀
+};
 /**
  * @brief 自定义 UI 配置（单例）。
  * @details 若需替换图片素材，自行创建 `QYCustomResource.bundle` 并与 `QYResource.bundle` 同名素材即可覆盖。SDK会优先使用QYCustomResource.bundle中的图片素材，若QYCustomResource.bundle中没有，才会使用QYResource.bundle中的图片素材。
@@ -357,6 +365,12 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
  * @details 默认是NO，即url地址会进行encoding
  */
 @property (nonatomic, assign) BOOL disableWebLinkEncoding;
+
+/**
+ * @brief 附件上传的图片后缀类型
+ * @details 默认是jpg后缀，也可以修改为png
+ */
+@property (nonatomic, assign) QYAttachmentSuffixType suffixType;
 /**
  * @brief 消息下拉刷新loading图片设置，区分不同state状态
  */

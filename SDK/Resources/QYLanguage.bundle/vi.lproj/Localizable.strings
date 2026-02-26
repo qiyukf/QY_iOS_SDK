@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "Thêm ảnh có thể truy cập";
 "QYButtonStringDetail" = "chi tiết";
 "QYButtonStringExpand" = "ngắn gọn";
+"QYButtonStringOrderCategoryOne" = "Cấp độ 1";
+"QYButtonStringOrderCategoryTwo" = "Cấp độ 2";
+"QYButtonStringOrderCategoryThree" = "Cấp độ 3";
+"QYButtonStringOrderCategoryFour" = "Cấp độ 4";
+"QYButtonStringOrderCategoryFive" = "Cấp độ 5";

@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "เพิ่มภาพถ่ายที่สามารถเข้าถึงได้มากขึ้น";
 "QYButtonStringDetail" = "ละเอียด";
 "QYButtonStringExpand" = "กระชับ";
+"QYButtonStringOrderCategoryOne" = "ระดับ 1";
+"QYButtonStringOrderCategoryTwo" = "ระดับ 2";
+"QYButtonStringOrderCategoryThree" = "ระดับ 3";
+"QYButtonStringOrderCategoryFour" = "ระดับ 4";
+"QYButtonStringOrderCategoryFive" = "ระดับ 5";

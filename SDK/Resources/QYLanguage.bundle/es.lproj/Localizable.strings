@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "Añadir más fotos accesibles";
 "QYButtonStringDetail" = "detallado";
 "QYButtonStringExpand" = "conciso";
+"QYButtonStringOrderCategoryOne" = "Nivel 1";
+"QYButtonStringOrderCategoryTwo" = "Nivel 2";
+"QYButtonStringOrderCategoryThree" = "Nivel 3";
+"QYButtonStringOrderCategoryFour" = "Nivel 4";
+"QYButtonStringOrderCategoryFive" = "Nivel 5";

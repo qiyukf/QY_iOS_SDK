@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "Добавить больше доступных фотографий";
 "QYButtonStringDetail" = "подробный";
 "QYButtonStringExpand" = "краткий";
+"QYButtonStringOrderCategoryOne" = "Уровень 1";
+"QYButtonStringOrderCategoryTwo" = "Уровень 2";
+"QYButtonStringOrderCategoryThree" = "Уровень 3";
+"QYButtonStringOrderCategoryFour" = "Уровень 4";
+"QYButtonStringOrderCategoryFive" = "Уровень 5";

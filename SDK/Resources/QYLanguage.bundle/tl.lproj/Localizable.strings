@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "Idagdag ang mga mas accessible na litrato";
 "QYButtonStringDetail" = "detalyado";
 "QYButtonStringExpand" = "maikli at malinaw";
+"QYButtonStringOrderCategoryOne" = "Antas 1";
+"QYButtonStringOrderCategoryTwo" = "Antas 2";
+"QYButtonStringOrderCategoryThree" = "Antas 3";
+"QYButtonStringOrderCategoryFour" = "Antas 4";
+"QYButtonStringOrderCategoryFive" = "Antas 5";

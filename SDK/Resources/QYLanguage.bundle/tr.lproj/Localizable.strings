@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "Daha fazla erişilebilir fotoğraf ekle";
 "QYButtonStringDetail" = "ayrıntılı";
 "QYButtonStringExpand" = "öz";
+"QYButtonStringOrderCategoryOne" = "Seviye 1";
+"QYButtonStringOrderCategoryTwo" = "Seviye 2";
+"QYButtonStringOrderCategoryThree" = "Seviye 3";
+"QYButtonStringOrderCategoryFour" = "Seviye 4";
+"QYButtonStringOrderCategoryFive" = "Seviye 5";

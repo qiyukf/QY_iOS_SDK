@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "액세스 가능한 사진 추가";
 "QYButtonStringDetail" = "자세한";
 "QYButtonStringExpand" = "간결한";
+"QYButtonStringOrderCategoryOne" = "레벨 1";
+"QYButtonStringOrderCategoryTwo" = "레벨 2";
+"QYButtonStringOrderCategoryThree" = "레벨 3";
+"QYButtonStringOrderCategoryFour" = "레벨 4";
+"QYButtonStringOrderCategoryFive" = "레벨 5";

@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "写真へのアクセスを追加";
 "QYButtonStringDetail" = "詳細な";
 "QYButtonStringExpand" = "簡潔な";
+"QYButtonStringOrderCategoryOne" = "レベル1";
+"QYButtonStringOrderCategoryTwo" = "レベル2";
+"QYButtonStringOrderCategoryThree" = "レベル3";
+"QYButtonStringOrderCategoryFour" = "レベル4";
+"QYButtonStringOrderCategoryFive" = "レベル5";

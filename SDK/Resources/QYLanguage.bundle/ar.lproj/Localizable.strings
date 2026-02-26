@@ -363,3 +363,8 @@
 "QYButtonStringAddPhoto" = "إضافة المزيد من الصور القابلة للوصول";
 "QYButtonStringDetail" = "مفصل";
 "QYButtonStringExpand" = "موجز";
+"QYButtonStringOrderCategoryOne" = "المستوى 1";
+"QYButtonStringOrderCategoryTwo" = "المستوى 2";
+"QYButtonStringOrderCategoryThree" = "المستوى 3";
+"QYButtonStringOrderCategoryFour" = "المستوى 4";
+"QYButtonStringOrderCategoryFive" = "المستوى 5";
