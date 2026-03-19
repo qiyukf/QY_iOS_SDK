@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "Niveau 3";
 "QYButtonStringOrderCategoryFour" = "Niveau 4";
 "QYButtonStringOrderCategoryFive" = "Niveau 5";
-"QYButtonStringConsultancyScope" = "Périmètre de consultation";
-"QYButtonStringConsultancyScopeSelected" = "Périmètre de consultation (%d sélectionné(s))";
-"QYButtonStringConsultancyScopeTitle" = "Choisir le périmètre";
-"QYButtonStringConsultancyScopeSearchHolder" = "Entrez le modèle ou terme spécifique pour la consultation";
-"QYButtonStringConsultancyScopeTabSelected" = "Sélectionné";
-"QYButtonStringConsultancyScopeTabSearch" = "Résultats de recherche";
-"QYButtonStringConsultancyScopeEmptySearch" = "Aucun résultat, essayez d'autres mots-clés";
-"QYButtonStringConsultancyScopeEmptySelected" = "Aucun modèle ou terme spécifique sélectionné, recherchez ci-dessus";
-"QYButtonStringConsultancyScopeLimit" = "Sélection max : %d éléments";
-"QYButtonStringConsultancyScopeSearch" = "Entrez un mot-clé pour chercher un terme spécifique";
-"QYButtonStringConsultancyScopeFailed" = "Échec de la recherche, réessayez";
