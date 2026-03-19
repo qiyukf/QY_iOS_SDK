@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "レベル3";
 "QYButtonStringOrderCategoryFour" = "レベル4";
 "QYButtonStringOrderCategoryFive" = "レベル5";
-"QYButtonStringConsultancyScope" = "相談範囲";
-"QYButtonStringConsultancyScopeSelected" = "相談範囲（%d件選択中）";
-"QYButtonStringConsultancyScopeTitle" = "相談範囲を選択";
-"QYButtonStringConsultancyScopeSearchHolder" = "相談する機種または専門用語を入力してください。";
-"QYButtonStringConsultancyScopeTabSelected" = "選択済み";
-"QYButtonStringConsultancyScopeTabSearch" = "検索結果";
-"QYButtonStringConsultancyScopeEmptySearch" = "検索結果がありません。別のキーワードをお試しください。";
-"QYButtonStringConsultancyScopeEmptySelected" = "機種または専門用語が選択されていません。上部で検索してください。";
-"QYButtonStringConsultancyScopeLimit" = "最大%d件選択可能";
-"QYButtonStringConsultancyScopeSearch" = "キーワードを入力して専門用語を検索";
-"QYButtonStringConsultancyScopeFailed" = "検索に失敗しました。再試行してください。";

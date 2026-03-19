@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "Stufe 3";
 "QYButtonStringOrderCategoryFour" = "Stufe 4";
 "QYButtonStringOrderCategoryFive" = "Stufe 5";
-"QYButtonStringConsultancyScope" = "Beratungsbereich";
-"QYButtonStringConsultancyScopeSelected" = "Beratungsbereich (%d ausgewählt)";
-"QYButtonStringConsultancyScopeTitle" = "Beratungsbereich wählen";
-"QYButtonStringConsultancyScopeSearchHolder" = "Modell oder Fachbegriff für Beratung eingeben";
-"QYButtonStringConsultancyScopeTabSelected" = "Ausgewählt";
-"QYButtonStringConsultancyScopeTabSearch" = "Suchergebnisse";
-"QYButtonStringConsultancyScopeEmptySearch" = "Keine Ergebnisse, andere Schlüsselwörter versuchen";
-"QYButtonStringConsultancyScopeEmptySelected" = "Derzeit kein Modell oder Fachbegriff ausgewählt, suche oben";
-"QYButtonStringConsultancyScopeLimit" = "Maximal %d auswählbar";
-"QYButtonStringConsultancyScopeSearch" = "Schlüsselwort für Fachbegriff eingeben";
-"QYButtonStringConsultancyScopeFailed" = "Suche fehlgeschlagen, erneut versuchen";

@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "Уровень 3";
 "QYButtonStringOrderCategoryFour" = "Уровень 4";
 "QYButtonStringOrderCategoryFive" = "Уровень 5";
-"QYButtonStringConsultancyScope" = "Область консультации";
-"QYButtonStringConsultancyScopeSelected" = "Область консультации (выбрано: %d)";
-"QYButtonStringConsultancyScopeTitle" = "Выберите область консультации";
-"QYButtonStringConsultancyScopeSearchHolder" = "Введите модель или термин для консультации";
-"QYButtonStringConsultancyScopeTabSelected" = "Выбрано";
-"QYButtonStringConsultancyScopeTabSearch" = "Результаты поиска";
-"QYButtonStringConsultancyScopeEmptySearch" = "Нет результатов, попробуйте другие ключевые слова";
-"QYButtonStringConsultancyScopeEmptySelected" = "Сейчас не выбрано ни модели, ни термина, поищите выше";
-"QYButtonStringConsultancyScopeLimit" = "Максимум %d вариантов";
-"QYButtonStringConsultancyScopeSearch" = "Введите ключевое слово для поиска термина";
-"QYButtonStringConsultancyScopeFailed" = "Ошибка поиска, повторите";
