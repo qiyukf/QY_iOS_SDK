@@ -368,3 +368,14 @@
 "QYButtonStringOrderCategoryThree" = "레벨 3";
 "QYButtonStringOrderCategoryFour" = "레벨 4";
 "QYButtonStringOrderCategoryFive" = "레벨 5";
+"QYButtonStringConsultancyScope" = "상담 범위";
+"QYButtonStringConsultancyScopeSelected" = "상담 범위(%d개 선택됨)";
+"QYButtonStringConsultancyScopeTitle" = "상담 범위 선택";
+"QYButtonStringConsultancyScopeSearchHolder" = "상담할 모델 또는 전문 용어를 입력하세요.";
+"QYButtonStringConsultancyScopeTabSelected" = "선택됨";
+"QYButtonStringConsultancyScopeTabSearch" = "검색 결과";
+"QYButtonStringConsultancyScopeEmptySearch" = "검색 결과가 없습니다. 다른 키워드를 시도하세요.";
+"QYButtonStringConsultancyScopeEmptySelected" = "선택된 모델 또는 전문 용어가 없습니다. 위에서 검색하세요.";
+"QYButtonStringConsultancyScopeLimit" = "최대 %d개 선택 가능";
+"QYButtonStringConsultancyScopeSearch" = "키워드를 입력하여 전문 용어를 검색하세요.";
+"QYButtonStringConsultancyScopeFailed" = "검색 실패, 다시 시도하세요.";
