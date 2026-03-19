@@ -370,3 +370,14 @@
 "QYButtonStringOrderCategoryThree" = "Level 3";
 "QYButtonStringOrderCategoryFour" = "Level 4";
 "QYButtonStringOrderCategoryFive" = "Level 5";
+"QYButtonStringConsultancyScope" = "Consultation Scope";
+"QYButtonStringConsultancyScopeSelected" = "Consultation Scope (%ld selected)";
+"QYButtonStringConsultancyScopeTitle" = "Select Consultation Scope";
+"QYButtonStringConsultancyScopeSearchHolder" = "Enter a model or proper noun for consultation";
+"QYButtonStringConsultancyScopeTabSelected" = "Selected";
+"QYButtonStringConsultancyScopeTabSearch" = "Search Results";
+"QYButtonStringConsultancyScopeEmptySearch" = "No results found, please try other keywords";
+"QYButtonStringConsultancyScopeEmptySelected" = "No models or proper nouns selected, search above to find";
+"QYButtonStringConsultancyScopeLimit" = "Select up to ${value}";
+"QYButtonStringConsultancyScopeSearch" = "Enter keywords to search for proper nouns";
+"QYButtonStringConsultancyScopeFailed" = "Search failed, please try again";

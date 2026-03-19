@@ -368,3 +368,14 @@
 "QYButtonStringOrderCategoryThree" = "Antas 3";
 "QYButtonStringOrderCategoryFour" = "Antas 4";
 "QYButtonStringOrderCategoryFive" = "Antas 5";
+"QYButtonStringConsultancyScope" = "Saklaw ng Konsultasyon";
+"QYButtonStringConsultancyScopeSelected" = "Saklaw ng Konsultasyon (%d ang napili)";
+"QYButtonStringConsultancyScopeTitle" = "Pumili ng Saklaw ng Konsultasyon";
+"QYButtonStringConsultancyScopeSearchHolder" = "Ilagay ang modelo o espesyal na termino para sa konsultasyon";
+"QYButtonStringConsultancyScopeTabSelected" = "Napili";
+"QYButtonStringConsultancyScopeTabSearch" = "Mga Resulta ng Paghahanap";
+"QYButtonStringConsultancyScopeEmptySearch" = "Walang resulta, subukan ang ibang keyword";
+"QYButtonStringConsultancyScopeEmptySelected" = "Wala pang napiling modelo o espesyal na termino, maghanap sa itaas";
+"QYButtonStringConsultancyScopeLimit" = "Pumili ng hanggang %d item";
+"QYButtonStringConsultancyScopeSearch" = "Maglagay ng keyword para maghanap ng espesyal na termino";
+"QYButtonStringConsultancyScopeFailed" = "Nabigo ang paghahanap, subukang muli";
