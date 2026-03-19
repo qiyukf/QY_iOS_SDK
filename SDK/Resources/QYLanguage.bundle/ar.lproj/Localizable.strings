@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "المستوى 3";
 "QYButtonStringOrderCategoryFour" = "المستوى 4";
 "QYButtonStringOrderCategoryFive" = "المستوى 5";
-"QYButtonStringConsultancyScope" = "نطاق الاستشارة (تم اختيار %d)";
-"QYButtonStringConsultancyScopeSelected" = "اختر نطاق الاستشارة";
-"QYButtonStringConsultancyScopeTitle" = "المحدد";
-"QYButtonStringConsultancyScopeSearchHolder" = "لم يتم تحديد أي طراز أو مصطلح متخصص، ابحث أعلاه";
-"QYButtonStringConsultancyScopeTabSelected" = "نتائج البحث";
-"QYButtonStringConsultancyScopeTabSearch" = "أدخل طرازًا أو مصطلحًا متخصصًا للاستشارة";
-"QYButtonStringConsultancyScopeEmptySearch" = "لا توجد نتائج، جرب كلمات أخرى";
-"QYButtonStringConsultancyScopeEmptySelected" = " للبحث عن مصطلحات متخصصة";
-"QYButtonStringConsultancyScopeLimit" = "فشل البحث، حاول مرة أخرى";
-"QYButtonStringConsultancyScopeSearch" = "لا توجد نتائج، جرب كلمات أخرى";
-"QYButtonStringConsultancyScopeFailed" = "";

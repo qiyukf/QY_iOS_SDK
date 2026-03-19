@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "Cấp độ 3";
 "QYButtonStringOrderCategoryFour" = "Cấp độ 4";
 "QYButtonStringOrderCategoryFive" = "Cấp độ 5";
-"QYButtonStringConsultancyScope" = "Phạm vi tư vấn";
-"QYButtonStringConsultancyScopeSelected" = "Phạm vi tư vấn (đã chọn %d)";
-"QYButtonStringConsultancyScopeTitle" = "Chọn phạm vi tư vấn";
-"QYButtonStringConsultancyScopeSearchHolder" = "Nhập model hoặc thuật ngữ chuyên ngành để tư vấn";
-"QYButtonStringConsultancyScopeTabSelected" = "Đã chọn";
-"QYButtonStringConsultancyScopeTabSearch" = "Kết quả tìm kiếm";
-"QYButtonStringConsultancyScopeEmptySearch" = "Không có kết quả, vui lòng thử từ khóa khác";
-"QYButtonStringConsultancyScopeEmptySelected" = "Hiện chưa chọn model hoặc thuật ngữ chuyên ngành nào, có thể tìm kiếm ở trên";
-"QYButtonStringConsultancyScopeLimit" = "Chọn tối đa %d mục";
-"QYButtonStringConsultancyScopeSearch" = "Nhập từ khóa để tìm kiếm thuật ngữ chuyên ngành";
-"QYButtonStringConsultancyScopeFailed" = "Tìm kiếm thất bại, vui lòng thử lại";

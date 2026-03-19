@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "Nivel 3";
 "QYButtonStringOrderCategoryFour" = "Nivel 4";
 "QYButtonStringOrderCategoryFive" = "Nivel 5";
-"QYButtonStringConsultancyScope" = "Ámbito de consulta";
-"QYButtonStringConsultancyScopeSelected" = "Ámbito de consulta (%d seleccionados)";
-"QYButtonStringConsultancyScopeTitle" = "Seleccionar ámbito de consulta";
-"QYButtonStringConsultancyScopeSearchHolder" = "Introduzca el modelo o término específico para la consulta";
-"QYButtonStringConsultancyScopeTabSelected" = "Seleccionado";
-"QYButtonStringConsultancyScopeTabSearch" = "Resultados de la búsqueda";
-"QYButtonStringConsultancyScopeEmptySearch" = "No hay resultados, pruebe con otras palabras clave";
-"QYButtonStringConsultancyScopeEmptySelected" = "No hay modelos ni términos específicos seleccionados, puede buscar arriba";
-"QYButtonStringConsultancyScopeLimit" = "Seleccione %d elementos como máximo";
-"QYButtonStringConsultancyScopeSearch" = "Introduzca palabras clave para buscar términos específicos";
-"QYButtonStringConsultancyScopeFailed" = "Error en la búsqueda, inténtelo de nuevo";

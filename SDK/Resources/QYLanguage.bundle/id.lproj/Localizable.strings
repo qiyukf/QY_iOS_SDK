@@ -368,14 +368,3 @@
 "QYButtonStringOrderCategoryThree" = "Level 3";
 "QYButtonStringOrderCategoryFour" = "Level 4";
 "QYButtonStringOrderCategoryFive" = "Level 5";
-"QYButtonStringConsultancyScope" = "Lingkup Konsultasi";
-"QYButtonStringConsultancyScopeSelected" = "Lingkup Konsultasi (%d dipilih)";
-"QYButtonStringConsultancyScopeTitle" = "Pilih Lingkup Konsultasi";
-"QYButtonStringConsultancyScopeSearchHolder" = "Masukkan model atau istilah khusus untuk konsultasi";
-"QYButtonStringConsultancyScopeTabSelected" = "Dipilih";
-"QYButtonStringConsultancyScopeTabSearch" = "Hasil Pencarian";
-"QYButtonStringConsultancyScopeEmptySearch" = "Tidak ada hasil, coba kata kunci lain";
-"QYButtonStringConsultancyScopeEmptySelected" = "Saat ini belum ada model atau istilah khusus yang dipilih, cari di atas";
-"QYButtonStringConsultancyScopeLimit" = "Maksimal %d item dapat dipilih";
-"QYButtonStringConsultancyScopeSearch" = "Masukkan kata kunci untuk mencari istilah khusus";
-"QYButtonStringConsultancyScopeFailed" = "Pencarian gagal, coba lagi";

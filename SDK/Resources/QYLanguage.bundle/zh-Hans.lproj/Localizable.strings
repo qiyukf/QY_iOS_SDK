@@ -376,14 +376,3 @@
 "QYButtonStringOrderCategoryThree" = "三级";
 "QYButtonStringOrderCategoryFour" = "四级";
 "QYButtonStringOrderCategoryFive" = "五级";
-"QYButtonStringConsultancyScope" = "咨询范围";
-"QYButtonStringConsultancyScopeSelected" = "咨询范围（已选%ld项）";
-"QYButtonStringConsultancyScopeTitle" = "选择咨询范围";
-"QYButtonStringConsultancyScopeSearchHolder" = "请输入咨询的型号或专有名词";
-"QYButtonStringConsultancyScopeTabSelected" = "已选择";
-"QYButtonStringConsultancyScopeTabSearch" = "搜索结果";
-"QYButtonStringConsultancyScopeEmptySearch" = "暂无搜索结果，请尝试其他关键词";
-"QYButtonStringConsultancyScopeEmptySelected" = "当前暂未选择任何型号或专有名词可在上方搜索查找";
-"QYButtonStringConsultancyScopeLimit" = "最多选择%d项";
-"QYButtonStringConsultancyScopeSearch" = "请输入关键词搜索专有名词";
-"QYButtonStringConsultancyScopeFailed" = "搜索失败，请重试";
