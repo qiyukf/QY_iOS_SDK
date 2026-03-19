@@ -368,3 +368,14 @@
 "QYButtonStringOrderCategoryThree" = "Seviye 3";
 "QYButtonStringOrderCategoryFour" = "Seviye 4";
 "QYButtonStringOrderCategoryFive" = "Seviye 5";
+"QYButtonStringConsultancyScope" = "Danışma Kapsamı";
+"QYButtonStringConsultancyScopeSelected" = "Danışma Kapsamı (%d seçildi)";
+"QYButtonStringConsultancyScopeTitle" = "Danışma Kapsamı Seçin";
+"QYButtonStringConsultancyScopeSearchHolder" = "Danışma için model veya özel terim girin";
+"QYButtonStringConsultancyScopeTabSelected" = "Seleccionado";
+"QYButtonStringConsultancyScopeTabSearch" = "Resultados de la búsqueda";
+"QYButtonStringConsultancyScopeEmptySearch" = "Sonuç bulunamadı, başka anahtar kelimeler deneyin";
+"QYButtonStringConsultancyScopeEmptySelected" = "Henüz bir model veya özel terim seçilmedi, yukarıda arayın";
+"QYButtonStringConsultancyScopeLimit" = "En fazla %d öğe seçilebilir";
+"QYButtonStringConsultancyScopeSearch" = "Özel terim aramak için anahtar kelime girin";
+"QYButtonStringConsultancyScopeFailed" = "Arama başarısız, tekrar deneyin";
