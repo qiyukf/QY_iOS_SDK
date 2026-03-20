@@ -368,3 +368,14 @@
 "QYButtonStringOrderCategoryThree" = "ระดับ 3";
 "QYButtonStringOrderCategoryFour" = "ระดับ 4";
 "QYButtonStringOrderCategoryFive" = "ระดับ 5";
+"QYButtonStringConsultancyScope" = "ขอบเขตคำปรึกษา";
+"QYButtonStringConsultancyScopeSelected" = "ขอบเขตคำปรึกษา (เลือก %d รายการ)";
+"QYButtonStringConsultancyScopeTitle" = "เลือกขอบเขตคำปรึกษา";
+"QYButtonStringConsultancyScopeSearchHolder" = "ป้อนรุ่นหรือคำศัพท์เฉพาะสำหรับคำปรึกษา";
+"QYButtonStringConsultancyScopeTabSelected" = "เลือกแล้ว";
+"QYButtonStringConsultancyScopeTabSearch" = "ผลการค้นหา";
+"QYButtonStringConsultancyScopeEmptySearch" = "ไม่พบผลลัพธ์ ลองคำสำคัญอื่น";
+"QYButtonStringConsultancyScopeEmptySelected" = "ยังไม่ได้เลือกรุ่นหรือคำศัพท์เฉพาะ ค้นหาด้านบน";
+"QYButtonStringConsultancyScopeLimit" = "เลือกได้สูงสุด %d รายการ";
+"QYButtonStringConsultancyScopeSearch" = "ป้อนคำสำคัญเพื่อค้นหาคำศัพท์เฉพาะ";
+"QYButtonStringConsultancyScopeFailed" = "ค้นหาล้มเหลว กรุณาลองอีกครั้ง";
