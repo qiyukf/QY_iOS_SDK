@@ -86,7 +86,6 @@ typedef NS_ENUM(NSInteger, QYAttachmentSuffixType) {
  *  默认YES
  */
 @property (nonatomic, assign) BOOL allowAutoRotate;
-//导航栏相关设置（人工/评价按钮可后台关闭显示）
 
 /**
  * @brief 导航栏右侧按钮是否使用后台样式颜色，默认NO。
