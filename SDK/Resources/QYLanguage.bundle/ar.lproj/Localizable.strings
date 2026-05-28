@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "فشل البحث، حاول مرة أخرى";
 "QYButtonStringConsultancyScopeSearch" = "لا توجد نتائج، جرب كلمات أخرى";
 "QYButtonStringConsultancyScopeFailed" = "";
+"QYNoticeStringSwitchDeviceLogin" = "هذا الحساب مسجل الدخول على جهاز آخر";

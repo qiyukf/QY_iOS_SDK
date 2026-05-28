@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "最多選擇%d項";
 "QYButtonStringConsultancyScopeSearch" = "請輸入關鍵詞搜索專有名詞";
 "QYButtonStringConsultancyScopeFailed" = "搜索失敗，請重試";
+"QYNoticeStringSwitchDeviceLogin" = "該賬號在其他設備登錄";

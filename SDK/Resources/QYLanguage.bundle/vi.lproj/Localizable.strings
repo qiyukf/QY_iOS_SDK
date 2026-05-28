@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "Chọn tối đa %d mục";
 "QYButtonStringConsultancyScopeSearch" = "Nhập từ khóa để tìm kiếm thuật ngữ chuyên ngành";
 "QYButtonStringConsultancyScopeFailed" = "Tìm kiếm thất bại, vui lòng thử lại";
+"QYNoticeStringSwitchDeviceLogin" = "Thiết bị này được đăng nhập ở thiết bị khác";

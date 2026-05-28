@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "Pumili ng hanggang %d item";
 "QYButtonStringConsultancyScopeSearch" = "Maglagay ng keyword para maghanap ng espesyal na termino";
 "QYButtonStringConsultancyScopeFailed" = "Nabigo ang paghahanap, subukang muli";
+"QYNoticeStringSwitchDeviceLogin" = "Naka-login sa ibang mga aparato ang account";

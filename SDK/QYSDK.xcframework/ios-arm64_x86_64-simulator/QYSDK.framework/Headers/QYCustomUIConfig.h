@@ -238,6 +238,11 @@ typedef NS_ENUM(NSInteger, QYAttachmentSuffixType) {
  * @brief 富文本内容，默认行高倍数。通过此属性，可以控制行间距
  */
 @property (nonatomic, assign) CGFloat lineHeightMultiple;
+
+/**
+ * @brief 普通文本消息行间距（pt）。设置大于 0 的值后生效，默认 0（不设置，保持原有行间距）
+ */
+@property (nonatomic, assign) CGFloat textLineSpacing;
 //输入栏上方操作按钮设置
 
 /**

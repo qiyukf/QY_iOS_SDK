@@ -387,3 +387,4 @@
 "QYButtonStringConsultancyScopeLimit" = "最多选择%d项";
 "QYButtonStringConsultancyScopeSearch" = "请输入关键词搜索专有名词";
 "QYButtonStringConsultancyScopeFailed" = "搜索失败，请重试";
+"QYNoticeStringSwitchDeviceLogin" = "该账号在其他设备登录";

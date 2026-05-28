@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "最大%d件選択可能";
 "QYButtonStringConsultancyScopeSearch" = "キーワードを入力して専門用語を検索";
 "QYButtonStringConsultancyScopeFailed" = "検索に失敗しました。再試行してください。";
+"QYNoticeStringSwitchDeviceLogin" = "このアカウントは別の機器でログインしました";

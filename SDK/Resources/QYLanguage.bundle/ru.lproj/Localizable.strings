@@ -37,7 +37,7 @@
 "QYStringChange" = "Заменить";
 "QYToastStringFileDownloadError" = "Не удается скачать файл, ошибка сети";
 "QYToastStringFileDownloadTrafficVerboseTip" = "Обнаружено, что вы находитесь в среде без WIF, при загрузке файла будет вызывать расход трафика в сотовом телефоне, вы действительно хотите продолжать загрузку?";
-"QYButtonStringReconnect" = "Повторное соединение";
+"QYButtonStringReconnect" = "Присоединиться еще раз";
 "QYStringRequired" = "(Обязательный)";
 "QYMessageStringNotification" = "[Уведомление]";
 "QYButtonStringUseful" = "Полезно";
@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "Максимум %d вариантов";
 "QYButtonStringConsultancyScopeSearch" = "Введите ключевое слово для поиска термина";
 "QYButtonStringConsultancyScopeFailed" = "Ошибка поиска, повторите";
+"QYNoticeStringSwitchDeviceLogin" = "С другого устройства вошли в данный аккаунт";

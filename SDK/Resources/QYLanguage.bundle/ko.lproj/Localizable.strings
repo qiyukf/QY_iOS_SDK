@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "최대 %d개 선택 가능";
 "QYButtonStringConsultancyScopeSearch" = "키워드를 입력하여 전문 용어를 검색하세요.";
 "QYButtonStringConsultancyScopeFailed" = "검색 실패, 다시 시도하세요.";
+"QYNoticeStringSwitchDeviceLogin" = "해당 계정을 다른 설비에서 로그인한 상태입니다";

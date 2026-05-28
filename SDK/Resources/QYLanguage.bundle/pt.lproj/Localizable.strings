@@ -379,3 +379,4 @@
 "QYButtonStringConsultancyScopeLimit" = "Máximo de %d itens selecionáveis";
 "QYButtonStringConsultancyScopeSearch" = "Digite palavras-chave para pesquisar termos específicos";
 "QYButtonStringConsultancyScopeFailed" = "Falha na pesquisa, tente novamente";
+"QYNoticeStringSwitchDeviceLogin" = "A conta efetuou login em outro dispositivo";
