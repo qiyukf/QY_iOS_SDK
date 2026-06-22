@@ -243,6 +243,16 @@ typedef NS_ENUM(NSInteger, QYAttachmentSuffixType) {
  * @brief 普通文本消息行间距（pt）。设置大于 0 的值后生效，默认 0（不设置，保持原有行间距）
  */
 @property (nonatomic, assign) CGFloat textLineSpacing;
+
+/**
+ * @brief 消息流 cell 长按后气泡弹框中是否显示“复制”，默认为YES。
+ */
+@property (nonatomic, assign) BOOL messageCopyBtnSwitch;
+
+/**
+ * @brief 播放语音消息时是否使用距离传感器进行贴耳切换，默认为YES。
+ */
+@property (nonatomic, assign) BOOL proximitySensorEnable;
 //输入栏上方操作按钮设置
 
 /**
@@ -411,6 +421,5 @@ typedef NS_ENUM(NSInteger, QYAttachmentSuffixType) {
 //@property (nonatomic, strong) UIImage *shopEntranceImage;
 
 @end
-
 
 
