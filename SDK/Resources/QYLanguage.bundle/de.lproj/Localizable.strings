@@ -380,3 +380,4 @@
 "QYButtonStringConsultancyScopeSearch" = "Schlüsselwort für Fachbegriff eingeben";
 "QYButtonStringConsultancyScopeFailed" = "Suche fehlgeschlagen, erneut versuchen";
 "QYNoticeStringSwitchDeviceLogin" = "Das Konto ist auf einem anderen Gerät angemeldet";
+"QYButtonStringConsultOtherOrders" = "Nach anderen Bestellungen fragen";

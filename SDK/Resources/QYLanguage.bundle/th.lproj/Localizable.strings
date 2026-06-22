@@ -380,3 +380,4 @@
 "QYButtonStringConsultancyScopeSearch" = "ป้อนคำสำคัญเพื่อค้นหาคำศัพท์เฉพาะ";
 "QYButtonStringConsultancyScopeFailed" = "ค้นหาล้มเหลว กรุณาลองอีกครั้ง";
 "QYNoticeStringSwitchDeviceLogin" = "บัญชีถูกเข้าสู่ระบบบนอุปกรณ์อื่น";
+"QYButtonStringConsultOtherOrders" = "สอบถามเกี่ยวกับคำสั่งซื้ออื่น ๆ";

@@ -380,3 +380,4 @@
 "QYButtonStringConsultancyScopeSearch" = "Özel terim aramak için anahtar kelime girin";
 "QYButtonStringConsultancyScopeFailed" = "Arama başarısız, tekrar deneyin";
 "QYNoticeStringSwitchDeviceLogin" = "Diğer cihazlarda bu hesapla oturum açın";
+"QYButtonStringConsultOtherOrders" = "Diğer siparişler hakkında bilgi al";
