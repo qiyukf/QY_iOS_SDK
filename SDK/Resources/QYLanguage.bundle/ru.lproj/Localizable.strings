@@ -380,3 +380,4 @@
 "QYButtonStringConsultancyScopeSearch" = "Введите ключевое слово для поиска термина";
 "QYButtonStringConsultancyScopeFailed" = "Ошибка поиска, повторите";
 "QYNoticeStringSwitchDeviceLogin" = "С другого устройства вошли в данный аккаунт";
+"QYButtonStringConsultOtherOrders" = "Запросить информацию о других заказах";

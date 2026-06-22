@@ -380,3 +380,4 @@
 "QYButtonStringConsultancyScopeSearch" = "Entrez un mot-clé pour chercher un terme spécifique";
 "QYButtonStringConsultancyScopeFailed" = "Échec de la recherche, réessayez";
 "QYNoticeStringSwitchDeviceLogin" = "Ce compte est connecté sur d’autre appareil";
+"QYButtonStringConsultOtherOrders" = "Se renseigner sur d'autres commandes";
