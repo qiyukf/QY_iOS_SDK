@@ -380,3 +380,4 @@
 "QYButtonStringConsultancyScopeSearch" = "Masukkan kata kunci untuk mencari istilah khusus";
 "QYButtonStringConsultancyScopeFailed" = "Pencarian gagal, coba lagi";
 "QYNoticeStringSwitchDeviceLogin" = "Akun ini telah masuk di perangkat lain";
+"QYButtonStringConsultOtherOrders" = "Tanyakan pesanan lain";
