@@ -253,6 +253,12 @@ typedef NS_ENUM(NSInteger, QYAttachmentSuffixType) {
  * @brief 播放语音消息时是否使用距离传感器进行贴耳切换，默认为YES。
  */
 @property (nonatomic, assign) BOOL proximitySensorEnable;
+
+/**
+ * @brief 商品/订单卡片消息是否使用白色气泡，默认为NO。
+ * @details YES：当卡片消息包含商品或订单模板时，发出和收到都使用白色气泡；NO：保持原有卡片消息样式，继续受后台样式配置影响。
+ */
+@property (nonatomic, assign) BOOL productOrderCardMessageWhiteBubbleEnabled;
 //输入栏上方操作按钮设置
 
 /**
@@ -421,5 +427,3 @@ typedef NS_ENUM(NSInteger, QYAttachmentSuffixType) {
 //@property (nonatomic, strong) UIImage *shopEntranceImage;
 
 @end
-
-
