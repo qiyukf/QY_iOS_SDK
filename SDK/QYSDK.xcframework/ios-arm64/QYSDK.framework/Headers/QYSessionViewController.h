@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "QYEvaluation.h"
+#import "QYConsultationContent.h"
 
 @class QYSource;
 @class QYStaffInfo;
@@ -333,6 +334,20 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  */
 - (void)presentWorkOrderViewControllerWithTemplateID:(long long)templateID;
 
+/**
+ * @brief 立即弹出咨询内容页面。
+ * @discussion 页面可见时立即展示；若会话页面尚未显示，则在首次显示后自动弹出。
+ * 配置中的 Tab 仅支持 `QYConsultationContentTypeOrder` 和
+ * `QYConsultationContentTypeProduct` 两种类型。
+ * SDK 会复制并校验传入数据，局部非法的 Tab、订单或商品对象会被过滤；
+ * 校验后没有有效 Tab 时不会展示弹层。
+ * 该方法可以从非主线程调用，SDK 会自动切换至主线程执行 UI 展示。
+ * 若弹层已经存在，再次调用会更新当前弹层数据，不会重复叠加页面。
+ * 若当前存在其他 modal 或正在转场，SDK 会在转场完成后从当前活跃页面展示咨询内容弹层。
+ * @param config 页面标题、Tab、订单/商品数据、底部按钮和价格颜色配置。
+ */
+- (void)presentConsultationContentWithConfig:(QYConsultationContentConfig *)config;
+
 
 /** 以下为自定义视图相关接口 **/
 
@@ -409,5 +424,3 @@ typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
 - (void)showEvaluationAlert:(BOOL)isOpenAlert openEvaluation:(BOOL)isOpenEvaluation complete:(QYCompletion)complete;
 
 @end
-
-

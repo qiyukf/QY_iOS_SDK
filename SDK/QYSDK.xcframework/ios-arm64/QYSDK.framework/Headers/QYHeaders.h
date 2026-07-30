@@ -20,6 +20,7 @@
 #import "QYMessageInfo.h"
 #import "QYSessionInfo.h"
 #import "QYCommodityInfo.h"
+#import "QYConsultationContent.h"
 #import "QYMessageCardModel.h"
 #import "QYPushMessage.h"
 #import "QYAction.h"
