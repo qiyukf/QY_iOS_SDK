@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "การช่วยเตือนล้มเหลว";
 "QYToastStringNoCameraPermission" = "ไม่มีสิทธิ์กล้อง";
 "QYToastStringFileOpenOtherApps" = "ไฟล์ประเภทนี้ต้อง \"เปิดด้วยAPPอื่น\"";
+"QYToastStringFileOpenError" = "ไม่มีแอปพลิเคชันให้เปิดไฟล์นี้ชั่วคราว";
 "QYToastStringInQueueNumberTip" = "ในคิว คุณอยู่ในอันดับ %ld และคุณจะเข้าถึงได้โดยอัตโนมัติเมื่อคุณอยู่ในคิว";
 "QYToastStringSendConfirm" = "ยืนยันที่จะส่ง?";
 "QYStringUnfilled" = "%@ไม่เต็ม";

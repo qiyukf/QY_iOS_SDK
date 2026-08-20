@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "Giục đơn hàng thất bại";
 "QYToastStringNoCameraPermission" = "Không có quyền truy cập máy ảnh";
 "QYToastStringFileOpenOtherApps" = "Loại tệp này cần được \"mở bằng ứng dụng khác\"";
+"QYToastStringFileOpenError" = "Tạm thời không có ứng dụng nào để mở tệp này";
 "QYToastStringInQueueNumberTip" = "Đang xếp hàng, bạn xếp vị trí thứ %ld, khi tới lượt sẽ tự động truy cập.";
 "QYToastStringSendConfirm" = "Bạn có chắc chắn muốn gửi không?";
 "QYStringUnfilled" = "%@ chưa điền";

@@ -302,6 +302,7 @@
 "QYToastStringRemindError" = "Falha ao lembrar";
 "QYToastStringNoCameraPermission" = "Sem acesso à câmera";
 "QYToastStringFileOpenOtherApps" = "Arquivos desse tipo precisam ser “abertos em outros APPs”";
+"QYToastStringFileOpenError" = "Nenhum App para abrir o arquivo no momento";
 "QYToastStringInQueueNumberTip" = "Enfileiramendo. Você está na %ldª posição. Você será acessado automaticamente quando for a sua vez";
 "QYToastStringSendConfirm" = "Certo de enviar?";
 "QYStringUnfilled" = "%@ não preenchido";

@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "فشل استعجال الطلب";
 "QYToastStringNoCameraPermission" = "لا يوجد إذن الألبوم";
 "QYToastStringFileOpenOtherApps" = "يجب فتح هذا النوع من الملف باستخدام تطبيقات أخرى";
+"QYToastStringFileOpenError" = "لا يوجد حاليا أي تطبيقات لفتح الملف";
 "QYToastStringInQueueNumberTip" = "أنت فى المرتبة %ldمن قائمة الإنتظار، وسيتم توصيلك تلقائيا عندما يحين دورك.";
 "QYToastStringSendConfirm" = "هل أنت متأكد من إرساله؟";
 "QYStringUnfilled" = "%@ غير مملوء";

@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "Anmerkung fehlgeschlagen";
 "QYToastStringNoCameraPermission" = "Kein Zugang zur Kamera";
 "QYToastStringFileOpenOtherApps" = "Dieser Dateityp muss \"Mit einer anderen App öffnen\" sein.";
+"QYToastStringFileOpenError" = "Es gibt keine App zum Öffnen dieser Datei";
 "QYToastStringInQueueNumberTip" = "Sie stehen in der Warteschlange an der %ld. Position und werden automatisch aufgerufen, wenn Sie drankommen.";
 "QYToastStringSendConfirm" = "Bestätigen Sie den Versand?";
 "QYStringUnfilled" = "%@ nicht gefüllt";

@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "催促に失敗しました";
 "QYToastStringNoCameraPermission" = "カメラ権限がありません";
 "QYToastStringFileOpenOtherApps" = "このファイルは「ほかのAPPでオープン」する必要があります";
+"QYToastStringFileOpenError" = "このファイルをオープンできるアプリがありません";
 "QYToastStringInQueueNumberTip" = "順番待ちです。お客様は第%ld番です。順番になったら自動的につなぎます。";
 "QYToastStringSendConfirm" = "送信しますか。";
 "QYStringUnfilled" = "%@未記入";

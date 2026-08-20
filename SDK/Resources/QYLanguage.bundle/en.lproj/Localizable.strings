@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "Failed to remind";
 "QYToastStringNoCameraPermission" = "No access to camera";
 "QYToastStringFileOpenOtherApps" = "Files of this type need to be “opened in other APPs”";
+"QYToastStringFileOpenError" = "No APPs for opening the file currently";
 "QYToastStringInQueueNumberTip" = "Queuing. You are in the %ldth position. You’ll be automatically connected when it’s your turn.";
 "QYToastStringSendConfirm" = "Sure to send?";
 "QYStringUnfilled" = "%@ unfilled";

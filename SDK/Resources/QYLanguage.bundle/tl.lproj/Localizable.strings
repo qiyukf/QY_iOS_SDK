@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "Nabigo ang paalala ng order";
 "QYToastStringNoCameraPermission" = "Walang Pahintulot ng Kamera";
 "QYToastStringFileOpenOtherApps" = "Ang uri ng file na ito a kinakailangang \"buksan ng ibang APP\"";
+"QYToastStringFileOpenError" = "Walang aplikasyon na magbubukas ng file na ito sa ngayon";
 "QYToastStringInQueueNumberTip" = "Sa pila, niraranggo kang %ld, at awtomatikong maa-access ang posisyon.";
 "QYToastStringSendConfirm" = "Kumpirmahin para ipadala?";
 "QYStringUnfilled" = "%@Hindi na-file";

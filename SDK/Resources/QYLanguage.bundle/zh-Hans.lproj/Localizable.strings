@@ -310,6 +310,7 @@
 "QYToastStringRemindError" = "催单失败";
 "QYToastStringNoCameraPermission" = "没有相机权限";
 "QYToastStringFileOpenOtherApps" = "此文件类型需“用其他APP打开”";
+"QYToastStringFileOpenError" = "暂无可打开该文件的应用";
 "QYToastStringInQueueNumberTip" = "排队中，您排在第%ld位，排到将自动接入。";
 "QYToastStringSendConfirm" = "确认要发送吗？";
 "QYStringUnfilled" = "%@未填";

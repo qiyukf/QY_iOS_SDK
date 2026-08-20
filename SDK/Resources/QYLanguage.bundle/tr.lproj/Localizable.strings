@@ -295,6 +295,7 @@
 "QYToastStringRemindError" = "Hatırlatıcı başarısız";
 "QYToastStringNoCameraPermission" = "Kamera izni yok";
 "QYToastStringFileOpenOtherApps" = "Bu dosya türünün \"diğer uygulamalarla açılması\" gerekiyor";
+"QYToastStringFileOpenError" = "Bu dosyayı açabilecek hiçbir uygulama yok";
 "QYToastStringInQueueNumberTip" = "Sıradasınız. %ldSıradasınız, sıranız geldiğinde otomatik olarak bağlanacak.";
 "QYToastStringSendConfirm" = "Göndermek istediğinizden emin misiniz?";
 "QYStringUnfilled" = "%@doldurulmadı";

@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "Échec de la relance";
 "QYToastStringNoCameraPermission" = "Accès à l’appareil photo non autorisé";
 "QYToastStringFileOpenOtherApps" = "Ce type de fichier doit être ouvert avec d’autre APP";
+"QYToastStringFileOpenError" = "Il n’y a aucune application pour ouvrir le fichier";
 "QYToastStringInQueueNumberTip" = "En file d’attente, vous êtes le %ld, vous serez automatiquement connecté dès votre tour.";
 "QYToastStringSendConfirm" = "Êtes-vous sûr de l’envoyer\u00a0?";
 "QYStringUnfilled" = "%@ non rempli";

@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "Gagal mendesak pesanan";
 "QYToastStringNoCameraPermission" = "Tidak memiliki hak akses kamera";
 "QYToastStringFileOpenOtherApps" = "Jenis dokumen ini harus “dibuka dengan aplikasi lain”";
+"QYToastStringFileOpenError" = "Sementara tidak ada aplikasi untuk membuka file tersebut";
 "QYToastStringInQueueNumberTip" = "Sedang mengantre, Anda berada diurutan %ld, dan akan langsung tersambung ketika giliran Anda";
 "QYToastStringSendConfirm" = "Apakah yakin untuk mengirim?";
 "QYStringUnfilled" = "%@ Belum diisi";

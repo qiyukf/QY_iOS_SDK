@@ -293,6 +293,7 @@
 "QYToastStringRemindError" = "Не удается ускорить выполнение заказа";
 "QYToastStringNoCameraPermission" = "У вас нет права доступа к камере";
 "QYToastStringFileOpenOtherApps" = "Файл данного типа должен «открываться в другом приложении»";
+"QYToastStringFileOpenError" = "Пока нет приложения, открывающего данный файл";
 "QYToastStringInQueueNumberTip" = "Вы в очереди, вы занимаете%ldместо, когда придет ваша очередь, будете автоматически подключиться.";
 "QYToastStringSendConfirm" = "Вы действительно будете отправлять?";
 "QYStringUnfilled" = "%@не заполнено";
