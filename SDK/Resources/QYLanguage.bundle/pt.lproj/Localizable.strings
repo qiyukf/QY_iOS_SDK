@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Falha na pesquisa, tente novamente";
 "QYNoticeStringSwitchDeviceLogin" = "A conta efetuou login em outro dispositivo";
 "QYButtonStringConsultOtherOrders" = "Consultar outros pedidos";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Selecionar hora";
+"QYStringA2UISelectDateTime" = "Selecionar data e hora";
+"QYStringA2UIDatePlaceholder" = "Selecione uma data";
+"QYStringA2UITimePlaceholder" = "Selecione uma hora";
+"QYStringA2UIStartDate" = "Data de início";
+"QYStringA2UIEndDate" = "Data de fim";
+"QYStringA2UISelectStartDate" = "Selecionar data de início";
+"QYStringA2UISelectEndDate" = "Selecionar data de fim";
+"QYStringA2UISelectStartTime" = "Selecionar hora de início";
+"QYStringA2UISelectEndTime" = "Selecionar hora de fim";
+"QYStringA2UISelectStartDateTime" = "Selecionar data e hora de início";
+"QYStringA2UISelectEndDateTime" = "Selecionar data e hora de fim";
+"QYStringA2UISelectField" = "Selecione %@";
+"QYStringA2UIField" = "Campo";
+"QYStringA2UINoOptions" = "Nenhuma opção disponível";
+"QYStringA2UIOpenPicker" = "Abre o painel de seleção";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Seguinte";
+"QYButtonStringA2UIPlayVideo" = "Reproduzir vídeo";
+"QYToastStringA2UIIncompleteRange" = "Selecione as horas de início e de fim de %@.";
+"QYToastStringA2UIInvalidTime" = "O formato de data ou hora de %@ é inválido.";
+"QYToastStringA2UIEndBeforeStart" = "A hora de fim de %@ não pode ser anterior à hora de início.";
+"QYToastStringA2UIRequiredField" = "Preencha %@.";
+"QYToastStringA2UIInvalidFormat" = "O formato de %@ é inválido.";
+"QYToastStringA2UIProductSendFailed" = "Ação enviada, mas não foi possível enviar a mensagem de produto/pedido.";
+"QYToastStringA2UICardSaveFailed" = "Ação enviada, mas não foi possível guardar o cartão.";
+"QYToastStringA2UIInvalidEcho" = "Ação enviada, mas os dados do cartão enviado são inválidos.";
+"QYToastStringA2UISubmitFailed" = "Não foi possível enviar a ação do cartão.";

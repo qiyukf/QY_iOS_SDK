@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Pencarian gagal, coba lagi";
 "QYNoticeStringSwitchDeviceLogin" = "Akun ini telah masuk di perangkat lain";
 "QYButtonStringConsultOtherOrders" = "Tanyakan pesanan lain";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Pilih waktu";
+"QYStringA2UISelectDateTime" = "Pilih tanggal dan waktu";
+"QYStringA2UIDatePlaceholder" = "Silakan pilih tanggal";
+"QYStringA2UITimePlaceholder" = "Silakan pilih waktu";
+"QYStringA2UIStartDate" = "Tanggal mulai";
+"QYStringA2UIEndDate" = "Tanggal selesai";
+"QYStringA2UISelectStartDate" = "Pilih tanggal mulai";
+"QYStringA2UISelectEndDate" = "Pilih tanggal selesai";
+"QYStringA2UISelectStartTime" = "Pilih waktu mulai";
+"QYStringA2UISelectEndTime" = "Pilih waktu selesai";
+"QYStringA2UISelectStartDateTime" = "Pilih tanggal dan waktu mulai";
+"QYStringA2UISelectEndDateTime" = "Pilih tanggal dan waktu selesai";
+"QYStringA2UISelectField" = "Silakan pilih %@";
+"QYStringA2UIField" = "Kolom";
+"QYStringA2UINoOptions" = "Tidak ada opsi tersedia";
+"QYStringA2UIOpenPicker" = "Membuka panel pilihan";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Berikutnya";
+"QYButtonStringA2UIPlayVideo" = "Putar video";
+"QYToastStringA2UIIncompleteRange" = "Silakan pilih waktu mulai dan selesai untuk %@.";
+"QYToastStringA2UIInvalidTime" = "Format tanggal atau waktu untuk %@ tidak valid.";
+"QYToastStringA2UIEndBeforeStart" = "Waktu selesai untuk %@ tidak boleh sebelum waktu mulai.";
+"QYToastStringA2UIRequiredField" = "Silakan isi %@.";
+"QYToastStringA2UIInvalidFormat" = "Format untuk %@ tidak valid.";
+"QYToastStringA2UIProductSendFailed" = "Tindakan telah dikirim, tetapi pesan produk/pesanan gagal dikirim.";
+"QYToastStringA2UICardSaveFailed" = "Tindakan telah dikirim, tetapi kartu gagal disimpan.";
+"QYToastStringA2UIInvalidEcho" = "Tindakan telah dikirim, tetapi data kartu yang dikirim tidak valid.";
+"QYToastStringA2UISubmitFailed" = "Gagal mengirim tindakan kartu.";

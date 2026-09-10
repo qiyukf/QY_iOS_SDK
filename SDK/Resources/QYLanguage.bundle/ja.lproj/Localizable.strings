@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "検索に失敗しました。再試行してください。";
 "QYNoticeStringSwitchDeviceLogin" = "このアカウントは別の機器でログインしました";
 "QYButtonStringConsultOtherOrders" = "他の注文を問い合わせる";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "時刻を選択";
+"QYStringA2UISelectDateTime" = "日時を選択";
+"QYStringA2UIDatePlaceholder" = "日付を選択してください";
+"QYStringA2UITimePlaceholder" = "時刻を選択してください";
+"QYStringA2UIStartDate" = "開始日";
+"QYStringA2UIEndDate" = "終了日";
+"QYStringA2UISelectStartDate" = "開始日を選択してください";
+"QYStringA2UISelectEndDate" = "終了日を選択してください";
+"QYStringA2UISelectStartTime" = "開始時刻を選択してください";
+"QYStringA2UISelectEndTime" = "終了時刻を選択してください";
+"QYStringA2UISelectStartDateTime" = "開始日時を選択してください";
+"QYStringA2UISelectEndDateTime" = "終了日時を選択してください";
+"QYStringA2UISelectField" = "%@を選択してください";
+"QYStringA2UIField" = "項目";
+"QYStringA2UINoOptions" = "選択できる項目がありません";
+"QYStringA2UIOpenPicker" = "選択画面を開きます";
+"QYStringA2UIOptionSeparator" = "、";
+"QYButtonStringA2UINext" = "次へ";
+"QYButtonStringA2UIPlayVideo" = "動画を再生";
+"QYToastStringA2UIIncompleteRange" = "%@の開始時刻と終了時刻を両方選択してください";
+"QYToastStringA2UIInvalidTime" = "%@の日時形式が正しくありません";
+"QYToastStringA2UIEndBeforeStart" = "%@の終了時刻は開始時刻より前に設定できません";
+"QYToastStringA2UIRequiredField" = "%@を入力してください";
+"QYToastStringA2UIInvalidFormat" = "%@の形式が正しくありません";
+"QYToastStringA2UIProductSendFailed" = "操作は送信されましたが、商品／注文メッセージを送信できませんでした";
+"QYToastStringA2UICardSaveFailed" = "操作は送信されましたが、カードを保存できませんでした";
+"QYToastStringA2UIInvalidEcho" = "操作は送信されましたが、送信済みカードのデータが正しくありません";
+"QYToastStringA2UISubmitFailed" = "カードの操作を送信できませんでした";

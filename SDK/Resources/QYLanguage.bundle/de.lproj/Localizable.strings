@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Suche fehlgeschlagen, erneut versuchen";
 "QYNoticeStringSwitchDeviceLogin" = "Das Konto ist auf einem anderen Gerät angemeldet";
 "QYButtonStringConsultOtherOrders" = "Nach anderen Bestellungen fragen";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Uhrzeit auswählen";
+"QYStringA2UISelectDateTime" = "Datum und Uhrzeit auswählen";
+"QYStringA2UIDatePlaceholder" = "Bitte Datum auswählen";
+"QYStringA2UITimePlaceholder" = "Bitte Uhrzeit auswählen";
+"QYStringA2UIStartDate" = "Startdatum";
+"QYStringA2UIEndDate" = "Enddatum";
+"QYStringA2UISelectStartDate" = "Startdatum auswählen";
+"QYStringA2UISelectEndDate" = "Enddatum auswählen";
+"QYStringA2UISelectStartTime" = "Startzeit auswählen";
+"QYStringA2UISelectEndTime" = "Endzeit auswählen";
+"QYStringA2UISelectStartDateTime" = "Startdatum und -zeit auswählen";
+"QYStringA2UISelectEndDateTime" = "Enddatum und -zeit auswählen";
+"QYStringA2UISelectField" = "Bitte %@ auswählen";
+"QYStringA2UIField" = "Feld";
+"QYStringA2UINoOptions" = "Keine Optionen verfügbar";
+"QYStringA2UIOpenPicker" = "Öffnet das Auswahlfenster";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Weiter";
+"QYButtonStringA2UIPlayVideo" = "Video abspielen";
+"QYToastStringA2UIIncompleteRange" = "Bitte Start- und Endzeit für %@ auswählen.";
+"QYToastStringA2UIInvalidTime" = "Ungültiges Datums- oder Zeitformat für %@.";
+"QYToastStringA2UIEndBeforeStart" = "Die Endzeit für %@ darf nicht vor der Startzeit liegen.";
+"QYToastStringA2UIRequiredField" = "Bitte %@ ausfüllen.";
+"QYToastStringA2UIInvalidFormat" = "Ungültiges Format für %@.";
+"QYToastStringA2UIProductSendFailed" = "Aktion übermittelt, aber die Produkt-/Bestellnachricht konnte nicht gesendet werden.";
+"QYToastStringA2UICardSaveFailed" = "Aktion übermittelt, aber die Karte konnte nicht gespeichert werden.";
+"QYToastStringA2UIInvalidEcho" = "Aktion übermittelt, aber die Daten der übermittelten Karte sind ungültig.";
+"QYToastStringA2UISubmitFailed" = "Die Kartenaktion konnte nicht übermittelt werden.";

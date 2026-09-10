@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Arama başarısız, tekrar deneyin";
 "QYNoticeStringSwitchDeviceLogin" = "Diğer cihazlarda bu hesapla oturum açın";
 "QYButtonStringConsultOtherOrders" = "Diğer siparişler hakkında bilgi al";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Saat seçin";
+"QYStringA2UISelectDateTime" = "Tarih ve saat seçin";
+"QYStringA2UIDatePlaceholder" = "Lütfen bir tarih seçin";
+"QYStringA2UITimePlaceholder" = "Lütfen bir saat seçin";
+"QYStringA2UIStartDate" = "Başlangıç tarihi";
+"QYStringA2UIEndDate" = "Bitiş tarihi";
+"QYStringA2UISelectStartDate" = "Başlangıç tarihini seçin";
+"QYStringA2UISelectEndDate" = "Bitiş tarihini seçin";
+"QYStringA2UISelectStartTime" = "Başlangıç saatini seçin";
+"QYStringA2UISelectEndTime" = "Bitiş saatini seçin";
+"QYStringA2UISelectStartDateTime" = "Başlangıç tarihini ve saatini seçin";
+"QYStringA2UISelectEndDateTime" = "Bitiş tarihini ve saatini seçin";
+"QYStringA2UISelectField" = "Lütfen %@ seçin";
+"QYStringA2UIField" = "Alan";
+"QYStringA2UINoOptions" = "Kullanılabilir seçenek yok";
+"QYStringA2UIOpenPicker" = "Seçim panelini açar";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "İleri";
+"QYButtonStringA2UIPlayVideo" = "Videoyu oynat";
+"QYToastStringA2UIIncompleteRange" = "Lütfen %@ için başlangıç ve bitiş saatlerini seçin.";
+"QYToastStringA2UIInvalidTime" = "%@ için tarih veya saat biçimi geçersiz.";
+"QYToastStringA2UIEndBeforeStart" = "%@ için bitiş saati başlangıç saatinden önce olamaz.";
+"QYToastStringA2UIRequiredField" = "Lütfen %@ alanını doldurun.";
+"QYToastStringA2UIInvalidFormat" = "%@ için biçim geçersiz.";
+"QYToastStringA2UIProductSendFailed" = "İşlem gönderildi ancak ürün/sipariş mesajı gönderilemedi.";
+"QYToastStringA2UICardSaveFailed" = "İşlem gönderildi ancak kart kaydedilemedi.";
+"QYToastStringA2UIInvalidEcho" = "İşlem gönderildi ancak gönderilen kart verileri geçersiz.";
+"QYToastStringA2UISubmitFailed" = "Kart işlemi gönderilemedi.";

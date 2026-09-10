@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "";
 "QYNoticeStringSwitchDeviceLogin" = "هذا الحساب مسجل الدخول على جهاز آخر";
 "QYButtonStringConsultOtherOrders" = "الاستفسار عن الطلبات الأخرى";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "اختر الوقت";
+"QYStringA2UISelectDateTime" = "اختر التاريخ والوقت";
+"QYStringA2UIDatePlaceholder" = "يرجى اختيار تاريخ";
+"QYStringA2UITimePlaceholder" = "يرجى اختيار وقت";
+"QYStringA2UIStartDate" = "تاريخ البدء";
+"QYStringA2UIEndDate" = "تاريخ الانتهاء";
+"QYStringA2UISelectStartDate" = "اختر تاريخ البدء";
+"QYStringA2UISelectEndDate" = "اختر تاريخ الانتهاء";
+"QYStringA2UISelectStartTime" = "اختر وقت البدء";
+"QYStringA2UISelectEndTime" = "اختر وقت الانتهاء";
+"QYStringA2UISelectStartDateTime" = "اختر تاريخ ووقت البدء";
+"QYStringA2UISelectEndDateTime" = "اختر تاريخ ووقت الانتهاء";
+"QYStringA2UISelectField" = "يرجى اختيار %@";
+"QYStringA2UIField" = "الحقل";
+"QYStringA2UINoOptions" = "لا توجد خيارات متاحة";
+"QYStringA2UIOpenPicker" = "يفتح لوحة الاختيار";
+"QYStringA2UIOptionSeparator" = "، ";
+"QYButtonStringA2UINext" = "التالي";
+"QYButtonStringA2UIPlayVideo" = "تشغيل الفيديو";
+"QYToastStringA2UIIncompleteRange" = "يرجى اختيار وقتي البدء والانتهاء للحقل %@.";
+"QYToastStringA2UIInvalidTime" = "تنسيق التاريخ أو الوقت غير صحيح للحقل %@.";
+"QYToastStringA2UIEndBeforeStart" = "لا يمكن أن يسبق وقت الانتهاء وقت البدء للحقل %@.";
+"QYToastStringA2UIRequiredField" = "يرجى تعبئة الحقل %@.";
+"QYToastStringA2UIInvalidFormat" = "التنسيق غير صحيح للحقل %@.";
+"QYToastStringA2UIProductSendFailed" = "تم إرسال الإجراء، لكن تعذر إرسال رسالة المنتج/الطلب.";
+"QYToastStringA2UICardSaveFailed" = "تم إرسال الإجراء، لكن تعذر حفظ البطاقة.";
+"QYToastStringA2UIInvalidEcho" = "تم إرسال الإجراء، لكن بيانات البطاقة المرسلة غير صالحة.";
+"QYToastStringA2UISubmitFailed" = "تعذر إرسال إجراء البطاقة.";

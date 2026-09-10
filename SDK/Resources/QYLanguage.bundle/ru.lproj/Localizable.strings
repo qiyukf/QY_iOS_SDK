@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Ошибка поиска, повторите";
 "QYNoticeStringSwitchDeviceLogin" = "С другого устройства вошли в данный аккаунт";
 "QYButtonStringConsultOtherOrders" = "Запросить информацию о других заказах";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Выберите время";
+"QYStringA2UISelectDateTime" = "Выберите дату и время";
+"QYStringA2UIDatePlaceholder" = "Пожалуйста, выберите дату";
+"QYStringA2UITimePlaceholder" = "Пожалуйста, выберите время";
+"QYStringA2UIStartDate" = "Дата начала";
+"QYStringA2UIEndDate" = "Дата окончания";
+"QYStringA2UISelectStartDate" = "Выберите дату начала";
+"QYStringA2UISelectEndDate" = "Выберите дату окончания";
+"QYStringA2UISelectStartTime" = "Выберите время начала";
+"QYStringA2UISelectEndTime" = "Выберите время окончания";
+"QYStringA2UISelectStartDateTime" = "Выберите дату и время начала";
+"QYStringA2UISelectEndDateTime" = "Выберите дату и время окончания";
+"QYStringA2UISelectField" = "Выберите %@";
+"QYStringA2UIField" = "Поле";
+"QYStringA2UINoOptions" = "Нет доступных вариантов";
+"QYStringA2UIOpenPicker" = "Открывает панель выбора";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Далее";
+"QYButtonStringA2UIPlayVideo" = "Воспроизвести видео";
+"QYToastStringA2UIIncompleteRange" = "%@: выберите время начала и окончания.";
+"QYToastStringA2UIInvalidTime" = "%@: неверный формат даты или времени.";
+"QYToastStringA2UIEndBeforeStart" = "%@: время окончания не может быть раньше времени начала.";
+"QYToastStringA2UIRequiredField" = "Заполните поле %@.";
+"QYToastStringA2UIInvalidFormat" = "%@: неверный формат.";
+"QYToastStringA2UIProductSendFailed" = "Действие отправлено, но не удалось отправить сообщение о товаре/заказе.";
+"QYToastStringA2UICardSaveFailed" = "Действие отправлено, но не удалось сохранить карточку.";
+"QYToastStringA2UIInvalidEcho" = "Действие отправлено, но данные отправленной карточки некорректны.";
+"QYToastStringA2UISubmitFailed" = "Не удалось отправить действие карточки.";

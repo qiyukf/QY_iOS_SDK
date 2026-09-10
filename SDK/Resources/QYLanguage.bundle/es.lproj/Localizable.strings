@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Error en la búsqueda, inténtelo de nuevo";
 "QYNoticeStringSwitchDeviceLogin" = "Ya se ha iniciado sesión con la cuenta en otro dispositivo";
 "QYButtonStringConsultOtherOrders" = "Consultar otros pedidos";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Seleccionar hora";
+"QYStringA2UISelectDateTime" = "Seleccionar fecha y hora";
+"QYStringA2UIDatePlaceholder" = "Selecciona una fecha";
+"QYStringA2UITimePlaceholder" = "Selecciona una hora";
+"QYStringA2UIStartDate" = "Fecha de inicio";
+"QYStringA2UIEndDate" = "Fecha de fin";
+"QYStringA2UISelectStartDate" = "Seleccionar fecha de inicio";
+"QYStringA2UISelectEndDate" = "Seleccionar fecha de fin";
+"QYStringA2UISelectStartTime" = "Seleccionar hora de inicio";
+"QYStringA2UISelectEndTime" = "Seleccionar hora de fin";
+"QYStringA2UISelectStartDateTime" = "Seleccionar fecha y hora de inicio";
+"QYStringA2UISelectEndDateTime" = "Seleccionar fecha y hora de fin";
+"QYStringA2UISelectField" = "Selecciona %@";
+"QYStringA2UIField" = "Campo";
+"QYStringA2UINoOptions" = "No hay opciones disponibles";
+"QYStringA2UIOpenPicker" = "Abre el panel de selección";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Siguiente";
+"QYButtonStringA2UIPlayVideo" = "Reproducir vídeo";
+"QYToastStringA2UIIncompleteRange" = "Selecciona las horas de inicio y fin de %@.";
+"QYToastStringA2UIInvalidTime" = "El formato de fecha u hora de %@ no es válido.";
+"QYToastStringA2UIEndBeforeStart" = "La hora de fin de %@ no puede ser anterior a la hora de inicio.";
+"QYToastStringA2UIRequiredField" = "Completa %@.";
+"QYToastStringA2UIInvalidFormat" = "El formato de %@ no es válido.";
+"QYToastStringA2UIProductSendFailed" = "La acción se ha enviado, pero no se ha podido enviar el mensaje de producto/pedido.";
+"QYToastStringA2UICardSaveFailed" = "La acción se ha enviado, pero no se ha podido guardar la tarjeta.";
+"QYToastStringA2UIInvalidEcho" = "La acción se ha enviado, pero los datos de la tarjeta enviada no son válidos.";
+"QYToastStringA2UISubmitFailed" = "No se ha podido enviar la acción de la tarjeta.";

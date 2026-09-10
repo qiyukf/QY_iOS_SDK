@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Tìm kiếm thất bại, vui lòng thử lại";
 "QYNoticeStringSwitchDeviceLogin" = "Thiết bị này được đăng nhập ở thiết bị khác";
 "QYButtonStringConsultOtherOrders" = "Hỏi về các đơn hàng khác";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Chọn giờ";
+"QYStringA2UISelectDateTime" = "Chọn ngày và giờ";
+"QYStringA2UIDatePlaceholder" = "Vui lòng chọn ngày";
+"QYStringA2UITimePlaceholder" = "Vui lòng chọn giờ";
+"QYStringA2UIStartDate" = "Ngày bắt đầu";
+"QYStringA2UIEndDate" = "Ngày kết thúc";
+"QYStringA2UISelectStartDate" = "Chọn ngày bắt đầu";
+"QYStringA2UISelectEndDate" = "Chọn ngày kết thúc";
+"QYStringA2UISelectStartTime" = "Chọn giờ bắt đầu";
+"QYStringA2UISelectEndTime" = "Chọn giờ kết thúc";
+"QYStringA2UISelectStartDateTime" = "Chọn ngày và giờ bắt đầu";
+"QYStringA2UISelectEndDateTime" = "Chọn ngày và giờ kết thúc";
+"QYStringA2UISelectField" = "Vui lòng chọn %@";
+"QYStringA2UIField" = "Trường";
+"QYStringA2UINoOptions" = "Không có tùy chọn";
+"QYStringA2UIOpenPicker" = "Mở bảng lựa chọn";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Tiếp theo";
+"QYButtonStringA2UIPlayVideo" = "Phát video";
+"QYToastStringA2UIIncompleteRange" = "Vui lòng chọn cả giờ bắt đầu và kết thúc cho %@.";
+"QYToastStringA2UIInvalidTime" = "Định dạng ngày hoặc giờ của %@ không hợp lệ.";
+"QYToastStringA2UIEndBeforeStart" = "Giờ kết thúc của %@ không được trước giờ bắt đầu.";
+"QYToastStringA2UIRequiredField" = "Vui lòng điền %@.";
+"QYToastStringA2UIInvalidFormat" = "Định dạng của %@ không hợp lệ.";
+"QYToastStringA2UIProductSendFailed" = "Đã gửi thao tác nhưng không thể gửi tin nhắn sản phẩm/đơn hàng.";
+"QYToastStringA2UICardSaveFailed" = "Đã gửi thao tác nhưng không thể lưu thẻ.";
+"QYToastStringA2UIInvalidEcho" = "Đã gửi thao tác nhưng dữ liệu thẻ đã gửi không hợp lệ.";
+"QYToastStringA2UISubmitFailed" = "Không thể gửi thao tác của thẻ.";

@@ -384,3 +384,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Search failed, please try again";
 "QYNoticeStringSwitchDeviceLogin" = "The account has logged in on another device";
 "QYButtonStringConsultOtherOrders" = "Inquire about other orders";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Select time";
+"QYStringA2UISelectDateTime" = "Select date and time";
+"QYStringA2UIDatePlaceholder" = "Please select a date";
+"QYStringA2UITimePlaceholder" = "Please select a time";
+"QYStringA2UIStartDate" = "Start date";
+"QYStringA2UIEndDate" = "End date";
+"QYStringA2UISelectStartDate" = "Select start date";
+"QYStringA2UISelectEndDate" = "Select end date";
+"QYStringA2UISelectStartTime" = "Select start time";
+"QYStringA2UISelectEndTime" = "Select end time";
+"QYStringA2UISelectStartDateTime" = "Select start date and time";
+"QYStringA2UISelectEndDateTime" = "Select end date and time";
+"QYStringA2UISelectField" = "Please select %@";
+"QYStringA2UIField" = "Field";
+"QYStringA2UINoOptions" = "No options available";
+"QYStringA2UIOpenPicker" = "Opens the selection sheet";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Next";
+"QYButtonStringA2UIPlayVideo" = "Play video";
+"QYToastStringA2UIIncompleteRange" = "Please select both the start and end times for %@.";
+"QYToastStringA2UIInvalidTime" = "Invalid date or time format for %@.";
+"QYToastStringA2UIEndBeforeStart" = "The end time for %@ cannot be earlier than the start time.";
+"QYToastStringA2UIRequiredField" = "Please fill in %@.";
+"QYToastStringA2UIInvalidFormat" = "Invalid format for %@.";
+"QYToastStringA2UIProductSendFailed" = "Action submitted, but the product/order message could not be sent.";
+"QYToastStringA2UICardSaveFailed" = "Action submitted, but the card could not be saved.";
+"QYToastStringA2UIInvalidEcho" = "Action submitted, but the submitted card data is invalid.";
+"QYToastStringA2UISubmitFailed" = "Failed to submit the card action.";

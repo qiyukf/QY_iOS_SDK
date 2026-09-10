@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "ค้นหาล้มเหลว กรุณาลองอีกครั้ง";
 "QYNoticeStringSwitchDeviceLogin" = "บัญชีถูกเข้าสู่ระบบบนอุปกรณ์อื่น";
 "QYButtonStringConsultOtherOrders" = "สอบถามเกี่ยวกับคำสั่งซื้ออื่น ๆ";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "เลือกเวลา";
+"QYStringA2UISelectDateTime" = "เลือกวันที่และเวลา";
+"QYStringA2UIDatePlaceholder" = "โปรดเลือกวันที่";
+"QYStringA2UITimePlaceholder" = "โปรดเลือกเวลา";
+"QYStringA2UIStartDate" = "วันที่เริ่มต้น";
+"QYStringA2UIEndDate" = "วันที่สิ้นสุด";
+"QYStringA2UISelectStartDate" = "เลือกวันที่เริ่มต้น";
+"QYStringA2UISelectEndDate" = "เลือกวันที่สิ้นสุด";
+"QYStringA2UISelectStartTime" = "เลือกเวลาเริ่มต้น";
+"QYStringA2UISelectEndTime" = "เลือกเวลาสิ้นสุด";
+"QYStringA2UISelectStartDateTime" = "เลือกวันที่และเวลาเริ่มต้น";
+"QYStringA2UISelectEndDateTime" = "เลือกวันที่และเวลาสิ้นสุด";
+"QYStringA2UISelectField" = "โปรดเลือก%@";
+"QYStringA2UIField" = "ช่องข้อมูล";
+"QYStringA2UINoOptions" = "ไม่มีตัวเลือก";
+"QYStringA2UIOpenPicker" = "เปิดหน้าต่างตัวเลือก";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "ถัดไป";
+"QYButtonStringA2UIPlayVideo" = "เล่นวิดีโอ";
+"QYToastStringA2UIIncompleteRange" = "โปรดเลือกเวลาเริ่มต้นและเวลาสิ้นสุดของ%@ให้ครบถ้วน";
+"QYToastStringA2UIInvalidTime" = "รูปแบบวันที่หรือเวลาของ%@ไม่ถูกต้อง";
+"QYToastStringA2UIEndBeforeStart" = "เวลาสิ้นสุดของ%@ต้องไม่ก่อนเวลาเริ่มต้น";
+"QYToastStringA2UIRequiredField" = "โปรดกรอก%@";
+"QYToastStringA2UIInvalidFormat" = "รูปแบบของ%@ไม่ถูกต้อง";
+"QYToastStringA2UIProductSendFailed" = "ส่งการดำเนินการแล้ว แต่ส่งข้อความสินค้า/คำสั่งซื้อไม่สำเร็จ";
+"QYToastStringA2UICardSaveFailed" = "ส่งการดำเนินการแล้ว แต่บันทึกการ์ดไม่สำเร็จ";
+"QYToastStringA2UIInvalidEcho" = "ส่งการดำเนินการแล้ว แต่ข้อมูลการ์ดที่ส่งไม่ถูกต้อง";
+"QYToastStringA2UISubmitFailed" = "ส่งการดำเนินการของการ์ดไม่สำเร็จ";

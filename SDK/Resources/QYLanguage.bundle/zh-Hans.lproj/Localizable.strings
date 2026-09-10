@@ -390,3 +390,34 @@
 "QYButtonStringConsultancyScopeFailed" = "搜索失败，请重试";
 "QYNoticeStringSwitchDeviceLogin" = "该账号在其他设备登录";
 "QYButtonStringConsultOtherOrders" = "咨询其他订单";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "选择时间";
+"QYStringA2UISelectDateTime" = "选择日期时间";
+"QYStringA2UIDatePlaceholder" = "请选择日期";
+"QYStringA2UITimePlaceholder" = "请选择时间";
+"QYStringA2UIStartDate" = "开始日期";
+"QYStringA2UIEndDate" = "结束日期";
+"QYStringA2UISelectStartDate" = "请选择开始日期";
+"QYStringA2UISelectEndDate" = "请选择结束日期";
+"QYStringA2UISelectStartTime" = "请选择开始时间";
+"QYStringA2UISelectEndTime" = "请选择结束时间";
+"QYStringA2UISelectStartDateTime" = "请选择开始日期时间";
+"QYStringA2UISelectEndDateTime" = "请选择结束日期时间";
+"QYStringA2UISelectField" = "请选择%@";
+"QYStringA2UIField" = "字段";
+"QYStringA2UINoOptions" = "暂无可选项";
+"QYStringA2UIOpenPicker" = "打开半屏选择器";
+"QYStringA2UIOptionSeparator" = "、";
+"QYButtonStringA2UINext" = "下一步";
+"QYButtonStringA2UIPlayVideo" = "播放视频";
+"QYToastStringA2UIIncompleteRange" = "请完整选择%@的开始和结束时间";
+"QYToastStringA2UIInvalidTime" = "%@的时间格式不正确";
+"QYToastStringA2UIEndBeforeStart" = "%@的结束时间不能早于开始时间";
+"QYToastStringA2UIRequiredField" = "请填写%@";
+"QYToastStringA2UIInvalidFormat" = "%@格式不正确";
+"QYToastStringA2UIProductSendFailed" = "操作已提交，商品/订单消息发送失败";
+"QYToastStringA2UICardSaveFailed" = "操作已提交，卡片保存失败";
+"QYToastStringA2UIInvalidEcho" = "操作已提交，卡片回显数据异常";
+"QYToastStringA2UISubmitFailed" = "卡片操作提交失败";

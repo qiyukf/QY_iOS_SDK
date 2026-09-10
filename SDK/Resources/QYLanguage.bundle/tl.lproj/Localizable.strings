@@ -382,3 +382,34 @@
 "QYButtonStringConsultancyScopeFailed" = "Nabigo ang paghahanap, subukang muli";
 "QYNoticeStringSwitchDeviceLogin" = "Naka-login sa ibang mga aparato ang account";
 "QYButtonStringConsultOtherOrders" = "Magtanong tungkol sa ibang mga order";
+
+
+// A2UI
+"QYStringA2UISelectTime" = "Pumili ng oras";
+"QYStringA2UISelectDateTime" = "Pumili ng petsa at oras";
+"QYStringA2UIDatePlaceholder" = "Pumili ng petsa";
+"QYStringA2UITimePlaceholder" = "Pumili ng oras";
+"QYStringA2UIStartDate" = "Petsa ng simula";
+"QYStringA2UIEndDate" = "Petsa ng pagtatapos";
+"QYStringA2UISelectStartDate" = "Piliin ang petsa ng simula";
+"QYStringA2UISelectEndDate" = "Piliin ang petsa ng pagtatapos";
+"QYStringA2UISelectStartTime" = "Piliin ang oras ng simula";
+"QYStringA2UISelectEndTime" = "Piliin ang oras ng pagtatapos";
+"QYStringA2UISelectStartDateTime" = "Piliin ang petsa at oras ng simula";
+"QYStringA2UISelectEndDateTime" = "Piliin ang petsa at oras ng pagtatapos";
+"QYStringA2UISelectField" = "Pakipili ang %@";
+"QYStringA2UIField" = "Field";
+"QYStringA2UINoOptions" = "Walang available na opsyon";
+"QYStringA2UIOpenPicker" = "Binubuksan ang panel ng pagpili";
+"QYStringA2UIOptionSeparator" = ", ";
+"QYButtonStringA2UINext" = "Susunod";
+"QYButtonStringA2UIPlayVideo" = "I-play ang video";
+"QYToastStringA2UIIncompleteRange" = "Piliin ang oras ng simula at pagtatapos para sa %@.";
+"QYToastStringA2UIInvalidTime" = "Hindi wasto ang format ng petsa o oras para sa %@.";
+"QYToastStringA2UIEndBeforeStart" = "Hindi maaaring mauna ang oras ng pagtatapos sa oras ng simula para sa %@.";
+"QYToastStringA2UIRequiredField" = "Pakipunan ang %@.";
+"QYToastStringA2UIInvalidFormat" = "Hindi wasto ang format para sa %@.";
+"QYToastStringA2UIProductSendFailed" = "Naisumite ang aksyon, ngunit hindi naipadala ang mensahe ng produkto/order.";
+"QYToastStringA2UICardSaveFailed" = "Naisumite ang aksyon, ngunit hindi na-save ang card.";
+"QYToastStringA2UIInvalidEcho" = "Naisumite ang aksyon, ngunit hindi wasto ang data ng isinumiteng card.";
+"QYToastStringA2UISubmitFailed" = "Hindi naisumite ang aksyon ng card.";
