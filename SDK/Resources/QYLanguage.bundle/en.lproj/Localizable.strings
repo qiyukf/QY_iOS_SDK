@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "Information form expired";
 "QYMessageStringSystemMsg" = "[System Message]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Invalid operation by the bot in conversation history. To consult the corresponding bot, please enter again.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Items in past messages cannot be selected again.";
 "QYToastStringSendTimeout" = "Sending timed out";
 "QYToastStringQuitQueueConfirm" = "Sure to quit queuing?";
 "QYToastStringImageUploadError" = "Failed to upload image. Please try again later";
@@ -415,3 +416,18 @@
 "QYToastStringA2UICardSaveFailed" = "Action submitted, but the card could not be saved.";
 "QYToastStringA2UIInvalidEcho" = "Action submitted, but the submitted card data is invalid.";
 "QYToastStringA2UISubmitFailed" = "Failed to submit the card action.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Upload attachments";
+"QYStringA2UIUploading" = "Uploading…";
+"QYToastStringA2UIUploadFailed" = "Upload failed";
+"QYToastStringA2UIUploadPending" = "Wait for uploads to finish, or retry/remove failed files.";
+"QYToastStringA2UIUploadCount" = "Too many attachments (maximum 5 or the configured limit).";
+"QYToastStringA2UIUploadSize" = "File exceeds the size limit (maximum 50 MB per file and in total).";
+"QYToastStringA2UIUploadType" = "File type is not allowed.";
+"QYButtonStringA2UIRetry" = "Retry";
+"QYButtonStringA2UIRemove" = "Delete";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Search";
+"QYStringA2UINoSearchResults" = "No search results";

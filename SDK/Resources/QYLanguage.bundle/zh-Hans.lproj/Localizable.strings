@@ -38,6 +38,7 @@
 "QYToastStringInfoFormExpired" = "信息表单已过期";
 "QYMessageStringSystemMsg" = "[系统消息]";
 "QYToastStringHistoryRobotMsgOperationTip" = "历史会话中的机器人操作无效。如需咨询对应机器人，请重新进线。";
+"QYToastStringHistoryOrderSelectionDisabled" = "历史消息不支持再次选择";
 "QYToastStringSendTimeout" = "发送超时";
 "QYToastStringQuitQueueConfirm" = "确认退出排队？";
 "QYToastStringImageUploadError" = "图片上传失败，请稍后重试";
@@ -421,3 +422,18 @@
 "QYToastStringA2UICardSaveFailed" = "操作已提交，卡片保存失败";
 "QYToastStringA2UIInvalidEcho" = "操作已提交，卡片回显数据异常";
 "QYToastStringA2UISubmitFailed" = "卡片操作提交失败";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "上传附件";
+"QYStringA2UIUploading" = "上传中…";
+"QYToastStringA2UIUploadFailed" = "上传失败";
+"QYToastStringA2UIUploadPending" = "请等待上传完成，或重试/删除失败附件";
+"QYToastStringA2UIUploadCount" = "附件数量超出限制（最多 5 个或配置的数量）";
+"QYToastStringA2UIUploadSize" = "附件大小超出限制（单个及合计最多 50 MB）";
+"QYToastStringA2UIUploadType" = "不支持该文件类型";
+"QYButtonStringA2UIRetry" = "重试";
+"QYButtonStringA2UIRemove" = "删除";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "搜索";
+"QYStringA2UINoSearchResults" = "无搜索结果";

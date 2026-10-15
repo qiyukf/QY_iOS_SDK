@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "Das Informationsformular ist abgelaufen";
 "QYMessageStringSystemMsg" = "[Systemnachricht]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Die Botaktionen in der Verlaufssitzung sind nicht gültig. Um den entsprechenden Bot abzufragen, geben Sie bitte die Zeile erneut ein.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Elemente in früheren Nachrichten können nicht erneut ausgewählt werden.";
 "QYToastStringSendTimeout" = "Zeitüberschreitung beim Senden";
 "QYToastStringQuitQueueConfirm" = "Verlassen der Warteschlange bestätigen?";
 "QYToastStringImageUploadError" = "Bild-Upload fehlgeschlagen, bitte versuchen Sie es später noch einmal";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "Aktion übermittelt, aber die Karte konnte nicht gespeichert werden.";
 "QYToastStringA2UIInvalidEcho" = "Aktion übermittelt, aber die Daten der übermittelten Karte sind ungültig.";
 "QYToastStringA2UISubmitFailed" = "Die Kartenaktion konnte nicht übermittelt werden.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Anhänge hochladen";
+"QYStringA2UIUploading" = "Wird hochgeladen…";
+"QYToastStringA2UIUploadFailed" = "Hochladen fehlgeschlagen";
+"QYToastStringA2UIUploadPending" = "Warten Sie auf den Abschluss der Uploads. Fehlgeschlagene Uploads können Sie wiederholen oder die betroffenen Dateien löschen.";
+"QYToastStringA2UIUploadCount" = "Zu viele Anhänge (maximal 5 oder die konfigurierte Anzahl).";
+"QYToastStringA2UIUploadSize" = "Die Dateigröße überschreitet das Limit (maximal 50 MB pro Datei und insgesamt).";
+"QYToastStringA2UIUploadType" = "Dieser Dateityp wird nicht unterstützt.";
+"QYButtonStringA2UIRetry" = "Erneut versuchen";
+"QYButtonStringA2UIRemove" = "Löschen";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Suchen";
+"QYStringA2UINoSearchResults" = "Keine Suchergebnisse";

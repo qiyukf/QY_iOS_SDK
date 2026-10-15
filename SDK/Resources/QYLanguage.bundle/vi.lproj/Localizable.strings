@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "Biểu mẫu thông tin đã hết hạn";
 "QYMessageStringSystemMsg" = "[Tin nhắn hệ thống]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Thao tác robot không hợp lệ trong cuộc trò chuyện lịch sử. Nếu cần tư vấn robot tương ứng, vui lòng truy cập lại.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Không thể chọn lại các mục trong tin nhắn cũ.";
 "QYToastStringSendTimeout" = "Hết thời gian gửi";
 "QYToastStringQuitQueueConfirm" = "Có chắc chắn muốn thoát khỏi hàng đợi?";
 "QYToastStringImageUploadError" = "Tải lên hình ảnh không thành công, vui lòng thử lại sau";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "Đã gửi thao tác nhưng không thể lưu thẻ.";
 "QYToastStringA2UIInvalidEcho" = "Đã gửi thao tác nhưng dữ liệu thẻ đã gửi không hợp lệ.";
 "QYToastStringA2UISubmitFailed" = "Không thể gửi thao tác của thẻ.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Tải lên tệp đính kèm";
+"QYStringA2UIUploading" = "Đang tải lên…";
+"QYToastStringA2UIUploadFailed" = "Tải lên thất bại";
+"QYToastStringA2UIUploadPending" = "Vui lòng đợi tải lên hoàn tất, hoặc tải lên lại hay xóa các tệp không tải lên được.";
+"QYToastStringA2UIUploadCount" = "Số lượng tệp đính kèm vượt quá giới hạn (tối đa 5 tệp hoặc theo cấu hình).";
+"QYToastStringA2UIUploadSize" = "Dung lượng vượt quá giới hạn (tối đa 50 MB cho mỗi tệp và tổng cộng).";
+"QYToastStringA2UIUploadType" = "Không hỗ trợ loại tệp này.";
+"QYButtonStringA2UIRetry" = "Thử lại";
+"QYButtonStringA2UIRemove" = "Xóa";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Tìm kiếm";
+"QYStringA2UINoSearchResults" = "Không có kết quả tìm kiếm";

@@ -6,6 +6,9 @@
  * @defgroup QYUIConfig 界面与行为配置
  */
 
+#import "QYMapLocation.h"
+
+@class UIViewController;
 @class QYAction;
 @class QYSelectedCommodityInfo;
 
@@ -44,6 +47,15 @@ typedef void (^QYActionBlock)(QYAction *action);
  * @return 链接处理策略。
  */
 typedef QYLinkClickActionPolicy (^QYSessionLinkClickBlock)(NSString *linkAddress);
+
+/**
+ * @brief 地图点击事件回调。
+ * @details 地图采用默认或自定义打开方式且目的地坐标有效时，每次有效点击在主线程回调一次。
+ * @param viewController 触发点击的会话页面，可用于展示客户地图页面。
+ * @param location 目的地信息，包含 GCJ-02 经纬度、名称和地址，不为 nil。
+ * @note 客户负责选择和打开地图 App，或集成内部地图 SDK。SDK 不查询、打开地图 App，也不自动改用 URL。
+ */
+typedef void (^QYMapClickBlock)(UIViewController *viewController, QYMapLocation *location);
 
 /**
  * @brief push 链接点击事件回调。
@@ -132,6 +144,12 @@ typedef void (^QYPermissionBlock)(void);
  * @details 包含自定义商品消息、文本消息、机器人答案消息的链接。
  */
 @property (nonatomic, copy) QYSessionLinkClickBlock linkClickBlock;
+
+/**
+ * @brief 地图点击回调。
+ * @details 地图采用默认或自定义打开方式时调用；未设置时保留地图展示，不执行跳转。链接打开方式沿用 linkClickBlock。
+ */
+@property (nonatomic, copy) QYMapClickBlock mapClickBlock;
 
 /**
  * @brief bot 相关点击。
@@ -223,6 +241,5 @@ typedef void (^QYPermissionBlock)(void);
 - (void)showQuitWaitingAlert:(QYQuitWaitingBlock)quitWaitingBlock;
 
 @end
-
 
 

@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "Срок действия листа информации уже истек";
 "QYMessageStringSystemMsg" = "[Сообщения от системы]";
 "QYToastStringHistoryRobotMsgOperationTip" = "В истории чатов операция робота недействующая. Если вам нужно консультировать у соответствующего робота, присоединитесь к нему.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Элементы в прошлых сообщениях нельзя выбрать повторно.";
 "QYToastStringSendTimeout" = "Тайм-аут отправки";
 "QYToastStringQuitQueueConfirm" = "Вы действительно хотите выйти из очереди?";
 "QYToastStringImageUploadError" = "Не удается загрузить картины, попробуйте еще раз позже";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "Действие отправлено, но не удалось сохранить карточку.";
 "QYToastStringA2UIInvalidEcho" = "Действие отправлено, но данные отправленной карточки некорректны.";
 "QYToastStringA2UISubmitFailed" = "Не удалось отправить действие карточки.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Загрузить вложения";
+"QYStringA2UIUploading" = "Загрузка…";
+"QYToastStringA2UIUploadFailed" = "Ошибка загрузки";
+"QYToastStringA2UIUploadPending" = "Дождитесь завершения загрузки. Файлы, которые не удалось загрузить, загрузите повторно или удалите.";
+"QYToastStringA2UIUploadCount" = "Слишком много вложений (максимум 5 или заданный лимит).";
+"QYToastStringA2UIUploadSize" = "Превышен допустимый размер (не более 50 МБ для одного файла и всех файлов вместе).";
+"QYToastStringA2UIUploadType" = "Этот тип файла не поддерживается.";
+"QYButtonStringA2UIRetry" = "Повторить";
+"QYButtonStringA2UIRemove" = "Удалить";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Поиск";
+"QYStringA2UINoSearchResults" = "Ничего не найдено";

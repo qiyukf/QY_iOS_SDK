@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "انتهت صلاحية استمارة المعلومات";
 "QYMessageStringSystemMsg" = "[معلومات النظام]";
 "QYToastStringHistoryRobotMsgOperationTip" = "الروبوت في المحادثة المحفوظة غير صالح لتشغيله إذا كنت بحاجة إلى استشارة الروبوت المقابل يرجى إعادة الإتصال.";
+"QYToastStringHistoryOrderSelectionDisabled" = "لا يمكن تحديد العناصر في الرسائل السابقة مرة أخرى.";
 "QYToastStringSendTimeout" = "مهلة الإرسال";
 "QYToastStringQuitQueueConfirm" = "هل أنت متأكد من الخروج من قائمة الإنتظار؟";
 "QYToastStringImageUploadError" = "فشل تحميل الصورة، يرجى المحاولة مرة أخرى في وقت لاحق.";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "تم إرسال الإجراء، لكن تعذر حفظ البطاقة.";
 "QYToastStringA2UIInvalidEcho" = "تم إرسال الإجراء، لكن بيانات البطاقة المرسلة غير صالحة.";
 "QYToastStringA2UISubmitFailed" = "تعذر إرسال إجراء البطاقة.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "رفع المرفقات";
+"QYStringA2UIUploading" = "جارٍ الرفع…";
+"QYToastStringA2UIUploadFailed" = "فشل الرفع";
+"QYToastStringA2UIUploadPending" = "يرجى الانتظار حتى يكتمل الرفع، أو إعادة محاولة رفع الملفات التي فشل رفعها أو حذفها.";
+"QYToastStringA2UIUploadCount" = "تجاوز عدد المرفقات الحد المسموح (5 مرفقات كحد أقصى أو الحد المحدد).";
+"QYToastStringA2UIUploadSize" = "تجاوز حجم المرفقات الحد المسموح (50 ميغابايت كحد أقصى لكل ملف ولجميع الملفات معًا).";
+"QYToastStringA2UIUploadType" = "نوع الملف هذا غير مدعوم.";
+"QYButtonStringA2UIRetry" = "إعادة المحاولة";
+"QYButtonStringA2UIRemove" = "حذف";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "بحث";
+"QYStringA2UINoSearchResults" = "لا توجد نتائج بحث";

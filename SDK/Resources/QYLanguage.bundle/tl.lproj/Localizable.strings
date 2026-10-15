@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "Nag-expire na ang form ng impormasyon";
 "QYMessageStringSystemMsg" = "[Mensahe ng Sistema]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Hindi wastong aksyon ng robot sa sesyon ng kasaysayan. Kung kailangan mong kumunsulta sa kaukulang robot, mangyaring muling pumasok sa linya.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Hindi maaaring piliin muli ang mga item sa mga nakaraang mensahe.";
 "QYToastStringSendTimeout" = "Pagpapadala ng timeout";
 "QYToastStringQuitQueueConfirm" = "Kumpirmahing umalis sa pila?";
 "QYToastStringImageUploadError" = "Nabigo ang pag-upload ng imahe, pakisubukan ulit mamaya";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "Naisumite ang aksyon, ngunit hindi na-save ang card.";
 "QYToastStringA2UIInvalidEcho" = "Naisumite ang aksyon, ngunit hindi wasto ang data ng isinumiteng card.";
 "QYToastStringA2UISubmitFailed" = "Hindi naisumite ang aksyon ng card.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Mag-upload ng mga kalakip";
+"QYStringA2UIUploading" = "Nag-a-upload…";
+"QYToastStringA2UIUploadFailed" = "Hindi na-upload";
+"QYToastStringA2UIUploadPending" = "Hintaying matapos ang pag-upload. Para sa mga file na hindi na-upload, subukang muli o tanggalin ang mga ito.";
+"QYToastStringA2UIUploadCount" = "Masyadong maraming kalakip (hanggang 5 o ayon sa itinakdang limitasyon).";
+"QYToastStringA2UIUploadSize" = "Lumampas sa limitasyon ang laki ng mga file (hanggang 50 MB bawat file at sa kabuuan).";
+"QYToastStringA2UIUploadType" = "Hindi suportado ang ganitong uri ng file.";
+"QYButtonStringA2UIRetry" = "Subukang muli";
+"QYButtonStringA2UIRemove" = "Tanggalin";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Maghanap";
+"QYStringA2UINoSearchResults" = "Walang resulta ng paghahanap";

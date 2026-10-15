@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "Le formulaire d’information a expiré";
 "QYMessageStringSystemMsg" = "[Message du système]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Action de robot non valide dans la conversation historique. Si vous voulez consulter le robot correspondant, veuillez vous reconnecter.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Les éléments des anciens messages ne peuvent pas être sélectionnés à nouveau.";
 "QYToastStringSendTimeout" = "L’envoi a expiré";
 "QYToastStringQuitQueueConfirm" = "Confirmez-vous pour sortir de la file d’attente\u00a0?";
 "QYToastStringImageUploadError" = "Échec de téléversement de l’image, veuillez réessayer plus tard";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "Action envoyée, mais la carte n’a pas pu être enregistrée.";
 "QYToastStringA2UIInvalidEcho" = "Action envoyée, mais les données de la carte soumise sont invalides.";
 "QYToastStringA2UISubmitFailed" = "Impossible d’envoyer l’action de la carte.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Téléverser des pièces jointes";
+"QYStringA2UIUploading" = "Téléversement en cours…";
+"QYToastStringA2UIUploadFailed" = "Échec du téléversement";
+"QYToastStringA2UIUploadPending" = "Attendez la fin des téléversements. Pour les fichiers dont le téléversement a échoué, réessayez ou effacez-les.";
+"QYToastStringA2UIUploadCount" = "Trop de pièces jointes (5 maximum ou la limite configurée).";
+"QYToastStringA2UIUploadSize" = "La taille dépasse la limite (50 Mo maximum par fichier et au total).";
+"QYToastStringA2UIUploadType" = "Ce type de fichier n’est pas pris en charge.";
+"QYButtonStringA2UIRetry" = "Réessayer";
+"QYButtonStringA2UIRemove" = "Effacer";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Rechercher";
+"QYStringA2UINoSearchResults" = "Aucun résultat";

@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "Form data telah kedaluwarsa";
 "QYMessageStringSystemMsg" = "[Informasi Sistem]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Gagal memuat robot dalam riwayat percakapan. Apabila perlu bertanya kepada robot terkait, silakan masuk kembali.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Item dalam pesan sebelumnya tidak dapat dipilih kembali.";
 "QYToastStringSendTimeout" = "Waktu pengiriman habis";
 "QYToastStringQuitQueueConfirm" = "Yakin untuk keluar dari antrean?";
 "QYToastStringImageUploadError" = "Gagal mengunggah gambar, silakan coba kembali";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "Tindakan telah dikirim, tetapi kartu gagal disimpan.";
 "QYToastStringA2UIInvalidEcho" = "Tindakan telah dikirim, tetapi data kartu yang dikirim tidak valid.";
 "QYToastStringA2UISubmitFailed" = "Gagal mengirim tindakan kartu.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Unggah lampiran";
+"QYStringA2UIUploading" = "Mengunggah…";
+"QYToastStringA2UIUploadFailed" = "Gagal mengunggah";
+"QYToastStringA2UIUploadPending" = "Tunggu hingga unggahan selesai. Untuk file yang gagal diunggah, coba lagi atau hapus file tersebut.";
+"QYToastStringA2UIUploadCount" = "Jumlah lampiran melebihi batas (maksimal 5 atau sesuai batas yang dikonfigurasi).";
+"QYToastStringA2UIUploadSize" = "Ukuran file melebihi batas (maksimal 50 MB per file dan secara keseluruhan).";
+"QYToastStringA2UIUploadType" = "Jenis file ini tidak didukung.";
+"QYButtonStringA2UIRetry" = "Coba lagi";
+"QYButtonStringA2UIRemove" = "Hapus";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Cari";
+"QYStringA2UINoSearchResults" = "Tidak ada hasil pencarian";

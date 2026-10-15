@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/QYCustomActionConfig.h</key>
 		<data>
-		c5fjq9nFqEA5qi0mka1B51Icx0w=
+		ct68pSXh9BhUdriIhrO/iXi/VG0=
 		</data>
 		<key>Headers/QYCustomCommodityInfo.h</key>
 		<data>
@@ -66,7 +66,11 @@
 		</data>
 		<key>Headers/QYHeaders.h</key>
 		<data>
-		pghuK15YOO4hWiTyWgNp05Xdwoo=
+		tGcOvPPcUxyasJLuGKATII60bFM=
+		</data>
+		<key>Headers/QYMapLocation.h</key>
+		<data>
+		XjL4pcTDeR4cnVQyXozTtslUoO8=
 		</data>
 		<key>Headers/QYMessageCardModel.h</key>
 		<data>
@@ -154,7 +158,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VLfTYkXji3WxeacxD6pug/QJpSU=
+		WYIT1YS9GKNa6O1YP2XpXQlDtBg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -211,11 +215,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c5fjq9nFqEA5qi0mka1B51Icx0w=
+			ct68pSXh9BhUdriIhrO/iXi/VG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			B/8XhcLdHG3pOX1vlzYtKMCVk7PbCAo+Wta/Br6v3IY=
+			plxppYZb4eqLdrCjwd2+wh4zbzYeHCR2JITiukMqCzE=
 			</data>
 		</dict>
 		<key>Headers/QYCustomCommodityInfo.h</key>
@@ -332,11 +336,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pghuK15YOO4hWiTyWgNp05Xdwoo=
+			tGcOvPPcUxyasJLuGKATII60bFM=
 			</data>
 			<key>hash2</key>
 			<data>
-			UEI9wejnUnZ94gju1BWuPKFL6a02/OeIs6hPQa+8u+0=
+			1TFlVMryqtDJk5l0hnsdsPm9ZIiLNepk6WuWS3sjY9s=
+			</data>
+		</dict>
+		<key>Headers/QYMapLocation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XjL4pcTDeR4cnVQyXozTtslUoO8=
+			</data>
+			<key>hash2</key>
+			<data>
+			OE5u/wfCLhEn4Vjmzmq1vNtFYaIF8kINMx0yzZOH56w=
 			</data>
 		</dict>
 		<key>Headers/QYMessageCardModel.h</key>

@@ -12,6 +12,7 @@
 #import "QYSessionViewController.h"
 #import "QYCustomUIConfig.h"
 #import "QYCustomActionConfig.h"
+#import "QYMapLocation.h"
 #import "QYConversationManager.h"
 #import "QYServerSetting.h"
 #import "QYSource.h"

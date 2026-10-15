@@ -29,6 +29,7 @@
 "QYToastStringInfoFormExpired" = "Bilgi formunun süresi doldu";
 "QYMessageStringSystemMsg" = "[Sistem mesajı]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Geçmiş oturumda geçersiz bot işlemi. İlgili bota danışmak için lütfen tekrar girin.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Geçmiş mesajlardaki öğeler tekrar seçilemez.";
 "QYToastStringSendTimeout" = "Gönderme zaman aşımına uğradı";
 "QYToastStringQuitQueueConfirm" = "Sıradan ayrılmak istediğinize emin misiniz?";
 "QYToastStringImageUploadError" = "Fotoğraf yükleme başarısız, lütfen daha sonra tekrar deneyin";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "İşlem gönderildi ancak kart kaydedilemedi.";
 "QYToastStringA2UIInvalidEcho" = "İşlem gönderildi ancak gönderilen kart verileri geçersiz.";
 "QYToastStringA2UISubmitFailed" = "Kart işlemi gönderilemedi.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Ek yükle";
+"QYStringA2UIUploading" = "Yükleniyor…";
+"QYToastStringA2UIUploadFailed" = "Yükleme başarısız";
+"QYToastStringA2UIUploadPending" = "Yüklemelerin tamamlanmasını bekleyin veya yüklenemeyen dosyaları yeniden yükleyin ya da silin.";
+"QYToastStringA2UIUploadCount" = "Ek sayısı sınırı aşıldı (en fazla 5 veya yapılandırılan sınır).";
+"QYToastStringA2UIUploadSize" = "Dosya boyutu sınırı aşıldı (dosya başına ve toplamda en fazla 50 MB).";
+"QYToastStringA2UIUploadType" = "Bu dosya türü desteklenmiyor.";
+"QYButtonStringA2UIRetry" = "Yeniden dene";
+"QYButtonStringA2UIRemove" = "Sil";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Ara";
+"QYStringA2UINoSearchResults" = "Arama sonucu yok";

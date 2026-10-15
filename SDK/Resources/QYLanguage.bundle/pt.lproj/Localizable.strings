@@ -30,6 +30,7 @@
 "QYToastStringInfoFormExpired" = "O formulário de informações expirou";
 "QYMessageStringSystemMsg" = "[Mensagem do Sistema]";
 "QYToastStringHistoryRobotMsgOperationTip" = "Operação inválida do bot no histórico da conversa. Para consultar o bot correspondente, digite novamente.";
+"QYToastStringHistoryOrderSelectionDisabled" = "Não é possível selecionar novamente os itens de mensagens anteriores.";
 "QYToastStringSendTimeout" = "O envio expirou";
 "QYToastStringQuitQueueConfirm" = "Certo de sair do enfileiramento?";
 "QYToastStringImageUploadError" = "Falha ao carregar a imagem. Tente novamente mais tarde";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "Ação enviada, mas não foi possível guardar o cartão.";
 "QYToastStringA2UIInvalidEcho" = "Ação enviada, mas os dados do cartão enviado são inválidos.";
 "QYToastStringA2UISubmitFailed" = "Não foi possível enviar a ação do cartão.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Carregar anexos";
+"QYStringA2UIUploading" = "Carregando…";
+"QYToastStringA2UIUploadFailed" = "Falha ao carregar";
+"QYToastStringA2UIUploadPending" = "Aguarde o fim dos carregamentos. Tente carregar novamente ou exclua os arquivos cujo carregamento falhou.";
+"QYToastStringA2UIUploadCount" = "Número de anexos excedido (máximo de 5 ou o limite configurado).";
+"QYToastStringA2UIUploadSize" = "O tamanho excede o limite (máximo de 50 MB por arquivo e no total).";
+"QYToastStringA2UIUploadType" = "Este tipo de arquivo não é compatível.";
+"QYButtonStringA2UIRetry" = "Tentar novamente";
+"QYButtonStringA2UIRemove" = "Excluir";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Pesquisar";
+"QYStringA2UINoSearchResults" = "Nenhum resultado encontrado";

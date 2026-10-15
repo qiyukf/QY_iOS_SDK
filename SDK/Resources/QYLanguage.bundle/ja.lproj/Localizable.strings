@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "情報フォームは期限切れです";
 "QYMessageStringSystemMsg" = "[システムメッセージ]";
 "QYToastStringHistoryRobotMsgOperationTip" = "過去の会話における人工知能の操作は無効です。人工知能に問合わせたい場合、再度接続してください。";
+"QYToastStringHistoryOrderSelectionDisabled" = "過去のメッセージの項目は再選択できません。";
 "QYToastStringSendTimeout" = "送信操作がタイムオーバーしました";
 "QYToastStringQuitQueueConfirm" = "順番待ちをキャンセルしますか。";
 "QYToastStringImageUploadError" = "画像のアップロードに失敗しました。後で再度試してみてください";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "操作は送信されましたが、カードを保存できませんでした";
 "QYToastStringA2UIInvalidEcho" = "操作は送信されましたが、送信済みカードのデータが正しくありません";
 "QYToastStringA2UISubmitFailed" = "カードの操作を送信できませんでした";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "添付ファイルをアップロード";
+"QYStringA2UIUploading" = "アップロード中…";
+"QYToastStringA2UIUploadFailed" = "アップロードに失敗しました";
+"QYToastStringA2UIUploadPending" = "アップロードの完了をお待ちください。失敗したファイルは再アップロードするか削除してください";
+"QYToastStringA2UIUploadCount" = "添付ファイル数が上限を超えています（最大5件、または設定された件数）";
+"QYToastStringA2UIUploadSize" = "ファイルサイズが上限を超えています（1ファイルあたり、および合計で最大50 MB）";
+"QYToastStringA2UIUploadType" = "対応していないファイル形式です";
+"QYButtonStringA2UIRetry" = "再試行";
+"QYButtonStringA2UIRemove" = "削除";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "検索";
+"QYStringA2UINoSearchResults" = "検索結果がありません";

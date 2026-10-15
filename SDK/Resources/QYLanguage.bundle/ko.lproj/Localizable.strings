@@ -28,6 +28,7 @@
 "QYToastStringInfoFormExpired" = "정보 폼은 유효기간이 만료되었습니다";
 "QYMessageStringSystemMsg" = "[시스템 메시지]";
 "QYToastStringHistoryRobotMsgOperationTip" = "기존 상담에서 로봇 조작이 무효합니다 관련 로봇을 문의하고 싶다면 잠시 후 다시 시도해 보세요";
+"QYToastStringHistoryOrderSelectionDisabled" = "이전 메시지의 항목은 다시 선택할 수 없습니다.";
 "QYToastStringSendTimeout" = "보내기 타임아웃";
 "QYToastStringQuitQueueConfirm" = "대기를 취소하시겠습니까?";
 "QYToastStringImageUploadError" = "이미지 업로드 실패되었습니다. 잠시 후 다시 시도해 보세요.";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "작업은 제출되었지만 카드를 저장하지 못했습니다";
 "QYToastStringA2UIInvalidEcho" = "작업은 제출되었지만 제출된 카드 데이터가 올바르지 않습니다";
 "QYToastStringA2UISubmitFailed" = "카드 작업을 제출하지 못했습니다";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "첨부 파일 업로드";
+"QYStringA2UIUploading" = "업로드 중…";
+"QYToastStringA2UIUploadFailed" = "업로드 실패";
+"QYToastStringA2UIUploadPending" = "업로드가 완료될 때까지 기다려 주세요. 실패한 파일은 다시 업로드하거나 삭제해 주세요.";
+"QYToastStringA2UIUploadCount" = "첨부 파일 수가 제한을 초과했습니다(최대 5개 또는 설정된 개수).";
+"QYToastStringA2UIUploadSize" = "첨부 파일 크기가 제한을 초과했습니다(파일당 및 전체 합계 최대 50 MB).";
+"QYToastStringA2UIUploadType" = "지원하지 않는 파일 형식입니다.";
+"QYButtonStringA2UIRetry" = "다시 시도";
+"QYButtonStringA2UIRemove" = "삭제";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "검색";
+"QYStringA2UINoSearchResults" = "검색 결과 없음";

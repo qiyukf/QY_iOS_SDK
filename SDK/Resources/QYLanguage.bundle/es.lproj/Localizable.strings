@@ -30,6 +30,7 @@
 "QYToastStringInfoFormExpired" = "Formulario de información caducado";
 "QYMessageStringSystemMsg" = "[Mensaje del sistema]";
 "QYToastStringHistoryRobotMsgOperationTip" = "La operación del bot en el historial de conversaciones es inválida. Vuelve a entrar para consultar al bot correspondiente.";
+"QYToastStringHistoryOrderSelectionDisabled" = "No se pueden volver a seleccionar los elementos de mensajes anteriores.";
 "QYToastStringSendTimeout" = "Envío caducado";
 "QYToastStringQuitQueueConfirm" = "¿Abandonar la cola?";
 "QYToastStringImageUploadError" = "Error al cargar la imagen. Por favor, reinténtalo luego";
@@ -413,3 +414,18 @@
 "QYToastStringA2UICardSaveFailed" = "La acción se ha enviado, pero no se ha podido guardar la tarjeta.";
 "QYToastStringA2UIInvalidEcho" = "La acción se ha enviado, pero los datos de la tarjeta enviada no son válidos.";
 "QYToastStringA2UISubmitFailed" = "No se ha podido enviar la acción de la tarjeta.";
+
+// A2UI required fields and attachments
+"QYButtonStringA2UIUpload" = "Subir archivos adjuntos";
+"QYStringA2UIUploading" = "Subiendo…";
+"QYToastStringA2UIUploadFailed" = "Error al subir";
+"QYToastStringA2UIUploadPending" = "Espera a que finalicen las subidas. Vuelve a subir o elimina los archivos que no se pudieron subir.";
+"QYToastStringA2UIUploadCount" = "Demasiados archivos adjuntos (máximo 5 o el límite configurado).";
+"QYToastStringA2UIUploadSize" = "El tamaño supera el límite (máximo 50 MB por archivo y en total).";
+"QYToastStringA2UIUploadType" = "Este tipo de archivo no está permitido.";
+"QYButtonStringA2UIRetry" = "Reintentar";
+"QYButtonStringA2UIRemove" = "Eliminar";
+
+// A2UI select search
+"QYStringA2UISearchPlaceholder" = "Buscar";
+"QYStringA2UINoSearchResults" = "No hay resultados";
